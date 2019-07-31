@@ -1,0 +1,13 @@
+{
+  "name": "take-me-home",
+  "version": "1.0.0",
+  "description": "Sample presentation project",
+  "main": "src/app.js",
+  "repository": "git@github.com:frusunnanbo/take-me-home.git",
+  "author": "<pia.fak.sunnanbo@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
