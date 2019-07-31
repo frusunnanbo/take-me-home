@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
-# Intellij config
+# IntelliJ config
 .idea
+
+# API key
+key.txt
