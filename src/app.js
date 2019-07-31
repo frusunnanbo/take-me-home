@@ -12,12 +12,16 @@ console.log(`Using API key ${key}`);
 app.get('/', async (req, res) => {
 
   const options = {
-    uri: 'https://api.resrobot.se/v2/location.nearbystops',
+    uri: 'https://api.resrobot.se/v2/trip',
     qs: {
       key: key,
+      numF: 6,
       originCoordLat: 56.4883233,
       originCoordLong: 16.3842807,
-      r: 10000,
+      destCoordLat: 59.2733699,
+      destCoordLong: 18.0183112,
+      originWalk: '1,0,10000',
+      destWalk: '1,0,10000',
       format: 'json'
     },
     json: true
