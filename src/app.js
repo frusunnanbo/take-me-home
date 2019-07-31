@@ -29,7 +29,19 @@ app.get('/', async (req, res) => {
 
   const response = await request(options);
 
-  res.json(response);
+  const trips = response['Trip'];
+
+  const tripStops = trips.map((trip) => ({
+    start: {
+      date: trip['LegList']['Leg'][1]['Origin'].date,
+      time: trip['LegList']['Leg'][1]['Origin'].time
+    },
+    stops: trip['LegList']['Leg']
+      .slice(1)
+      .map(leg => leg['Origin'].name)
+  }));
+
+  res.json(tripStops);
 });
 
 app.listen(port, () => console.log(`Take-me-home app listening on port ${port}!`));
