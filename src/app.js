@@ -38,7 +38,9 @@ app.get('/', async (req, res) => {
     },
     stops: trip['LegList']['Leg']
       .slice(1)
-      .map(leg => leg['Origin'].name)
+      .flatMap((leg, index) => (leg['Stops'] || {'Stop' : []})['Stop']
+        .slice(index ? 1 : 0)
+        .map(stop => stop.name))
   }));
 
   res.json(tripStops);
