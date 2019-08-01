@@ -24,17 +24,17 @@ app.get('/', async (req, res) => {
         key: key,
         date: startTime.format(('YYYY-MM-DD')),
         time: startTime.format('HH:mm'),
-        originCoordLat: 56.4883233,
-        originCoordLong: 16.3842807,
-        destCoordLat: 59.2733699,
-        destCoordLong: 18.0183112,
+        originCoordLat: req.query.hereLat,
+        originCoordLong: req.query.hereLong,
+        destCoordLat: req.query.homeLat,
+        destCoordLong: req.query.homeLong,
         originWalk: '1,0,10000',
         destWalk: '1,0,10000',
         format: 'json'
       },
       json: true
     };
-
+    
     console.log(`Looking for trips starting at ${startTime}`);
     const response = await request(options);
 
