@@ -1,6 +1,7 @@
 const fs = require('fs');
 const express = require('express');
 const request = require('request-promise-native');
+const moment = require('moment');
 
 const app = express();
 const port = 3000;
@@ -11,37 +12,50 @@ console.log(`Using API key ${key}`);
 
 app.get('/', async (req, res) => {
 
-  const options = {
-    uri: 'https://api.resrobot.se/v2/trip',
-    qs: {
-      key: key,
-      numF: 6,
-      originCoordLat: 56.4883233,
-      originCoordLong: 16.3842807,
-      destCoordLat: 59.2733699,
-      destCoordLong: 18.0183112,
-      originWalk: '1,0,10000',
-      destWalk: '1,0,10000',
-      format: 'json'
-    },
-    json: true
-  };
+  let tripStops = [];
+  let startTime = moment();
+  const lastDepartureTime = moment().add(1, 'days');
 
-  const response = await request(options);
+  for (let startTime = moment(), lastListedTime = moment(); startTime.isBefore(lastDepartureTime); startTime = lastListedTime) {
 
-  const trips = response['Trip'];
+    const options = {
+      uri: 'https://api.resrobot.se/v2/trip',
+      qs: {
+        key: key,
+        date: startTime.format(('YYYY-MM-DD')),
+        time: startTime.format('HH:mm'),
+        originCoordLat: 56.4883233,
+        originCoordLong: 16.3842807,
+        destCoordLat: 59.2733699,
+        destCoordLong: 18.0183112,
+        originWalk: '1,0,10000',
+        destWalk: '1,0,10000',
+        format: 'json'
+      },
+      json: true
+    };
 
-  const tripStops = trips.map((trip) => ({
-    start: {
-      date: trip['LegList']['Leg'][1]['Origin'].date,
-      time: trip['LegList']['Leg'][1]['Origin'].time
-    },
-    stops: trip['LegList']['Leg']
-      .slice(1)
-      .flatMap((leg, index) => (leg['Stops'] || {'Stop' : []})['Stop']
-        .slice(index ? 1 : 0)
-        .map(stop => stop.name))
-  }));
+    console.log(`Looking for trips starting at ${startTime}`);
+    const response = await request(options);
+
+    const trips = response['Trip'];
+
+    const lastTripFirstLegOrigin = trips[trips.length - 1]['LegList']['Leg'][1]['Origin'];
+    const lastListedTimeString = lastTripFirstLegOrigin.date + 'T' + lastTripFirstLegOrigin.time;
+    lastListedTime = moment(lastListedTimeString);
+
+    tripStops = tripStops.concat(trips.map((trip) => ({
+      start: {
+        date: trip['LegList']['Leg'][1]['Origin'].date,
+        time: trip['LegList']['Leg'][1]['Origin'].time
+      },
+      stops: trip['LegList']['Leg']
+        .slice(1)
+        .flatMap((leg, index) => (leg['Stops'] || {'Stop' : []})['Stop']
+          .slice(index ? 1 : 0)
+          .map(stop => stop.name))
+    })));
+  }
 
   res.json(tripStops);
 });
