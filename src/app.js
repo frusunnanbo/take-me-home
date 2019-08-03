@@ -4,7 +4,6 @@ const request = require('request-promise-native');
 const moment = require('moment');
 
 const app = express();
-const port = 3000;
 
 const key = ('' + fs.readFileSync('key.txt')).trim();
 
@@ -16,7 +15,7 @@ app.get('/', async (req, res) => {
   let startTime = moment();
   const lastDepartureTime = moment().add(1, 'days');
 
-  for (let startTime = moment(), lastListedTime = moment(); startTime.isBefore(lastDepartureTime); startTime = lastListedTime) {
+  while (startTime.isBefore(lastDepartureTime)) {
 
     const options = {
       uri: 'https://api.resrobot.se/v2/trip',
@@ -34,7 +33,7 @@ app.get('/', async (req, res) => {
       },
       json: true
     };
-    
+
     console.log(`Looking for trips starting at ${startTime}`);
     const response = await request(options);
 
@@ -42,7 +41,7 @@ app.get('/', async (req, res) => {
 
     const lastTripFirstLegOrigin = trips[trips.length - 1]['LegList']['Leg'][1]['Origin'];
     const lastListedTimeString = lastTripFirstLegOrigin.date + 'T' + lastTripFirstLegOrigin.time;
-    lastListedTime = moment(lastListedTimeString);
+    startTime = moment(lastListedTimeString);
 
     tripStops = tripStops.concat(trips.map((trip) => ({
       start: {
@@ -60,4 +59,4 @@ app.get('/', async (req, res) => {
   res.json(tripStops);
 });
 
-app.listen(port, () => console.log(`Take-me-home app listening on port ${port}!`));
+module.exports = app;
