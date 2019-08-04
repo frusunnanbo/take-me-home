@@ -1,0 +1,5421 @@
+{
+  "Trip" : [ {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "4. Aug until 3. Nov 2019 Th, Su; also 5. until 7. Aug 2019, 12. until 14. Aug 2019, 28. until 30. Oct 2019",
+      "sDaysB" : "07CF9122448912244891227C800000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "20:54:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "22:45:00",
+          "date" : "2019-08-04"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "22:02:00",
+            "depDate" : "2019-08-04"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "22:05:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:05:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "22:07:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:07:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "22:08:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:08:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "22:10:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:10:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "22:11:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:11:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "22:12:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:12:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "22:14:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:14:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "22:16:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:16:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "22:18:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:18:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "22:21:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:21:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "22:24:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:24:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "22:36:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "22:38:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "22:40:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "22:43:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "22:45:00",
+            "arrDate" : "2019-08-04"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 11,
+          "time" : "01:00:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Norrköping busstation",
+          "type" : "ST",
+          "id" : "740011131",
+          "extId" : "740011131",
+          "lon" : 16.185932,
+          "lat" : 58.595537,
+          "routeIdx" : 15,
+          "time" : "04:30:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Expressbuss N612",
+          "num" : "N612",
+          "catCode" : "3",
+          "catOutS" : "BXB",
+          "catOutL" : "Expressbuss",
+          "operatorCode" : "838",
+          "operator" : "Flixbus",
+          "operatorUrl" : "https://www.flixbus.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 11,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "01:00:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Mönsterås norra",
+            "id" : "740014150",
+            "extId" : "740014150",
+            "routeIdx" : 12,
+            "lon" : 16.43896,
+            "lat" : 57.051586,
+            "depTime" : "01:35:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "01:35:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Oskarshamn station",
+            "id" : "740000213",
+            "extId" : "740000213",
+            "routeIdx" : 13,
+            "lon" : 16.457496,
+            "lat" : 57.263264,
+            "depTime" : "02:00:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "02:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Västervik station",
+            "id" : "740000082",
+            "extId" : "740000082",
+            "routeIdx" : 14,
+            "lon" : 16.64324,
+            "lat" : 57.755504,
+            "depTime" : "03:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "03:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping busstation",
+            "id" : "740011131",
+            "extId" : "740011131",
+            "routeIdx" : 15,
+            "lon" : 16.185932,
+            "lat" : 58.595537,
+            "arrTime" : "04:30:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Expressbuss N612",
+        "transportNumber" : "N612",
+        "transportCategory" : "BXB",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Uppsala Stationsgatan"
+      }, {
+        "Origin" : {
+          "name" : "Norrköping busstation",
+          "type" : "ST",
+          "id" : "740011131",
+          "extId" : "740011131",
+          "lon" : 16.185932,
+          "lat" : 58.595537,
+          "time" : "04:30:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "time" : "04:50:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 100
+      }, {
+        "Origin" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "routeIdx" : 1,
+          "time" : "05:10:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 6,
+          "time" : "06:43:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 5,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 1,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 216",
+          "num" : "216",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 1,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "05:10:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Kolmården station (Norrköping kn)",
+            "id" : "740001545",
+            "extId" : "740001545",
+            "routeIdx" : 2,
+            "lon" : 16.362597,
+            "lat" : 58.675424,
+            "depTime" : "05:27:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:27:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Nyköping Centralstation",
+            "id" : "740000050",
+            "extId" : "740000050",
+            "routeIdx" : 3,
+            "lon" : 16.994781,
+            "lat" : 58.755689,
+            "depTime" : "05:51:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:50:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Vagnhärad station (Trosa kn)",
+            "id" : "740000605",
+            "extId" : "740000605",
+            "routeIdx" : 4,
+            "lon" : 17.496694,
+            "lat" : 58.945739,
+            "depTime" : "06:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Södertälje Syd station",
+            "id" : "740000055",
+            "extId" : "740000055",
+            "routeIdx" : 5,
+            "lon" : 17.645367,
+            "lat" : 59.162415,
+            "depTime" : "06:31:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:31:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 6,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "arrTime" : "06:43:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Regional Tåg 216",
+        "transportNumber" : "216",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Flemingsberg station (Huddinge kn)"
+      }, {
+        "Origin" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 2,
+          "time" : "06:59:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 5,
+          "time" : "07:09:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2712",
+          "num" : "2712",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 2,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "depTime" : "06:59:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Huddinge station",
+            "id" : "740000702",
+            "extId" : "740000702",
+            "routeIdx" : 3,
+            "lon" : 17.98026,
+            "lat" : 59.237277,
+            "depTime" : "07:02:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:02:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stuvsta station (Huddinge kn)",
+            "id" : "740000772",
+            "extId" : "740000772",
+            "routeIdx" : 4,
+            "lon" : 17.995739,
+            "lat" : 59.253224,
+            "depTime" : "07:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 5,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "07:09:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Tåg 2712",
+        "transportNumber" : "2712",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Märsta station (Sigtuna kn)"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "time" : "07:09:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "07:20:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 917
+      } ]
+    },
+    "idx" : 0,
+    "tripId" : "C-0",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908042054$201908042202$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908042202$201908042245$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Norrköping busstation@L=740011131@a=128@$201908050100$201908050430$BXB N612$$1$§TF$A=1@O=Norrköping busstation@L=740011131@a=128@$A=1@O=Norrköping Centralstation@L=740000007@a=128@$201908050430$201908050450$$$1$§T$A=1@O=Norrköping Centralstation@L=740000007@a=128@$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$201908050510$201908050643$JRE  216$$1$§T$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908050659$201908050709$JLT 2712$$1$§G@F$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908050709$201908050720$$$1$",
+    "duration" : "PT10H26M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "4. until 15. Aug 2019 Mo - Th, Su",
+      "sDaysB" : "07CF80000000000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "20:54:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "22:45:00",
+          "date" : "2019-08-04"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "22:02:00",
+            "depDate" : "2019-08-04"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "22:05:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:05:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "22:07:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:07:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "22:08:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:08:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "22:10:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:10:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "22:11:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:11:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "22:12:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:12:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "22:14:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:14:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "22:16:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:16:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "22:18:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:18:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "22:21:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:21:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "22:24:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:24:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "22:36:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "22:38:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "22:40:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "22:43:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "22:45:00",
+            "arrDate" : "2019-08-04"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 11,
+          "time" : "01:00:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Norrköping busstation",
+          "type" : "ST",
+          "id" : "740011131",
+          "extId" : "740011131",
+          "lon" : 16.185932,
+          "lat" : 58.595537,
+          "routeIdx" : 15,
+          "time" : "04:30:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Expressbuss N612",
+          "num" : "N612",
+          "catCode" : "3",
+          "catOutS" : "BXB",
+          "catOutL" : "Expressbuss",
+          "operatorCode" : "838",
+          "operator" : "Flixbus",
+          "operatorUrl" : "https://www.flixbus.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 11,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "01:00:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Mönsterås norra",
+            "id" : "740014150",
+            "extId" : "740014150",
+            "routeIdx" : 12,
+            "lon" : 16.43896,
+            "lat" : 57.051586,
+            "depTime" : "01:35:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "01:35:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Oskarshamn station",
+            "id" : "740000213",
+            "extId" : "740000213",
+            "routeIdx" : 13,
+            "lon" : 16.457496,
+            "lat" : 57.263264,
+            "depTime" : "02:00:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "02:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Västervik station",
+            "id" : "740000082",
+            "extId" : "740000082",
+            "routeIdx" : 14,
+            "lon" : 16.64324,
+            "lat" : 57.755504,
+            "depTime" : "03:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "03:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping busstation",
+            "id" : "740011131",
+            "extId" : "740011131",
+            "routeIdx" : 15,
+            "lon" : 16.185932,
+            "lat" : 58.595537,
+            "arrTime" : "04:30:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Expressbuss N612",
+        "transportNumber" : "N612",
+        "transportCategory" : "BXB",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Uppsala Stationsgatan"
+      }, {
+        "Origin" : {
+          "name" : "Norrköping busstation",
+          "type" : "ST",
+          "id" : "740011131",
+          "extId" : "740011131",
+          "lon" : 16.185932,
+          "lat" : 58.595537,
+          "time" : "04:30:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "time" : "04:50:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 100
+      }, {
+        "Origin" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "routeIdx" : 1,
+          "time" : "05:10:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 6,
+          "time" : "06:43:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 5,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 1,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 216",
+          "num" : "216",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 1,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "05:10:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Kolmården station (Norrköping kn)",
+            "id" : "740001545",
+            "extId" : "740001545",
+            "routeIdx" : 2,
+            "lon" : 16.362597,
+            "lat" : 58.675424,
+            "depTime" : "05:27:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:27:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Nyköping Centralstation",
+            "id" : "740000050",
+            "extId" : "740000050",
+            "routeIdx" : 3,
+            "lon" : 16.994781,
+            "lat" : 58.755689,
+            "depTime" : "05:51:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:50:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Vagnhärad station (Trosa kn)",
+            "id" : "740000605",
+            "extId" : "740000605",
+            "routeIdx" : 4,
+            "lon" : 17.496694,
+            "lat" : 58.945739,
+            "depTime" : "06:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Södertälje Syd station",
+            "id" : "740000055",
+            "extId" : "740000055",
+            "routeIdx" : 5,
+            "lon" : 17.645367,
+            "lat" : 59.162415,
+            "depTime" : "06:31:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:31:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 6,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "arrTime" : "06:43:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Regional Tåg 216",
+        "transportNumber" : "216",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Flemingsberg station (Huddinge kn)"
+      }, {
+        "Origin" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 2,
+          "time" : "06:59:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 5,
+          "time" : "07:09:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2712",
+          "num" : "2712",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 2,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "depTime" : "06:59:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Huddinge station",
+            "id" : "740000702",
+            "extId" : "740000702",
+            "routeIdx" : 3,
+            "lon" : 17.98026,
+            "lat" : 59.237277,
+            "depTime" : "07:02:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:02:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stuvsta station (Huddinge kn)",
+            "id" : "740000772",
+            "extId" : "740000772",
+            "routeIdx" : 4,
+            "lon" : 17.995739,
+            "lat" : 59.253224,
+            "depTime" : "07:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 5,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "07:09:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Tåg 2712",
+        "transportNumber" : "2712",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Märsta station (Sigtuna kn)"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 18,
+          "time" : "07:18:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "routeIdx" : 19,
+          "time" : "07:21:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 161",
+          "num" : "161",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 18,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "depTime" : "07:18:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Turingevägen (Stockholm kn)",
+            "id" : "740051240",
+            "extId" : "740051240",
+            "routeIdx" : 19,
+            "lon" : 18.020379,
+            "lat" : 59.273495,
+            "arrTime" : "07:21:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "6",
+        "name" : "Länstrafik - Buss 161",
+        "transportNumber" : "161",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Bagarmossen T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "time" : "07:21:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "07:24:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "7",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT3M",
+        "dist" : 124
+      } ]
+    },
+    "idx" : 1,
+    "tripId" : "C-1",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908042054$201908042202$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908042202$201908042245$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Norrköping busstation@L=740011131@a=128@$201908050100$201908050430$BXB N612$$1$§TF$A=1@O=Norrköping busstation@L=740011131@a=128@$A=1@O=Norrköping Centralstation@L=740000007@a=128@$201908050430$201908050450$$$1$§T$A=1@O=Norrköping Centralstation@L=740000007@a=128@$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$201908050510$201908050643$JRE  216$$1$§T$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908050659$201908050709$JLT 2712$$1$§T$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201908050718$201908050721$BLT  161$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908050721$201908050724$$$1$",
+    "duration" : "PT10H30M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "4. Aug until 3. Nov 2019 Th - Su; also 5. until 14. Aug 2019, 28. until 30. Oct 2019",
+      "sDaysB" : "FFFFF1E3C78F1E3C78F1E3FF800000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "20:54:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "22:45:00",
+          "date" : "2019-08-04"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "22:02:00",
+            "depDate" : "2019-08-04"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "22:05:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:05:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "22:07:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:07:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "22:08:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:08:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "22:10:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:10:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "22:11:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:11:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "22:12:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:12:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "22:14:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:14:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "22:16:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:16:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "22:18:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:18:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "22:21:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:21:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "22:24:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:24:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "22:36:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "22:38:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "22:40:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "22:43:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "22:45:00",
+            "arrDate" : "2019-08-04"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 11,
+          "time" : "01:00:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "routeIdx" : 16,
+          "time" : "06:35:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Expressbuss N612",
+          "num" : "N612",
+          "catCode" : "3",
+          "catOutS" : "BXB",
+          "catOutL" : "Expressbuss",
+          "operatorCode" : "838",
+          "operator" : "Flixbus",
+          "operatorUrl" : "https://www.flixbus.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 11,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "01:00:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Mönsterås norra",
+            "id" : "740014150",
+            "extId" : "740014150",
+            "routeIdx" : 12,
+            "lon" : 16.43896,
+            "lat" : 57.051586,
+            "depTime" : "01:35:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "01:35:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Oskarshamn station",
+            "id" : "740000213",
+            "extId" : "740000213",
+            "routeIdx" : 13,
+            "lon" : 16.457496,
+            "lat" : 57.263264,
+            "depTime" : "02:00:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "02:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Västervik station",
+            "id" : "740000082",
+            "extId" : "740000082",
+            "routeIdx" : 14,
+            "lon" : 16.64324,
+            "lat" : 57.755504,
+            "depTime" : "03:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "03:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping busstation",
+            "id" : "740011131",
+            "extId" : "740011131",
+            "routeIdx" : 15,
+            "lon" : 16.185932,
+            "lat" : 58.595537,
+            "depTime" : "04:35:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "04:30:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Cityterminalen",
+            "id" : "740000622",
+            "extId" : "740000622",
+            "routeIdx" : 16,
+            "lon" : 18.056371,
+            "lat" : 59.330846,
+            "arrTime" : "06:35:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Expressbuss N612",
+        "transportNumber" : "N612",
+        "transportCategory" : "BXB",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Uppsala Stationsgatan"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "time" : "06:35:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "time" : "07:05:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT30M",
+        "dist" : 50
+      }, {
+        "Origin" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "routeIdx" : 9,
+          "time" : "07:05:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 12,
+          "time" : "07:14:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2913",
+          "num" : "2913",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Stockholm City station",
+            "id" : "740001617",
+            "extId" : "740001617",
+            "routeIdx" : 9,
+            "lon" : 18.059437,
+            "lat" : 59.331143,
+            "depTime" : "07:05:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 10,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "depTime" : "07:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 11,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "07:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 12,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "07:14:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik - Tåg 2913",
+        "transportNumber" : "2913",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Södertälje centrum station"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "time" : "07:14:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "07:25:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "5",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 917
+      } ]
+    },
+    "idx" : 2,
+    "tripId" : "C-2",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908042054$201908042202$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908042202$201908042245$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$201908050100$201908050635$BXB N612$$1$§TF$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$A=1@O=Stockholm City station@L=740001617@a=128@$201908050635$201908050705$$$1$§T$A=1@O=Stockholm City station@L=740001617@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908050705$201908050714$JLT 2913$$1$§G@F$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908050714$201908050725$$$1$",
+    "duration" : "PT10H31M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "4. until 15. Aug 2019 Mo - Th, Su",
+      "sDaysB" : "E7CF80000000000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "20:54:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "22:02:00",
+          "date" : "2019-08-04"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "22:45:00",
+          "date" : "2019-08-04"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "22:02:00",
+            "depDate" : "2019-08-04"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "22:05:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:05:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "22:07:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:07:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "22:08:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:08:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "22:10:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:10:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "22:11:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:11:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "22:12:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:12:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "22:14:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:14:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "22:16:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:16:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "22:18:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:18:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "22:19:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:19:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "22:21:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:21:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "22:23:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:23:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "22:24:00",
+            "depDate" : "2019-08-04",
+            "arrTime" : "22:24:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "22:36:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "22:38:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "22:40:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "22:43:00",
+            "arrDate" : "2019-08-04"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "22:45:00",
+            "arrDate" : "2019-08-04"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 11,
+          "time" : "01:00:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "routeIdx" : 16,
+          "time" : "06:35:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Expressbuss N612",
+          "num" : "N612",
+          "catCode" : "3",
+          "catOutS" : "BXB",
+          "catOutL" : "Expressbuss",
+          "operatorCode" : "838",
+          "operator" : "Flixbus",
+          "operatorUrl" : "https://www.flixbus.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 11,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "01:00:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Mönsterås norra",
+            "id" : "740014150",
+            "extId" : "740014150",
+            "routeIdx" : 12,
+            "lon" : 16.43896,
+            "lat" : 57.051586,
+            "depTime" : "01:35:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "01:35:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Oskarshamn station",
+            "id" : "740000213",
+            "extId" : "740000213",
+            "routeIdx" : 13,
+            "lon" : 16.457496,
+            "lat" : 57.263264,
+            "depTime" : "02:00:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "02:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Västervik station",
+            "id" : "740000082",
+            "extId" : "740000082",
+            "routeIdx" : 14,
+            "lon" : 16.64324,
+            "lat" : 57.755504,
+            "depTime" : "03:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "03:00:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping busstation",
+            "id" : "740011131",
+            "extId" : "740011131",
+            "routeIdx" : 15,
+            "lon" : 16.185932,
+            "lat" : 58.595537,
+            "depTime" : "04:35:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "04:30:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Cityterminalen",
+            "id" : "740000622",
+            "extId" : "740000622",
+            "routeIdx" : 16,
+            "lon" : 18.056371,
+            "lat" : 59.330846,
+            "arrTime" : "06:35:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Expressbuss N612",
+        "transportNumber" : "N612",
+        "transportCategory" : "BXB",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Uppsala Stationsgatan"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "time" : "06:35:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "time" : "07:05:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT30M",
+        "dist" : 50
+      }, {
+        "Origin" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "routeIdx" : 9,
+          "time" : "07:05:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 12,
+          "time" : "07:14:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2913",
+          "num" : "2913",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Stockholm City station",
+            "id" : "740001617",
+            "extId" : "740001617",
+            "routeIdx" : 9,
+            "lon" : 18.059437,
+            "lat" : 59.331143,
+            "depTime" : "07:05:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 10,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "depTime" : "07:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 11,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "07:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 12,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "07:14:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik - Tåg 2913",
+        "transportNumber" : "2913",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Södertälje centrum station"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 17,
+          "time" : "07:27:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "routeIdx" : 18,
+          "time" : "07:30:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 163",
+          "num" : "163",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 17,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "depTime" : "07:27:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Turingevägen (Stockholm kn)",
+            "id" : "740051240",
+            "extId" : "740051240",
+            "routeIdx" : 18,
+            "lon" : 18.020379,
+            "lat" : 59.273495,
+            "arrTime" : "07:30:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Buss 163",
+        "transportNumber" : "163",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kärrtorp T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "time" : "07:30:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "07:33:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT3M",
+        "dist" : 124
+      } ]
+    },
+    "idx" : 3,
+    "tripId" : "C-3",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908042054$201908042202$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908042202$201908042245$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$201908050100$201908050635$BXB N612$$1$§TF$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$A=1@O=Stockholm City station@L=740001617@a=128@$201908050635$201908050705$$$1$§T$A=1@O=Stockholm City station@L=740001617@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908050705$201908050714$JLT 2913$$1$§T$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201908050727$201908050730$BLT  163$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908050730$201908050733$$$1$",
+    "duration" : "PT10H39M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "5. Aug",
+      "sDaysB" : "F20000000000000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "03:54:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "05:45:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "05:02:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "05:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "05:07:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:07:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "05:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "05:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:10:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "05:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "05:12:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:12:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "05:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "05:16:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:16:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "05:18:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:18:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "05:21:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:21:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "05:24:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:24:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "05:36:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "05:38:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "05:40:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "05:43:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "05:45:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 0,
+          "time" : "06:00:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Alvesta station",
+          "type" : "ST",
+          "id" : "740000004",
+          "extId" : "740000004",
+          "lon" : 14.556322,
+          "lat" : 56.898778,
+          "routeIdx" : 6,
+          "time" : "07:20:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 5,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 1035",
+          "num" : "1035",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "300",
+          "operator" : "Öresundståg",
+          "operatorUrl" : "http://www.oresundstag.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 0,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "06:00:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Nybro station",
+            "id" : "740000189",
+            "extId" : "740000189",
+            "routeIdx" : 1,
+            "lon" : 15.909172,
+            "lat" : 56.742357,
+            "depTime" : "06:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Emmaboda station",
+            "id" : "740000096",
+            "extId" : "740000096",
+            "routeIdx" : 2,
+            "lon" : 15.535895,
+            "lat" : 56.62957,
+            "depTime" : "06:30:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:29:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Lessebo station",
+            "id" : "740000235",
+            "extId" : "740000235",
+            "routeIdx" : 3,
+            "lon" : 15.259045,
+            "lat" : 56.749531,
+            "depTime" : "06:42:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:42:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Hovmantorp station (Lessebo kn)",
+            "id" : "740000511",
+            "extId" : "740000511",
+            "routeIdx" : 4,
+            "lon" : 15.140666,
+            "lat" : 56.785838,
+            "depTime" : "06:48:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:48:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Växjö station",
+            "id" : "740000250",
+            "extId" : "740000250",
+            "routeIdx" : 5,
+            "lon" : 14.803625,
+            "lat" : 56.876845,
+            "depTime" : "07:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:04:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Alvesta station",
+            "id" : "740000004",
+            "extId" : "740000004",
+            "routeIdx" : 6,
+            "lon" : 14.556322,
+            "lat" : 56.898778,
+            "arrTime" : "07:20:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Regional Tåg 1035",
+        "transportNumber" : "1035",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Helsingør (Danmark)"
+      }, {
+        "Origin" : {
+          "name" : "Alvesta station",
+          "type" : "ST",
+          "id" : "740000004",
+          "extId" : "740000004",
+          "lon" : 14.556322,
+          "lat" : 56.898778,
+          "routeIdx" : 3,
+          "time" : "08:13:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm Södra station",
+          "type" : "ST",
+          "id" : "740000765",
+          "extId" : "740000765",
+          "lon" : 18.064498,
+          "lat" : 59.314171,
+          "routeIdx" : 8,
+          "time" : "11:32:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "X2000",
+            "key" : "VX",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Bistrovagn",
+            "key" : "AD",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Obligatorisk platsbokning",
+            "key" : "AF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "WiFi",
+            "key" : "AW",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Eluttag, bokas",
+            "key" : "EL",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Frukost 1 klass",
+            "key" : "SF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "Snabbtåg 20526",
+          "num" : "20526",
+          "catCode" : "1",
+          "catOutS" : "JST",
+          "catOutL" : "Snabbtåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Alvesta station",
+            "id" : "740000004",
+            "extId" : "740000004",
+            "routeIdx" : 3,
+            "lon" : 14.556322,
+            "lat" : 56.898778,
+            "depTime" : "08:13:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 4,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "depTime" : "08:49:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:48:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Mjölby station",
+            "id" : "740000180",
+            "extId" : "740000180",
+            "routeIdx" : 5,
+            "lon" : 15.131992,
+            "lat" : 58.322984,
+            "depTime" : "09:26:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:26:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Linköping Centralstation",
+            "id" : "740000009",
+            "extId" : "740000009",
+            "routeIdx" : 6,
+            "lon" : 15.62496,
+            "lat" : 58.416634,
+            "depTime" : "09:43:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:41:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 7,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "10:15:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "10:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 8,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "arrTime" : "11:32:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "3",
+        "name" : "Snabbtåg 20526",
+        "transportNumber" : "20526",
+        "transportCategory" : "JST",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Södra station"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Södra station",
+          "type" : "ST",
+          "id" : "740000765",
+          "extId" : "740000765",
+          "lon" : 18.064498,
+          "lat" : 59.314171,
+          "routeIdx" : 13,
+          "time" : "11:53:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 15,
+          "time" : "11:59:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 13,
+            "routeIdxTo" : 15
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 13,
+            "routeIdxTo" : 15
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2231",
+          "num" : "2231",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 13,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "depTime" : "11:53:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 14,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "11:56:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "11:56:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 15,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "11:59:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik - Tåg 2231",
+        "transportNumber" : "2231",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Södertälje centrum station"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "time" : "11:59:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "12:10:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "5",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 917
+      } ]
+    },
+    "idx" : 4,
+    "tripId" : "C-4",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908050354$201908050502$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908050502$201908050545$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Alvesta station@L=740000004@a=128@$201908050600$201908050720$JRE 1035$$1$§T$A=1@O=Alvesta station@L=740000004@a=128@$A=1@O=Stockholm Södra station@L=740000765@a=128@$201908050813$201908051132$JST20526$$1$§T$A=1@O=Stockholm Södra station@L=740000765@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908051153$201908051159$JLT 2231$$1$§G@F$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908051159$201908051210$$$1$",
+    "duration" : "PT8H16M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "5. Aug",
+      "sDaysB" : "F20000000000000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "03:54:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "05:45:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "05:02:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "05:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "05:07:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:07:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "05:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "05:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:10:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "05:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "05:12:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:12:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "05:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "05:16:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:16:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "05:18:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:18:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "05:21:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:21:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "05:24:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:24:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "05:36:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "05:38:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "05:40:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "05:43:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "05:45:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 0,
+          "time" : "06:00:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Alvesta station",
+          "type" : "ST",
+          "id" : "740000004",
+          "extId" : "740000004",
+          "lon" : 14.556322,
+          "lat" : 56.898778,
+          "routeIdx" : 6,
+          "time" : "07:20:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 5,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 1035",
+          "num" : "1035",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "300",
+          "operator" : "Öresundståg",
+          "operatorUrl" : "http://www.oresundstag.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 0,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "06:00:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Nybro station",
+            "id" : "740000189",
+            "extId" : "740000189",
+            "routeIdx" : 1,
+            "lon" : 15.909172,
+            "lat" : 56.742357,
+            "depTime" : "06:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Emmaboda station",
+            "id" : "740000096",
+            "extId" : "740000096",
+            "routeIdx" : 2,
+            "lon" : 15.535895,
+            "lat" : 56.62957,
+            "depTime" : "06:30:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:29:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Lessebo station",
+            "id" : "740000235",
+            "extId" : "740000235",
+            "routeIdx" : 3,
+            "lon" : 15.259045,
+            "lat" : 56.749531,
+            "depTime" : "06:42:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:42:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Hovmantorp station (Lessebo kn)",
+            "id" : "740000511",
+            "extId" : "740000511",
+            "routeIdx" : 4,
+            "lon" : 15.140666,
+            "lat" : 56.785838,
+            "depTime" : "06:48:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:48:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Växjö station",
+            "id" : "740000250",
+            "extId" : "740000250",
+            "routeIdx" : 5,
+            "lon" : 14.803625,
+            "lat" : 56.876845,
+            "depTime" : "07:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:04:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Alvesta station",
+            "id" : "740000004",
+            "extId" : "740000004",
+            "routeIdx" : 6,
+            "lon" : 14.556322,
+            "lat" : 56.898778,
+            "arrTime" : "07:20:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Regional Tåg 1035",
+        "transportNumber" : "1035",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Helsingør (Danmark)"
+      }, {
+        "Origin" : {
+          "name" : "Alvesta station",
+          "type" : "ST",
+          "id" : "740000004",
+          "extId" : "740000004",
+          "lon" : 14.556322,
+          "lat" : 56.898778,
+          "routeIdx" : 3,
+          "time" : "08:13:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm Södra station",
+          "type" : "ST",
+          "id" : "740000765",
+          "extId" : "740000765",
+          "lon" : 18.064498,
+          "lat" : 59.314171,
+          "routeIdx" : 8,
+          "time" : "11:32:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "X2000",
+            "key" : "VX",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Bistrovagn",
+            "key" : "AD",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Obligatorisk platsbokning",
+            "key" : "AF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "WiFi",
+            "key" : "AW",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Eluttag, bokas",
+            "key" : "EL",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Frukost 1 klass",
+            "key" : "SF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "Snabbtåg 20526",
+          "num" : "20526",
+          "catCode" : "1",
+          "catOutS" : "JST",
+          "catOutL" : "Snabbtåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Alvesta station",
+            "id" : "740000004",
+            "extId" : "740000004",
+            "routeIdx" : 3,
+            "lon" : 14.556322,
+            "lat" : 56.898778,
+            "depTime" : "08:13:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 4,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "depTime" : "08:49:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:48:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Mjölby station",
+            "id" : "740000180",
+            "extId" : "740000180",
+            "routeIdx" : 5,
+            "lon" : 15.131992,
+            "lat" : 58.322984,
+            "depTime" : "09:26:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:26:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Linköping Centralstation",
+            "id" : "740000009",
+            "extId" : "740000009",
+            "routeIdx" : 6,
+            "lon" : 15.62496,
+            "lat" : 58.416634,
+            "depTime" : "09:43:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:41:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 7,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "10:15:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "10:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 8,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "arrTime" : "11:32:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "3",
+        "name" : "Snabbtåg 20526",
+        "transportNumber" : "20526",
+        "transportCategory" : "JST",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Södra station"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Södra station",
+          "type" : "ST",
+          "id" : "740000765",
+          "extId" : "740000765",
+          "lon" : 18.064498,
+          "lat" : 59.314171,
+          "routeIdx" : 13,
+          "time" : "11:53:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 15,
+          "time" : "11:59:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 13,
+            "routeIdxTo" : 15
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 13,
+            "routeIdxTo" : 15
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2231",
+          "num" : "2231",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 13,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "depTime" : "11:53:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 14,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "11:56:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "11:56:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 15,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "11:59:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik - Tåg 2231",
+        "transportNumber" : "2231",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Södertälje centrum station"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 18,
+          "time" : "12:17:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "routeIdx" : 19,
+          "time" : "12:20:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 161",
+          "num" : "161",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 18,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "depTime" : "12:17:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Turingevägen (Stockholm kn)",
+            "id" : "740051240",
+            "extId" : "740051240",
+            "routeIdx" : 19,
+            "lon" : 18.020379,
+            "lat" : 59.273495,
+            "arrTime" : "12:20:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Buss 161",
+        "transportNumber" : "161",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Bagarmossen T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "time" : "12:20:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "12:23:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT3M",
+        "dist" : 124
+      } ]
+    },
+    "idx" : 5,
+    "tripId" : "C-5",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908050354$201908050502$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908050502$201908050545$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Alvesta station@L=740000004@a=128@$201908050600$201908050720$JRE 1035$$1$§T$A=1@O=Alvesta station@L=740000004@a=128@$A=1@O=Stockholm Södra station@L=740000765@a=128@$201908050813$201908051132$JST20526$$1$§T$A=1@O=Stockholm Södra station@L=740000765@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908051153$201908051159$JLT 2231$$1$§T$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201908051217$201908051220$BLT  161$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908051220$201908051223$$$1$",
+    "duration" : "PT8H29M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "5. Aug until 4. Nov 2019 Mo - Th",
+      "sDaysB" : "E3C78F1E3C78F1E3C78F1E3C400000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "03:54:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "05:45:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "05:02:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "05:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "05:07:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:07:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "05:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "05:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:10:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "05:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "05:12:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:12:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "05:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "05:16:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:16:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "05:18:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:18:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "05:21:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:21:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "05:24:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:24:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "05:36:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "05:38:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "05:40:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "05:43:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "05:45:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 0,
+          "time" : "06:20:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "routeIdx" : 13,
+          "time" : "12:35:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Expressbuss 612",
+          "num" : "612",
+          "catCode" : "3",
+          "catOutS" : "BXB",
+          "catOutL" : "Expressbuss",
+          "operatorCode" : "838",
+          "operator" : "Flixbus",
+          "operatorUrl" : "https://www.flixbus.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 0,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "06:20:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Mönsterås norra",
+            "id" : "740014150",
+            "extId" : "740014150",
+            "routeIdx" : 1,
+            "lon" : 16.43896,
+            "lat" : 57.051586,
+            "depTime" : "06:55:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:55:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Oskarshamn station",
+            "id" : "740000213",
+            "extId" : "740000213",
+            "routeIdx" : 2,
+            "lon" : 16.457496,
+            "lat" : 57.263264,
+            "depTime" : "07:20:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:20:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Fårbo E22 (Oskarshamn kn)",
+            "id" : "740014166",
+            "extId" : "740014166",
+            "routeIdx" : 3,
+            "lon" : 16.48147,
+            "lat" : 57.38309,
+            "depTime" : "07:30:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:30:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Misterhult vägskäl E22 (Oskarshamn kn)",
+            "id" : "740014286",
+            "extId" : "740014286",
+            "routeIdx" : 4,
+            "lon" : 16.517571,
+            "lat" : 57.476983,
+            "depTime" : "07:40:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:40:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Blankaholm E22 (Västervik kn)",
+            "id" : "740014099",
+            "extId" : "740014099",
+            "routeIdx" : 5,
+            "lon" : 16.486235,
+            "lat" : 57.589042,
+            "depTime" : "07:50:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:50:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Verkebäcksbron (Västervik kn)",
+            "id" : "740014410",
+            "extId" : "740014410",
+            "routeIdx" : 6,
+            "lon" : 16.517193,
+            "lat" : 57.726586,
+            "depTime" : "08:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Västervik station",
+            "id" : "740000082",
+            "extId" : "740000082",
+            "routeIdx" : 7,
+            "lon" : 16.64324,
+            "lat" : 57.755504,
+            "depTime" : "08:25:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:20:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Gamleby Flisvägen (Västervik kn)",
+            "id" : "740013212",
+            "extId" : "740013212",
+            "routeIdx" : 8,
+            "lon" : 16.391398,
+            "lat" : 57.891655,
+            "depTime" : "08:50:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:50:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Valdemarsvik E22",
+            "id" : "740018588",
+            "extId" : "740018588",
+            "routeIdx" : 9,
+            "lon" : 16.552979,
+            "lat" : 58.22146,
+            "depTime" : "09:20:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:20:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Söderköping busstation",
+            "id" : "740000576",
+            "extId" : "740000576",
+            "routeIdx" : 10,
+            "lon" : 16.323431,
+            "lat" : 58.47812,
+            "depTime" : "09:45:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:45:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping busstation",
+            "id" : "740011131",
+            "extId" : "740011131",
+            "routeIdx" : 11,
+            "lon" : 16.185932,
+            "lat" : 58.595537,
+            "depTime" : "10:15:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "10:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Nyköping busstation",
+            "id" : "740011151",
+            "extId" : "740011151",
+            "routeIdx" : 12,
+            "lon" : 17.001658,
+            "lat" : 58.74919,
+            "depTime" : "11:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "11:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Cityterminalen",
+            "id" : "740000622",
+            "extId" : "740000622",
+            "routeIdx" : 13,
+            "lon" : 18.056371,
+            "lat" : 59.330846,
+            "arrTime" : "12:35:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Expressbuss 612",
+        "transportNumber" : "612",
+        "transportCategory" : "BXB",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Uppsala Stationsgatan"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "time" : "12:35:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "time" : "13:05:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT30M",
+        "dist" : 50
+      }, {
+        "Origin" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "routeIdx" : 9,
+          "time" : "13:05:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 12,
+          "time" : "13:14:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2937",
+          "num" : "2937",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Stockholm City station",
+            "id" : "740001617",
+            "extId" : "740001617",
+            "routeIdx" : 9,
+            "lon" : 18.059437,
+            "lat" : 59.331143,
+            "depTime" : "13:05:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 10,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "depTime" : "13:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "13:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 11,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "13:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "13:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 12,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "13:14:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik - Tåg 2937",
+        "transportNumber" : "2937",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Södertälje centrum station"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "time" : "13:14:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "13:25:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "5",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 917
+      } ]
+    },
+    "idx" : 6,
+    "tripId" : "C-6",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908050354$201908050502$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908050502$201908050545$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$201908050620$201908051235$BXB  612$$1$§TF$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$A=1@O=Stockholm City station@L=740001617@a=128@$201908051235$201908051305$$$1$§T$A=1@O=Stockholm City station@L=740001617@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908051305$201908051314$JLT 2937$$1$§G@F$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908051314$201908051325$$$1$",
+    "duration" : "PT9H31M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-07-30",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "5. until 15. Aug 2019 Mo - Th",
+      "sDaysB" : "E3C780000000000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "56.488323, 16.384280",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 16.384279,
+          "lat" : 56.488322,
+          "time" : "03:54:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT1H8M",
+        "dist" : 4670
+      }, {
+        "Origin" : {
+          "name" : "Hedvigsborg (Mörbylånga kn)",
+          "type" : "ST",
+          "id" : "740051474",
+          "extId" : "740051474",
+          "lon" : 16.399677,
+          "lat" : 56.525241,
+          "routeIdx" : 4,
+          "time" : "05:02:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 24,
+          "time" : "05:45:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 105",
+          "num" : "105",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "256",
+          "operator" : "KLT",
+          "operatorUrl" : "http://www.klt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hedvigsborg (Mörbylånga kn)",
+            "id" : "740051474",
+            "extId" : "740051474",
+            "routeIdx" : 4,
+            "lon" : 16.399677,
+            "lat" : 56.525241,
+            "depTime" : "05:02:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Resmo vsk (Mörbylånga kn)",
+            "id" : "740051478",
+            "extId" : "740051478",
+            "routeIdx" : 5,
+            "lon" : 16.418087,
+            "lat" : 56.544514,
+            "depTime" : "05:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kleva (Mörbylånga kn)",
+            "id" : "740022464",
+            "extId" : "740022464",
+            "routeIdx" : 6,
+            "lon" : 16.424353,
+            "lat" : 56.553557,
+            "depTime" : "05:07:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:07:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Lilla Frö (Mörbylånga kn)",
+            "id" : "740022485",
+            "extId" : "740022485",
+            "routeIdx" : 7,
+            "lon" : 16.423966,
+            "lat" : 56.561899,
+            "depTime" : "05:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stora Frö (Mörbylånga kn)",
+            "id" : "740014349",
+            "extId" : "740014349",
+            "routeIdx" : 8,
+            "lon" : 16.421701,
+            "lat" : 56.570834,
+            "depTime" : "05:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:10:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Haga park (Mörbylånga kn)",
+            "id" : "740008353",
+            "extId" : "740008353",
+            "routeIdx" : 9,
+            "lon" : 16.428982,
+            "lat" : 56.579032,
+            "depTime" : "05:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Vickleby vsk (Mörbylånga kn)",
+            "id" : "740072734",
+            "extId" : "740072734",
+            "routeIdx" : 10,
+            "lon" : 16.435023,
+            "lat" : 56.58706,
+            "depTime" : "05:12:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:12:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Karlevi vsk (Mörbylånga kn)",
+            "id" : "740074427",
+            "extId" : "740074427",
+            "routeIdx" : 11,
+            "lon" : 16.447266,
+            "lat" : 56.602072,
+            "depTime" : "05:14:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:14:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Eriksöre camping (Mörbylånga kn)",
+            "id" : "740051492",
+            "extId" : "740051492",
+            "routeIdx" : 12,
+            "lon" : 16.458359,
+            "lat" : 56.615205,
+            "depTime" : "05:16:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:16:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Runsbäck (Mörbylånga kn)",
+            "id" : "740051491",
+            "extId" : "740051491",
+            "routeIdx" : 13,
+            "lon" : 16.468292,
+            "lat" : 56.633776,
+            "depTime" : "05:18:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:18:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Byggmästargatan (Mörbylånga kn)",
+            "id" : "740022400",
+            "extId" : "740022400",
+            "routeIdx" : 14,
+            "lon" : 16.464966,
+            "lat" : 56.642927,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Södra Hamnplan (Mörbylånga kn)",
+            "id" : "740072308",
+            "extId" : "740072308",
+            "routeIdx" : 15,
+            "lon" : 16.464355,
+            "lat" : 56.648159,
+            "depTime" : "05:19:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:19:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Ölands Köpstad (Mörbylånga kn)",
+            "id" : "740072652",
+            "extId" : "740072652",
+            "routeIdx" : 16,
+            "lon" : 16.470746,
+            "lat" : 56.652959,
+            "depTime" : "05:21:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:21:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand södra (Mörbylånga kn)",
+            "id" : "740051496",
+            "extId" : "740051496",
+            "routeIdx" : 17,
+            "lon" : 16.482297,
+            "lat" : 56.656978,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Snäckstrand norra (Mörbylånga kn)",
+            "id" : "740051495",
+            "extId" : "740051495",
+            "routeIdx" : 18,
+            "lon" : 16.487727,
+            "lat" : 56.661454,
+            "depTime" : "05:23:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:23:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Färjestaden Möllstorp (Mörbylånga kn)",
+            "id" : "740022507",
+            "extId" : "740022507",
+            "routeIdx" : 19,
+            "lon" : 16.487574,
+            "lat" : 56.664124,
+            "depTime" : "05:24:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "05:24:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tallhagen (Kalmar kn)",
+            "id" : "740022589",
+            "extId" : "740022589",
+            "routeIdx" : 20,
+            "lon" : 16.359136,
+            "lat" : 56.679855,
+            "arrTime" : "05:36:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Chokladfabriken",
+            "id" : "740022512",
+            "extId" : "740022512",
+            "routeIdx" : 21,
+            "lon" : 16.350632,
+            "lat" : 56.672133,
+            "arrTime" : "05:38:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Malmen",
+            "id" : "740072135",
+            "extId" : "740072135",
+            "routeIdx" : 22,
+            "lon" : 16.353113,
+            "lat" : 56.667765,
+            "arrTime" : "05:40:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Tullslätten (Kalmar kn)",
+            "id" : "740052038",
+            "extId" : "740052038",
+            "routeIdx" : 23,
+            "lon" : 16.355199,
+            "lat" : 56.663953,
+            "arrTime" : "05:43:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 24,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "arrTime" : "05:45:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 105",
+        "transportNumber" : "105",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kalmar Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Kalmar Centralstation",
+          "type" : "ST",
+          "id" : "740000020",
+          "extId" : "740000020",
+          "lon" : 16.360071,
+          "lat" : 56.661283,
+          "routeIdx" : 0,
+          "time" : "06:20:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "routeIdx" : 13,
+          "time" : "12:35:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Expressbuss 612",
+          "num" : "612",
+          "catCode" : "3",
+          "catOutS" : "BXB",
+          "catOutL" : "Expressbuss",
+          "operatorCode" : "838",
+          "operator" : "Flixbus",
+          "operatorUrl" : "https://www.flixbus.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kalmar Centralstation",
+            "id" : "740000020",
+            "extId" : "740000020",
+            "routeIdx" : 0,
+            "lon" : 16.360071,
+            "lat" : 56.661283,
+            "depTime" : "06:20:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Mönsterås norra",
+            "id" : "740014150",
+            "extId" : "740014150",
+            "routeIdx" : 1,
+            "lon" : 16.43896,
+            "lat" : 57.051586,
+            "depTime" : "06:55:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "06:55:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Oskarshamn station",
+            "id" : "740000213",
+            "extId" : "740000213",
+            "routeIdx" : 2,
+            "lon" : 16.457496,
+            "lat" : 57.263264,
+            "depTime" : "07:20:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:20:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Fårbo E22 (Oskarshamn kn)",
+            "id" : "740014166",
+            "extId" : "740014166",
+            "routeIdx" : 3,
+            "lon" : 16.48147,
+            "lat" : 57.38309,
+            "depTime" : "07:30:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:30:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Misterhult vägskäl E22 (Oskarshamn kn)",
+            "id" : "740014286",
+            "extId" : "740014286",
+            "routeIdx" : 4,
+            "lon" : 16.517571,
+            "lat" : 57.476983,
+            "depTime" : "07:40:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:40:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Blankaholm E22 (Västervik kn)",
+            "id" : "740014099",
+            "extId" : "740014099",
+            "routeIdx" : 5,
+            "lon" : 16.486235,
+            "lat" : 57.589042,
+            "depTime" : "07:50:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "07:50:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Verkebäcksbron (Västervik kn)",
+            "id" : "740014410",
+            "extId" : "740014410",
+            "routeIdx" : 6,
+            "lon" : 16.517193,
+            "lat" : 57.726586,
+            "depTime" : "08:05:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Västervik station",
+            "id" : "740000082",
+            "extId" : "740000082",
+            "routeIdx" : 7,
+            "lon" : 16.64324,
+            "lat" : 57.755504,
+            "depTime" : "08:25:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:20:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Gamleby Flisvägen (Västervik kn)",
+            "id" : "740013212",
+            "extId" : "740013212",
+            "routeIdx" : 8,
+            "lon" : 16.391398,
+            "lat" : 57.891655,
+            "depTime" : "08:50:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "08:50:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Valdemarsvik E22",
+            "id" : "740018588",
+            "extId" : "740018588",
+            "routeIdx" : 9,
+            "lon" : 16.552979,
+            "lat" : 58.22146,
+            "depTime" : "09:20:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:20:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Söderköping busstation",
+            "id" : "740000576",
+            "extId" : "740000576",
+            "routeIdx" : 10,
+            "lon" : 16.323431,
+            "lat" : 58.47812,
+            "depTime" : "09:45:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "09:45:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Norrköping busstation",
+            "id" : "740011131",
+            "extId" : "740011131",
+            "routeIdx" : 11,
+            "lon" : 16.185932,
+            "lat" : 58.595537,
+            "depTime" : "10:15:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "10:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Nyköping busstation",
+            "id" : "740011151",
+            "extId" : "740011151",
+            "routeIdx" : 12,
+            "lon" : 17.001658,
+            "lat" : 58.74919,
+            "depTime" : "11:10:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "11:05:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Cityterminalen",
+            "id" : "740000622",
+            "extId" : "740000622",
+            "routeIdx" : 13,
+            "lon" : 18.056371,
+            "lat" : 59.330846,
+            "arrTime" : "12:35:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Expressbuss 612",
+        "transportNumber" : "612",
+        "transportCategory" : "BXB",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Uppsala Stationsgatan"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "time" : "12:35:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "time" : "13:05:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT30M",
+        "dist" : 50
+      }, {
+        "Origin" : {
+          "name" : "Stockholm City station",
+          "type" : "ST",
+          "id" : "740001617",
+          "extId" : "740001617",
+          "lon" : 18.059437,
+          "lat" : 59.331143,
+          "routeIdx" : 9,
+          "time" : "13:05:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 12,
+          "time" : "13:14:00",
+          "date" : "2019-08-05"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 9,
+            "routeIdxTo" : 12
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2937",
+          "num" : "2937",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Stockholm City station",
+            "id" : "740001617",
+            "extId" : "740001617",
+            "routeIdx" : 9,
+            "lon" : 18.059437,
+            "lat" : 59.331143,
+            "depTime" : "13:05:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Stockholm Södra station",
+            "id" : "740000765",
+            "extId" : "740000765",
+            "routeIdx" : 10,
+            "lon" : 18.064498,
+            "lat" : 59.314171,
+            "depTime" : "13:08:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "13:08:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 11,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "13:11:00",
+            "depDate" : "2019-08-05",
+            "arrTime" : "13:11:00",
+            "arrDate" : "2019-08-05"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 12,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "arrTime" : "13:14:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik - Tåg 2937",
+        "transportNumber" : "2937",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Södertälje centrum station"
+      }, {
+        "Origin" : {
+          "name" : "Älvsjö station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740000789",
+          "extId" : "740000789",
+          "lon" : 18.011066,
+          "lat" : 59.278736,
+          "routeIdx" : 17,
+          "time" : "13:33:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "routeIdx" : 18,
+          "time" : "13:37:00",
+          "date" : "2019-08-05"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 163",
+          "num" : "163",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 17,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "depTime" : "13:33:00",
+            "depDate" : "2019-08-05"
+          }, {
+            "name" : "Turingevägen (Stockholm kn)",
+            "id" : "740051240",
+            "extId" : "740051240",
+            "routeIdx" : 18,
+            "lon" : 18.020379,
+            "lat" : 59.273495,
+            "arrTime" : "13:37:00",
+            "arrDate" : "2019-08-05"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Buss 163",
+        "transportNumber" : "163",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Kärrtorp T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Turingevägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051240",
+          "extId" : "740051240",
+          "lon" : 18.020379,
+          "lat" : 59.273495,
+          "time" : "13:37:00",
+          "date" : "2019-08-05"
+        },
+        "Destination" : {
+          "name" : "59.273369, 18.018311",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.018311,
+          "lat" : 59.273369,
+          "time" : "13:40:00",
+          "date" : "2019-08-05"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT3M",
+        "dist" : 124
+      } ]
+    },
+    "idx" : 7,
+    "tripId" : "C-7",
+    "ctxRecon" : "G@F$A=2@O=56.488323, 16.384280@X=16384279@Y=56488322@u=0@a=128@$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$201908050354$201908050502$$$1$§T$A=1@O=Hedvigsborg (Mörbylånga kn)@L=740051474@a=128@$A=1@O=Kalmar Centralstation@L=740000020@a=128@$201908050502$201908050545$BLT  105$$1$§T$A=1@O=Kalmar Centralstation@L=740000020@a=128@$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$201908050620$201908051235$BXB  612$$1$§TF$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$A=1@O=Stockholm City station@L=740001617@a=128@$201908051235$201908051305$$$1$§T$A=1@O=Stockholm City station@L=740001617@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201908051305$201908051314$JLT 2937$$1$§T$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201908051333$201908051337$BLT  163$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018311@X=18018311@Y=59273369@u=0@a=128@$201908051337$201908051340$$$1$",
+    "duration" : "PT9H46M"
+  } ],
+  "scrB" : "1|OB|MTµ11µ11334µ11334µ11960µ11960µ0µ0µ66501µ11232µ1µ-2147483598µ0µ1µ2|PDHµ2b856911e555bf4e0c7906b9384e4f0f|RDµ4082019|RTµ191200",
+  "scrF" : "1|OF|MTµ11µ11754µ11754µ12250µ12340µ0µ0µ365µ11335µ8µ-2147483534µ0µ1µ2|PDHµ2b856911e555bf4e0c7906b9384e4f0f|RDµ4082019|RTµ191200"
+}
