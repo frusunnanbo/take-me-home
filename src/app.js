@@ -12,8 +12,8 @@ console.log(`Using API key ${key}`);
 app.get('/', async (req, res) => {
 
   let tripStops = [];
-  let startTime = moment();
-  const lastDepartureTime = moment().add(1, 'days');
+  let startTime = req.query.startTime ? moment(req.query.startTime) : moment();
+  const lastDepartureTime = startTime.clone().add(1, 'days');
 
   while (startTime.isBefore(lastDepartureTime)) {
 
