@@ -55,7 +55,20 @@ async function getTrips(startTime, lastDepartureTime, req) {
             type: leg.type
           }))));
   }
-  return output;
+
+  const groupedByStartTime = output.reduce((acc, curr) => {
+    if (!acc[curr[0].start]) {
+      acc[curr[0].start] = [];
+    }
+    acc[curr[0].start].push(curr);
+    return acc;
+  }, {});
+
+  return Object.values(groupedByStartTime)
+    .map((trips) => {
+      trips.sort((trip1, trip2) => trip1.length - trip2.length);
+      return trips[0];
+    });
 }
 
 app.get('/', async (req, res) => {
