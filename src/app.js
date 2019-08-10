@@ -9,11 +9,9 @@ const key = ('' + fs.readFileSync('key.txt')).trim();
 
 console.log(`Using API key ${key}`);
 
-app.get('/', async (req, res) => {
+async function getTrips(startTime, lastDepartureTime, req) {
 
-  let tripStops = [];
-  let startTime = req.query.startTime ? moment(req.query.startTime) : moment();
-  const lastDepartureTime = startTime.clone().add(1, 'days');
+  let output = [];
 
   while (startTime.isBefore(lastDepartureTime)) {
 
@@ -43,20 +41,29 @@ app.get('/', async (req, res) => {
     const lastListedTimeString = lastTripFirstLegOrigin.date + 'T' + lastTripFirstLegOrigin.time;
     startTime = moment(lastListedTimeString);
 
-    tripStops = tripStops.concat(trips.map((trip) => ({
-      start: {
-        date: trip['LegList']['Leg'][1]['Origin'].date,
-        time: trip['LegList']['Leg'][1]['Origin'].time
-      },
-      stops: trip['LegList']['Leg']
-        .slice(1)
-        .flatMap((leg, index) => (leg['Stops'] || {'Stop' : []})['Stop']
-          .slice(index ? 1 : 0)
-          .map(stop => stop.name))
-    })));
+    output = output.concat(trips
+      .filter((trip) => moment(trip['LegList']['Leg'][1]['Origin'].date + 'T' + trip['LegList']['Leg'][1]['Origin'].time)
+        .isBefore(lastDepartureTime))
+      .map((trip) =>
+        trip['LegList']['Leg']
+          .filter((leg) => !(leg.type === 'WALK' || leg.type === 'TRSF'))
+          .map((leg) => ({
+            start: leg.Origin.date + 'T' + leg.Origin.time,
+            end: leg.Destination.date + 'T' + leg.Destination.time,
+            stops: (leg['Stops'] || {'Stop': []})['Stop']
+                .map((stop) => stop.name),
+            type: leg.type
+          }))));
   }
+  return output;
+}
 
-  res.json(tripStops);
+app.get('/', async (req, res) => {
+
+  let startTime = req.query.startTime ? moment(req.query.startTime) : moment();
+  const lastDepartureTime = startTime.clone().add(1, 'days');
+
+  res.json(await getTrips(startTime, lastDepartureTime, req));
 });
 
 module.exports = app;
