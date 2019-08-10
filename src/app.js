@@ -1,5 +1,6 @@
 const fs = require('fs');
 const express = require('express');
+const expressHbs = require('express-handlebars');
 const request = require('request-promise-native');
 const moment = require('moment');
 
@@ -9,8 +10,20 @@ const key = ('' + fs.readFileSync('key.txt')).trim();
 
 console.log(`Using API key ${key}`);
 
-async function getTrips(startTime, lastDepartureTime, req) {
 
+app.engine('handlebars', expressHbs());
+app.set('view engine', 'handlebars');
+app.get('/', async (req, res) => {
+  res.render('trips',
+    {
+      layout: false,
+      trips: await getTrips(moment(), req)
+    });
+});
+
+async function getTrips(startTime, req) {
+
+  const lastDepartureTime = startTime.clone().add(1, 'days');
   let output = [];
 
   while (startTime.isBefore(lastDepartureTime)) {
@@ -44,39 +57,49 @@ async function getTrips(startTime, lastDepartureTime, req) {
     output = output.concat(trips
       .filter((trip) => moment(trip['LegList']['Leg'][1]['Origin'].date + 'T' + trip['LegList']['Leg'][1]['Origin'].time)
         .isBefore(lastDepartureTime))
-      .map((trip) =>
-        trip['LegList']['Leg']
-          .filter((leg) => !(leg.type === 'WALK' || leg.type === 'TRSF'))
-          .map((leg) => ({
-            start: leg.Origin.date + 'T' + leg.Origin.time,
-            end: leg.Destination.date + 'T' + leg.Destination.time,
-            stops: (leg['Stops'] || {'Stop': []})['Stop']
+      .map((trip) => ({
+          start: {
+            date: trip['LegList']['Leg'][1]['Origin'].date,
+            time: trip['LegList']['Leg'][1]['Origin'].time
+          },
+          legs: trip['LegList']['Leg']
+            .filter((leg) => !(leg.type === 'WALK' || leg.type === 'TRSF'))
+            .map((leg) => ({
+              start: {
+                date: leg.Origin.date,
+                time: leg.Origin.time,
+                place: leg.Origin.name
+              },
+              end: leg.Destination.date + 'T' + leg.Destination.time,
+              stops: (leg['Stops'] || {'Stop': []})['Stop']
                 .map((stop) => stop.name),
-            type: leg.type
-          }))));
+              type: leg.type
+            }))
+        }
+      )));
   }
 
   const groupedByStartTime = output.reduce((acc, curr) => {
-    if (!acc[curr[0].start]) {
-      acc[curr[0].start] = [];
+    const currentStart = curr.start.date + 'T' + curr.start.time;
+    if (!acc[currentStart]) {
+      acc[currentStart] = [];
     }
-    acc[curr[0].start].push(curr);
+    acc[currentStart].push(curr);
     return acc;
   }, {});
 
   return Object.values(groupedByStartTime)
     .map((trips) => {
-      trips.sort((trip1, trip2) => trip1.length - trip2.length);
+      trips.sort((trip1, trip2) => trip1.legs.length - trip2.legs.length);
       return trips[0];
     });
 }
 
-app.get('/', async (req, res) => {
+app.get('/trips', async (req, res) => {
 
   let startTime = req.query.startTime ? moment(req.query.startTime) : moment();
-  const lastDepartureTime = startTime.clone().add(1, 'days');
 
-  res.json(await getTrips(startTime, lastDepartureTime, req));
+  res.json(await getTrips(startTime, req));
 });
 
 module.exports = app;
