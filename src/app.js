@@ -21,6 +21,13 @@ app.get('/', async (req, res) => {
     });
 });
 
+function getDateAndTime(obj = trip['LegList']['Leg'][1]['Origin']) {
+  return {
+    date: obj.date,
+    time: moment(obj.date + 'T' + obj.time).format('HH:mm')
+  };
+}
+
 async function getTrips(startTime, req) {
 
   const lastDepartureTime = startTime.clone().add(1, 'days');
@@ -58,16 +65,12 @@ async function getTrips(startTime, req) {
       .filter((trip) => moment(trip['LegList']['Leg'][1]['Origin'].date + 'T' + trip['LegList']['Leg'][1]['Origin'].time)
         .isBefore(lastDepartureTime))
       .map((trip) => ({
-          start: {
-            date: trip['LegList']['Leg'][1]['Origin'].date,
-            time: trip['LegList']['Leg'][1]['Origin'].time
-          },
+          start: getDateAndTime(trip['LegList']['Leg'][1]['Origin']),
           legs: trip['LegList']['Leg']
             .filter((leg) => !(leg.type === 'WALK' || leg.type === 'TRSF'))
             .map((leg) => ({
               start: {
-                date: leg.Origin.date,
-                time: leg.Origin.time,
+                ...getDateAndTime(leg.Origin),
                 place: leg.Origin.name
               },
               end: leg.Destination.date + 'T' + leg.Destination.time,
