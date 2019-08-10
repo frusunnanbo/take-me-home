@@ -13,4 +13,4 @@ Sample presentation project
 
 ## To test
 
-```curl 'localhost:3000?hereLat=56.4883233&hereLong=16.3842807&homeLat=59.2733699&homeLong=18.0183112'```
+```curl 'localhost:3000?hereLat=57.7824913&hereLong=14.2579982&homeLat=56.1934234&homeLong=12.681366'```
