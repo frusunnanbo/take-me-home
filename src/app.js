@@ -10,6 +10,15 @@ const key = ('' + fs.readFileSync('key.txt')).trim();
 
 console.log(`Using API key ${key}`);
 
+const DEFAULT_HERE = {
+  lat: 57.7824913,
+  long: 14.2579982
+};
+
+const DEFAULT_HOME = {
+  lat: 59.2987134,
+  long: 18.0568867
+};
 
 app.engine('handlebars', expressHbs());
 app.set('view engine', 'handlebars');
@@ -41,10 +50,10 @@ async function getTrips(startTime, req) {
         key: key,
         date: startTime.format(('YYYY-MM-DD')),
         time: startTime.format('HH:mm'),
-        originCoordLat: req.query.hereLat,
-        originCoordLong: req.query.hereLong,
-        destCoordLat: req.query.homeLat,
-        destCoordLong: req.query.homeLong,
+        originCoordLat: req.query.hereLat || DEFAULT_HERE.lat,
+        originCoordLong: req.query.hereLong || DEFAULT_HERE.long,
+        destCoordLat: req.query.homeLat || DEFAULT_HOME.lat,
+        destCoordLong: req.query.homeLong || DEFAULT_HOME.long,
         originWalk: '1,0,10000',
         destWalk: '1,0,10000',
         format: 'json'
