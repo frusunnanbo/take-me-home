@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Take Me Home App can return some trips on request 1`] = `
+Array [
+  Object {
+    "duration": Object {
+      "hours": 4,
+      "minutes": 20,
+    },
+    "legs": Array [
+      Object {
+        "end": "2019-09-10T12:42:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Huskvarna station (Jönköping kn)",
+          "time": "12:10",
+        },
+        "stops": Array [
+          "Huskvarna station (Jönköping kn)",
+          "Tenhult station (Jönköping kn)",
+          "Forserum station (Nässjö kn)",
+          "Nässjö Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T15:35:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Nässjö Centralstation",
+          "time": "13:04",
+        },
+        "stops": Array [
+          "Nässjö Centralstation",
+          "Mjölby station",
+          "Linköping Centralstation",
+          "Norrköping Centralstation",
+          "Stockholm Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T16:05:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "T-Centralen T-bana (Stockholm kn)",
+          "time": "15:55",
+        },
+        "stops": Array [
+          "T-Centralen T-bana (Stockholm kn)",
+          "Gamla Stan T-bana (Stockholm kn)",
+          "Slussen T-bana (Stockholm kn)",
+          "Medborgarplatsen T-bana (Stockholm kn)",
+          "Skanstull T-bana (Stockholm kn)",
+          "Gullmarsplan T-bana (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T16:15:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Gullmarsplan T-bana (Stockholm kn)",
+          "time": "16:11",
+        },
+        "stops": Array [
+          "Gullmarsplan T-bana (Stockholm kn)",
+          "Sköntorpsplan (Stockholm kn)",
+          "Ymsenvägen (Stockholm kn)",
+          "Skagersvägen (Stockholm kn)",
+          "Vättersvägen (Stockholm kn)",
+          "Tämnarvägen (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+    ],
+    "start": Object {
+      "date": "2019-09-10",
+      "time": "12:10",
+    },
+  },
+  Object {
+    "duration": Object {
+      "hours": 6,
+      "minutes": 35,
+    },
+    "legs": Array [
+      Object {
+        "end": "2019-09-10T12:50:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Kungsporten (Jönköping kn)",
+          "time": "12:29",
+        },
+        "stops": Array [
+          "Kungsporten (Jönköping kn)",
+          "Kittendorffs gata (Jönköping kn)",
+          "Kungsängen (Jönköping kn)",
+          "Gullregnsbacken (Jönköping kn)",
+          "Resedastigen (Jönköping kn)",
+          "Jönköping Ekhagen centrum",
+          "Rosenlundsskolan (Jönköping kn)",
+          "Hermansplan (Jönköping kn)",
+          "Rosenlunds Vårdcentrum (Jönköping kn)",
+          "Starrgatan (Jönköping kn)",
+          "Jönköping Kilallén",
+          "Jönköping Cigarren",
+          "Östra torget (Jönköping kn)",
+          "Stadsbiblioteket (Jönköping kn)",
+          "Jönköping Östra centrum",
+          "Jönköping Rådhusparken",
+          "Jönköping Juneporten",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T14:04:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Jönköping Centralstation",
+          "time": "13:00",
+        },
+        "stops": Array [
+          "Jönköping Centralstation",
+          "Falköping Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T16:20:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Falköping Centralstation",
+          "time": "15:01",
+        },
+        "stops": Array [
+          "Falköping Centralstation",
+          "Skövde Centralstation",
+          "Töreboda station",
+          "Laxå station",
+          "Hallsberg station",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T18:13:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Hallsberg station",
+          "time": "16:38",
+        },
+        "stops": Array [
+          "Hallsberg station",
+          "Katrineholm Centralstation",
+          "Södertälje Syd station",
+          "Stockholm Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T18:42:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "T-Centralen T-bana (Stockholm kn)",
+          "time": "18:33",
+        },
+        "stops": Array [
+          "T-Centralen T-bana (Stockholm kn)",
+          "Gamla Stan T-bana (Stockholm kn)",
+          "Slussen T-bana (Stockholm kn)",
+          "Medborgarplatsen T-bana (Stockholm kn)",
+          "Skanstull T-bana (Stockholm kn)",
+          "Gullmarsplan T-bana (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T18:53:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Gullmarsplan T-bana (Stockholm kn)",
+          "time": "18:50",
+        },
+        "stops": Array [
+          "Gullmarsplan T-bana (Stockholm kn)",
+          "Sköntorpsplan (Stockholm kn)",
+          "Ymsenvägen (Stockholm kn)",
+          "Skagersvägen (Stockholm kn)",
+          "Vättersvägen (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+    ],
+    "start": Object {
+      "date": "2019-09-10",
+      "time": "12:29",
+    },
+  },
+  Object {
+    "duration": Object {
+      "hours": 5,
+      "minutes": 28,
+    },
+    "legs": Array [
+      Object {
+        "end": "2019-09-10T13:48:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Huskvarna station (Jönköping kn)",
+          "time": "12:45",
+        },
+        "stops": Array [
+          "Huskvarna station (Jönköping kn)",
+          "Tenhult station (Jönköping kn)",
+          "Forserum station (Nässjö kn)",
+          "Nässjö Centralstation",
+          "Aneby station",
+          "Tranås station",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T14:15:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Tranås station",
+          "time": "13:55",
+        },
+        "stops": Array [
+          "Tranås station",
+          "Boxholm station",
+          "Mjölby station",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T15:12:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Mjölby station",
+          "time": "14:25",
+        },
+        "stops": Array [
+          "Mjölby station",
+          "Mantorp station (Mjölby kn)",
+          "Vikingstad station (Linköping kn)",
+          "Linköping Centralstation",
+          "Linghem station (Linköping kn)",
+          "Kimstad station (Norrköping kn)",
+          "Norrköping Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T17:10:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Norrköping Centralstation",
+          "time": "15:30",
+        },
+        "stops": Array [
+          "Norrköping Centralstation",
+          "Kolmården station (Norrköping kn)",
+          "Nyköping Centralstation",
+          "Vagnhärad station (Trosa kn)",
+          "Södertälje Syd station",
+          "Flemingsberg station (Huddinge kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T17:42:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Flemingsberg station (Huddinge kn)",
+          "time": "17:29",
+        },
+        "stops": Array [
+          "Flemingsberg station (Huddinge kn)",
+          "Huddinge station",
+          "Stuvsta station (Huddinge kn)",
+          "Älvsjö station (Stockholm kn)",
+          "Årstaberg station (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T17:58:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Årstaberg station (Stockholm kn)",
+          "time": "17:52",
+        },
+        "stops": Array [
+          "Årstaberg station (Stockholm kn)",
+          "Årsta gård (Stockholm kn)",
+          "Ottsjövägen (Stockholm kn)",
+          "Åmänningevägen (Stockholm kn)",
+          "Årsta torg (Stockholm kn)",
+          "Årstaskolan (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+    ],
+    "start": Object {
+      "date": "2019-09-10",
+      "time": "12:45",
+    },
+  },
+  Object {
+    "duration": Object {
+      "hours": 6,
+      "minutes": 22,
+    },
+    "legs": Array [
+      Object {
+        "end": "2019-09-10T13:14:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Huskvarna station (Jönköping kn)",
+          "time": "12:47",
+        },
+        "stops": Array [
+          "Huskvarna station (Jönköping kn)",
+          "Jönköping Centralstation",
+          "Bankeryd station (Jönköping kn)",
+          "Habo station",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T14:25:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Habo station",
+          "time": "13:24",
+        },
+        "stops": Array [
+          "Habo station",
+          "Mullsjö Station",
+          "Sandhem station (Mullsjö kn)",
+          "Falköping Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T16:20:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Falköping Centralstation",
+          "time": "15:01",
+        },
+        "stops": Array [
+          "Falköping Centralstation",
+          "Skövde Centralstation",
+          "Töreboda station",
+          "Laxå station",
+          "Hallsberg station",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T18:13:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Hallsberg station",
+          "time": "16:38",
+        },
+        "stops": Array [
+          "Hallsberg station",
+          "Katrineholm Centralstation",
+          "Södertälje Syd station",
+          "Stockholm Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T18:42:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "T-Centralen T-bana (Stockholm kn)",
+          "time": "18:33",
+        },
+        "stops": Array [
+          "T-Centralen T-bana (Stockholm kn)",
+          "Gamla Stan T-bana (Stockholm kn)",
+          "Slussen T-bana (Stockholm kn)",
+          "Medborgarplatsen T-bana (Stockholm kn)",
+          "Skanstull T-bana (Stockholm kn)",
+          "Gullmarsplan T-bana (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T18:53:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Gullmarsplan T-bana (Stockholm kn)",
+          "time": "18:50",
+        },
+        "stops": Array [
+          "Gullmarsplan T-bana (Stockholm kn)",
+          "Sköntorpsplan (Stockholm kn)",
+          "Ymsenvägen (Stockholm kn)",
+          "Skagersvägen (Stockholm kn)",
+          "Vättersvägen (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+    ],
+    "start": Object {
+      "date": "2019-09-10",
+      "time": "12:47",
+    },
+  },
+  Object {
+    "duration": Object {
+      "hours": 6,
+      "minutes": 32,
+    },
+    "legs": Array [
+      Object {
+        "end": "2019-09-10T13:10:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Kungsporten (Jönköping kn)",
+          "time": "12:49",
+        },
+        "stops": Array [
+          "Kungsporten (Jönköping kn)",
+          "Kittendorffs gata (Jönköping kn)",
+          "Kungsängen (Jönköping kn)",
+          "Gullregnsbacken (Jönköping kn)",
+          "Resedastigen (Jönköping kn)",
+          "Jönköping Ekhagen centrum",
+          "Rosenlundsskolan (Jönköping kn)",
+          "Hermansplan (Jönköping kn)",
+          "Rosenlunds Vårdcentrum (Jönköping kn)",
+          "Starrgatan (Jönköping kn)",
+          "Jönköping Kilallén",
+          "Jönköping Cigarren",
+          "Östra torget (Jönköping kn)",
+          "Stadsbiblioteket (Jönköping kn)",
+          "Jönköping Östra centrum",
+          "Jönköping Rådhusparken",
+          "Jönköping Juneporten",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T18:30:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Jönköping Centralstation",
+          "time": "13:20",
+        },
+        "stops": Array [
+          "Jönköping Centralstation",
+          "Linköping Fjärrbussterminal",
+          "Norrköping busstation",
+          "Stockholm Cityterminalen",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T19:00:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "T-Centralen T-bana (Stockholm kn)",
+          "time": "18:51",
+        },
+        "stops": Array [
+          "T-Centralen T-bana (Stockholm kn)",
+          "Gamla Stan T-bana (Stockholm kn)",
+          "Slussen T-bana (Stockholm kn)",
+          "Medborgarplatsen T-bana (Stockholm kn)",
+          "Skanstull T-bana (Stockholm kn)",
+          "Gullmarsplan T-bana (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T19:11:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Gullmarsplan T-bana (Stockholm kn)",
+          "time": "19:08",
+        },
+        "stops": Array [
+          "Gullmarsplan T-bana (Stockholm kn)",
+          "Sköntorpsplan (Stockholm kn)",
+          "Ymsenvägen (Stockholm kn)",
+          "Skagersvägen (Stockholm kn)",
+          "Vättersvägen (Stockholm kn)",
+          "Tämnarvägen (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+    ],
+    "start": Object {
+      "date": "2019-09-10",
+      "time": "12:49",
+    },
+  },
+  Object {
+    "duration": Object {
+      "hours": 4,
+      "minutes": 27,
+    },
+    "legs": Array [
+      Object {
+        "end": "2019-09-10T13:43:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Huskvarna station (Jönköping kn)",
+          "time": "13:08",
+        },
+        "stops": Array [
+          "Huskvarna station (Jönköping kn)",
+          "Tenhult station (Jönköping kn)",
+          "Forserum station (Nässjö kn)",
+          "Nässjö Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T16:37:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Nässjö Centralstation",
+          "time": "14:05",
+        },
+        "stops": Array [
+          "Nässjö Centralstation",
+          "Linköping Centralstation",
+          "Norrköping Centralstation",
+          "Södertälje Syd station",
+          "Stockholm Centralstation",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T17:08:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "T-Centralen T-bana (Stockholm kn)",
+          "time": "16:58",
+        },
+        "stops": Array [
+          "T-Centralen T-bana (Stockholm kn)",
+          "Gamla Stan T-bana (Stockholm kn)",
+          "Slussen T-bana (Stockholm kn)",
+          "Medborgarplatsen T-bana (Stockholm kn)",
+          "Skanstull T-bana (Stockholm kn)",
+          "Gullmarsplan T-bana (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-09-10T17:20:00",
+        "start": Object {
+          "date": "2019-09-10",
+          "place": "Gullmarsplan T-bana (Stockholm kn)",
+          "time": "17:15",
+        },
+        "stops": Array [
+          "Gullmarsplan T-bana (Stockholm kn)",
+          "Sköntorpsplan (Stockholm kn)",
+          "Ymsenvägen (Stockholm kn)",
+          "Skagersvägen (Stockholm kn)",
+          "Vättersvägen (Stockholm kn)",
+          "Årstaskolan (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+    ],
+    "start": Object {
+      "date": "2019-09-10",
+      "time": "13:08",
+    },
+  },
+]
+`;
