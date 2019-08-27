@@ -7,7 +7,7 @@ describe('The Take Me Home App', () => {
 
   it('can return some trips on request', async () => {
     return request(app)
-      .get('/trips')
+      .get('/trips?startTime=2019-09-10T11:45')
       .expect(200)
       .then((response) => {
         expect(response.body).toMatchSnapshot();
