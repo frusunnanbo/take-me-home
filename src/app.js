@@ -30,6 +30,13 @@ app.get('/', async (req, res) => {
     });
 });
 
+app.get('/trips', async (req, res) => {
+
+  let startTime = req.query.startTime ? moment(req.query.startTime) : moment();
+
+  res.json(await getTrips(startTime, req));
+});
+
 function getDateAndTime(obj = trip['LegList']['Leg'][1]['Origin']) {
   return {
     date: obj.date,
@@ -102,16 +109,10 @@ async function getTrips(startTime, req) {
 
   return Object.values(groupedByStartTime)
     .map((trips) => {
-      trips.sort((trip1, trip2) => trip1.legs.length - trip2.legs.length);
+      trips.sort((trip1, trip2) => trip1.duration - trip2.duration);
       return trips[0];
     });
 }
 
-app.get('/trips', async (req, res) => {
-
-  let startTime = req.query.startTime ? moment(req.query.startTime) : moment();
-
-  res.json(await getTrips(startTime, req));
-});
 
 module.exports = app;
