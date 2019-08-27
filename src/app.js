@@ -4,7 +4,7 @@ const expressHbs = require('express-handlebars');
 const request = require('request-promise-native');
 const moment = require('moment');
 
-const app = express();
+const {selectAndSort} = require('./trips');
 
 const key = ('' + fs.readFileSync('key.txt')).trim();
 
@@ -20,6 +20,7 @@ const DEFAULT_HOME = {
   long: 18.0568867
 };
 
+const app = express();
 app.engine('handlebars', expressHbs());
 app.set('view engine', 'handlebars');
 app.get('/', async (req, res) => {
@@ -44,22 +45,6 @@ function getDateAndTime(obj = trip['LegList']['Leg'][1]['Origin']) {
   };
 }
 
-function selectAndSort(trips) {
-  const groupedByStartTime = trips.reduce((acc, curr) => {
-    const currentStart = curr.start.date + 'T' + curr.start.time;
-    if (!acc[currentStart]) {
-      acc[currentStart] = [];
-    }
-    acc[currentStart].push(curr);
-    return acc;
-  }, {});
-
-  return Object.values(groupedByStartTime)
-    .map((withSameStartTime) => {
-      withSameStartTime.sort((trip1, trip2) => moment.duration(trip1.duration).subtract(moment.duration(trip2.duration)));
-      return withSameStartTime[0];
-    });
-}
 
 async function getTrips(startTime, req) {
 
