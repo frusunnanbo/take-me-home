@@ -5,9 +5,12 @@ describe('The Take Me Home App', () => {
 
   jest.setTimeout(60000);
 
-  it('can return some trips on request', (done) => {
-    request(app)
+  it('can return some trips on request', async () => {
+    return request(app)
       .get('/trips')
-      .expect(200, done);
+      .expect(200)
+      .then((response) => {
+        expect(response.body).toBeArrayOfSize(46);
+      });
   });
 });
