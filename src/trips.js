@@ -12,7 +12,7 @@ function selectAndSort(trips) {
 
   return Object.values(groupedByStartTime)
     .map((withSameStartTime) => {
-      withSameStartTime.sort((trip1, trip2) => moment.duration(trip1.duration).subtract(moment.duration(trip2.duration)));
+      withSameStartTime.sort((trip1, trip2) => trip1.legs.length - trip2.legs.length);
       return withSameStartTime[0];
     });
 }
