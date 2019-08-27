@@ -44,6 +44,23 @@ function getDateAndTime(obj = trip['LegList']['Leg'][1]['Origin']) {
   };
 }
 
+function selectAndSort(trips) {
+  const groupedByStartTime = trips.reduce((acc, curr) => {
+    const currentStart = curr.start.date + 'T' + curr.start.time;
+    if (!acc[currentStart]) {
+      acc[currentStart] = [];
+    }
+    acc[currentStart].push(curr);
+    return acc;
+  }, {});
+
+  return Object.values(groupedByStartTime)
+    .map((withSameStartTime) => {
+      withSameStartTime.sort((trip1, trip2) => moment.duration(trip1.duration).subtract(moment.duration(trip2.duration)));
+      return withSameStartTime[0];
+    });
+}
+
 async function getTrips(startTime, req) {
 
   const lastDepartureTime = startTime.clone().add(1, 'days');
@@ -96,20 +113,7 @@ async function getTrips(startTime, req) {
       }
     )));
 
-  const groupedByStartTime = output.reduce((acc, curr) => {
-    const currentStart = curr.start.date + 'T' + curr.start.time;
-    if (!acc[currentStart]) {
-      acc[currentStart] = [];
-    }
-    acc[currentStart].push(curr);
-    return acc;
-  }, {});
-
-  return Object.values(groupedByStartTime)
-    .map((trips) => {
-      trips.sort((trip1, trip2) => moment.duration(trip1.duration).subtract(moment.duration(trip2.duration)));
-      return trips[0];
-    });
+  return selectAndSort(output);
 }
 
 
