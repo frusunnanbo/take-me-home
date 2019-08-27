@@ -109,7 +109,7 @@ async function getTrips(startTime, req) {
 
   return Object.values(groupedByStartTime)
     .map((trips) => {
-      trips.sort((trip1, trip2) => trip1.duration - trip2.duration);
+      trips.sort((trip1, trip2) => moment.duration(trip1.duration).subtract(moment.duration(trip2.duration)));
       return trips[0];
     });
 }
