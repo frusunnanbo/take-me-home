@@ -1,9 +1,20 @@
+const fs = require("fs");
+const path = require("path");
 const request = require('supertest');
+const nock = require('nock');
+
 const app = require('../app');
+
+const HARD_CODED_RESROBOT_RESPONSE = JSON.parse(fs.readFileSync(path.resolve(__dirname, "__testdata__/resrobot.response.json")));
 
 describe('The Take Me Home App', () => {
 
-  jest.setTimeout(60000);
+  beforeAll(() => {
+
+    nock('https://api.resrobot.se')
+      .get(/.*/)
+      .reply(200, HARD_CODED_RESROBOT_RESPONSE);
+  });
 
   it('can return some trips on request', async () => {
     return request(app)

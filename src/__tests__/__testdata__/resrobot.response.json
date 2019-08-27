@@ -1,0 +1,5341 @@
+{
+  "Trip" : [ {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "21. Oct until 8. Nov 2019 Mo - Fr; also 2. until 6. Sep 2019, 9., 10. Sep, 7. until 11. Oct 2019, 2. until 6. Dec 2019",
+      "sDaysB" : "003E60000007C01F3E7C000007C000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "11:59:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "time" : "12:10:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 749
+      }, {
+        "Origin" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "routeIdx" : 3,
+          "time" : "12:10:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Nässjö Centralstation",
+          "type" : "ST",
+          "id" : "740000140",
+          "extId" : "740000140",
+          "lon" : 14.693983,
+          "lat" : 57.652443,
+          "routeIdx" : 6,
+          "time" : "12:42:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Västtågen",
+            "key" : "VV",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 7225",
+          "num" : "7225",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "279",
+          "operator" : "Västtrafik",
+          "operatorUrl" : "http://www.vasttrafik.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Huskvarna station (Jönköping kn)",
+            "id" : "740000620",
+            "extId" : "740000620",
+            "routeIdx" : 3,
+            "lon" : 14.265306,
+            "lat" : 57.78249,
+            "depTime" : "12:10:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Tenhult station (Jönköping kn)",
+            "id" : "740000171",
+            "extId" : "740000171",
+            "routeIdx" : 4,
+            "lon" : 14.326396,
+            "lat" : 57.705174,
+            "depTime" : "12:20:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:19:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Forserum station (Nässjö kn)",
+            "id" : "740000034",
+            "extId" : "740000034",
+            "routeIdx" : 5,
+            "lon" : 14.473972,
+            "lat" : 57.697839,
+            "depTime" : "12:30:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:28:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 6,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "arrTime" : "12:42:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Tåg 7225",
+        "transportNumber" : "7225",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Nässjö Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Nässjö Centralstation",
+          "type" : "ST",
+          "id" : "740000140",
+          "extId" : "740000140",
+          "lon" : 14.693983,
+          "lat" : 57.652443,
+          "routeIdx" : 6,
+          "time" : "13:04:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "routeIdx" : 10,
+          "time" : "15:35:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "X2000",
+            "key" : "VX",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Mat 1 klass",
+            "key" : "A1",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Bistrovagn",
+            "key" : "AD",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Obligatorisk platsbokning",
+            "key" : "AF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "WiFi",
+            "key" : "AW",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Eluttag, bokas",
+            "key" : "EL",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Maträtt",
+            "key" : "SM",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          } ]
+        },
+        "Product" : {
+          "name" : "Snabbtåg 534",
+          "num" : "534",
+          "catCode" : "1",
+          "catOutS" : "JST",
+          "catOutL" : "Snabbtåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 6,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "depTime" : "13:04:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Mjölby station",
+            "id" : "740000180",
+            "extId" : "740000180",
+            "routeIdx" : 7,
+            "lon" : 15.131992,
+            "lat" : 58.322984,
+            "depTime" : "13:41:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:41:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Linköping Centralstation",
+            "id" : "740000009",
+            "extId" : "740000009",
+            "routeIdx" : 8,
+            "lon" : 15.62496,
+            "lat" : 58.416634,
+            "depTime" : "13:58:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:57:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 9,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "14:21:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:21:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stockholm Centralstation",
+            "id" : "740000001",
+            "extId" : "740000001",
+            "routeIdx" : 10,
+            "lon" : 18.058151,
+            "lat" : 59.330136,
+            "arrTime" : "15:35:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Snabbtåg 534",
+        "transportNumber" : "534",
+        "transportCategory" : "JST",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "time" : "15:35:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "time" : "15:55:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 0
+      }, {
+        "Origin" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "routeIdx" : 12,
+          "time" : "15:55:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 17,
+          "time" : "16:05:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik -Tunnelbana 17",
+          "num" : "17",
+          "catCode" : "5",
+          "catOutS" : "ULT",
+          "catOutL" : "Länstrafik -Tunnelbana",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "T-Centralen T-bana (Stockholm kn)",
+            "id" : "740020749",
+            "extId" : "740020749",
+            "routeIdx" : 12,
+            "lon" : 18.059266,
+            "lat" : 59.330945,
+            "depTime" : "15:55:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Gamla Stan T-bana (Stockholm kn)",
+            "id" : "740021653",
+            "extId" : "740021653",
+            "routeIdx" : 13,
+            "lon" : 18.067617,
+            "lat" : 59.32316,
+            "depTime" : "15:57:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:57:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Slussen T-bana (Stockholm kn)",
+            "id" : "740020101",
+            "extId" : "740020101",
+            "routeIdx" : 14,
+            "lon" : 18.072327,
+            "lat" : 59.319493,
+            "depTime" : "15:58:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:58:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Medborgarplatsen T-bana (Stockholm kn)",
+            "id" : "740021654",
+            "extId" : "740021654",
+            "routeIdx" : 15,
+            "lon" : 18.07355,
+            "lat" : 59.314342,
+            "depTime" : "16:00:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:00:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skanstull T-bana (Stockholm kn)",
+            "id" : "740021655",
+            "extId" : "740021655",
+            "routeIdx" : 16,
+            "lon" : 18.076229,
+            "lat" : 59.307852,
+            "depTime" : "16:01:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:01:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 17,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "arrTime" : "16:05:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik -Tunnelbana 17",
+        "transportNumber" : "17",
+        "transportCategory" : "ULT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Skarpnäck T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 4,
+          "time" : "16:11:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Tämnarvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051530",
+          "extId" : "740051530",
+          "lon" : 18.056506,
+          "lat" : 59.300112,
+          "routeIdx" : 9,
+          "time" : "16:15:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 164",
+          "num" : "164",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 4,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "depTime" : "16:11:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Sköntorpsplan (Stockholm kn)",
+            "id" : "740051368",
+            "extId" : "740051368",
+            "routeIdx" : 5,
+            "lon" : 18.071401,
+            "lat" : 59.298656,
+            "depTime" : "16:12:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:12:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Ymsenvägen (Stockholm kn)",
+            "id" : "740051371",
+            "extId" : "740051371",
+            "routeIdx" : 6,
+            "lon" : 18.068453,
+            "lat" : 59.298476,
+            "depTime" : "16:12:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:12:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skagersvägen (Stockholm kn)",
+            "id" : "740051372",
+            "extId" : "740051372",
+            "routeIdx" : 7,
+            "lon" : 18.065397,
+            "lat" : 59.297829,
+            "depTime" : "16:13:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:13:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vättersvägen (Stockholm kn)",
+            "id" : "740051383",
+            "extId" : "740051383",
+            "routeIdx" : 8,
+            "lon" : 18.060821,
+            "lat" : 59.298449,
+            "depTime" : "16:14:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:14:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Tämnarvägen (Stockholm kn)",
+            "id" : "740051530",
+            "extId" : "740051530",
+            "routeIdx" : 9,
+            "lon" : 18.056506,
+            "lat" : 59.300112,
+            "arrTime" : "16:15:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Buss 164",
+        "transportNumber" : "164",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Årsta Valla Torg (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Tämnarvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051530",
+          "extId" : "740051530",
+          "lon" : 18.056506,
+          "lat" : 59.300112,
+          "time" : "16:15:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "16:19:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT4M",
+        "dist" : 194
+      } ]
+    },
+    "idx" : 0,
+    "tripId" : "C-0",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$201909101159$201909101210$$$1$§T$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$A=1@O=Nässjö Centralstation@L=740000140@a=128@$201909101210$201909101242$JLT 7225$$1$§T$A=1@O=Nässjö Centralstation@L=740000140@a=128@$A=1@O=Stockholm Centralstation@L=740000001@a=128@$201909101304$201909101535$JST  534$$1$§TF$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201909101535$201909101555$$$1$§T$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$201909101555$201909101605$ULT   17$$1$§T$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$A=1@O=Tämnarvägen (Stockholm kn)@L=740051530@a=128@$201909101611$201909101615$BLT  164$$1$§G@F$A=1@O=Tämnarvägen (Stockholm kn)@L=740051530@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909101615$201909101619$$$1$",
+    "duration" : "PT4H20M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "27. Aug until 11. Sep 2019 Mo - Fr; not 9. Sep",
+      "sDaysB" : "1F3E30000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "12:23:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Kungsporten (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740039409",
+          "extId" : "740039409",
+          "lon" : 14.261278,
+          "lat" : 57.781789,
+          "time" : "12:29:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT6M",
+        "dist" : 335
+      }, {
+        "Origin" : {
+          "name" : "Kungsporten (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740039409",
+          "extId" : "740039409",
+          "lon" : 14.261278,
+          "lat" : 57.781789,
+          "routeIdx" : 4,
+          "time" : "12:29:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Jönköping Juneporten",
+          "type" : "ST",
+          "id" : "740020260",
+          "extId" : "740020260",
+          "lon" : 14.161489,
+          "lat" : 57.783515,
+          "routeIdx" : 20,
+          "time" : "12:50:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 2",
+          "num" : "2",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "254",
+          "operator" : "JLT",
+          "operatorUrl" : "http://www.jlt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kungsporten (Jönköping kn)",
+            "id" : "740039409",
+            "extId" : "740039409",
+            "routeIdx" : 4,
+            "lon" : 14.261278,
+            "lat" : 57.781789,
+            "depTime" : "12:29:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Kittendorffs gata (Jönköping kn)",
+            "id" : "740039715",
+            "extId" : "740039715",
+            "routeIdx" : 5,
+            "lon" : 14.25148,
+            "lat" : 57.781888,
+            "depTime" : "12:30:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:30:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Kungsängen (Jönköping kn)",
+            "id" : "740039714",
+            "extId" : "740039714",
+            "routeIdx" : 6,
+            "lon" : 14.245107,
+            "lat" : 57.782957,
+            "depTime" : "12:31:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:31:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Gullregnsbacken (Jönköping kn)",
+            "id" : "740039713",
+            "extId" : "740039713",
+            "routeIdx" : 7,
+            "lon" : 14.234787,
+            "lat" : 57.78053,
+            "depTime" : "12:32:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:32:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Resedastigen (Jönköping kn)",
+            "id" : "740039408",
+            "extId" : "740039408",
+            "routeIdx" : 8,
+            "lon" : 14.229915,
+            "lat" : 57.77982,
+            "depTime" : "12:33:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:33:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Ekhagen centrum",
+            "id" : "740025508",
+            "extId" : "740025508",
+            "routeIdx" : 9,
+            "lon" : 14.223038,
+            "lat" : 57.777879,
+            "depTime" : "12:35:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:35:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Rosenlundsskolan (Jönköping kn)",
+            "id" : "740039587",
+            "extId" : "740039587",
+            "routeIdx" : 10,
+            "lon" : 14.215047,
+            "lat" : 57.778382,
+            "depTime" : "12:36:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:36:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Hermansplan (Jönköping kn)",
+            "id" : "740039586",
+            "extId" : "740039586",
+            "routeIdx" : 11,
+            "lon" : 14.211946,
+            "lat" : 57.77707,
+            "depTime" : "12:37:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:37:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Rosenlunds Vårdcentrum (Jönköping kn)",
+            "id" : "740039702",
+            "extId" : "740039702",
+            "routeIdx" : 12,
+            "lon" : 14.206148,
+            "lat" : 57.777393,
+            "depTime" : "12:38:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:38:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Starrgatan (Jönköping kn)",
+            "id" : "740039585",
+            "extId" : "740039585",
+            "routeIdx" : 13,
+            "lon" : 14.203091,
+            "lat" : 57.779272,
+            "depTime" : "12:38:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:38:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Kilallén",
+            "id" : "740025486",
+            "extId" : "740025486",
+            "routeIdx" : 14,
+            "lon" : 14.196556,
+            "lat" : 57.781339,
+            "depTime" : "12:40:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:40:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Cigarren",
+            "id" : "740004234",
+            "extId" : "740004234",
+            "routeIdx" : 15,
+            "lon" : 14.185769,
+            "lat" : 57.781375,
+            "depTime" : "12:42:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:42:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Östra torget (Jönköping kn)",
+            "id" : "740039654",
+            "extId" : "740039654",
+            "routeIdx" : 16,
+            "lon" : 14.18034,
+            "lat" : 57.780593,
+            "depTime" : "12:44:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:44:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stadsbiblioteket (Jönköping kn)",
+            "id" : "740039397",
+            "extId" : "740039397",
+            "routeIdx" : 17,
+            "lon" : 14.175683,
+            "lat" : 57.780467,
+            "depTime" : "12:45:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:45:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Östra centrum",
+            "id" : "740024353",
+            "extId" : "740024353",
+            "routeIdx" : 18,
+            "lon" : 14.172537,
+            "lat" : 57.781025,
+            "depTime" : "12:46:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:46:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Rådhusparken",
+            "id" : "740024006",
+            "extId" : "740024006",
+            "routeIdx" : 19,
+            "lon" : 14.168069,
+            "lat" : 57.782787,
+            "depTime" : "12:48:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:48:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Juneporten",
+            "id" : "740020260",
+            "extId" : "740020260",
+            "routeIdx" : 20,
+            "lon" : 14.161489,
+            "lat" : 57.783515,
+            "arrTime" : "12:50:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 2",
+        "transportNumber" : "2",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Hisingsängens vändplan (Jönköping kn)"
+      }, {
+        "Origin" : {
+          "name" : "Jönköping Juneporten",
+          "type" : "ST",
+          "id" : "740020260",
+          "extId" : "740020260",
+          "lon" : 14.161489,
+          "lat" : 57.783515,
+          "time" : "12:50:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Jönköping Centralstation",
+          "type" : "ST",
+          "id" : "740000090",
+          "extId" : "740000090",
+          "lon" : 14.163323,
+          "lat" : 57.78471,
+          "time" : "13:00:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "2",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT10M",
+        "dist" : 200
+      }, {
+        "Origin" : {
+          "name" : "Jönköping Centralstation",
+          "type" : "ST",
+          "id" : "740000090",
+          "extId" : "740000090",
+          "lon" : 14.163323,
+          "lat" : 57.78471,
+          "routeIdx" : 0,
+          "time" : "13:00:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Falköping Centralstation",
+          "type" : "ST",
+          "id" : "740000060",
+          "extId" : "740000060",
+          "lon" : 13.553791,
+          "lat" : 58.176101,
+          "routeIdx" : 1,
+          "time" : "14:04:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss BUSS",
+          "num" : "BUSS",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "279",
+          "operator" : "Västtrafik",
+          "operatorUrl" : "http://www.vasttrafik.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Jönköping Centralstation",
+            "id" : "740000090",
+            "extId" : "740000090",
+            "routeIdx" : 0,
+            "lon" : 14.163323,
+            "lat" : 57.78471,
+            "depTime" : "13:00:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Falköping Centralstation",
+            "id" : "740000060",
+            "extId" : "740000060",
+            "routeIdx" : 1,
+            "lon" : 13.553791,
+            "lat" : 58.176101,
+            "arrTime" : "14:04:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "3",
+        "name" : "Länstrafik - Buss BUSS",
+        "transportNumber" : "BUSS",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Falköping Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Falköping Centralstation",
+          "type" : "ST",
+          "id" : "740000060",
+          "extId" : "740000060",
+          "lon" : 13.553791,
+          "lat" : 58.176101,
+          "routeIdx" : 4,
+          "time" : "15:01:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Hallsberg station",
+          "type" : "ST",
+          "id" : "740000077",
+          "extId" : "740000077",
+          "lon" : 15.110382,
+          "lat" : 59.067102,
+          "routeIdx" : 8,
+          "time" : "16:20:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "2 kl har ej reservering",
+            "key" : "AB",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "WiFi",
+            "key" : "AW",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Eluttag, bokas",
+            "key" : "EL",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Servering finns ej",
+            "key" : "SI",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 180",
+          "num" : "180",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Falköping Centralstation",
+            "id" : "740000060",
+            "extId" : "740000060",
+            "routeIdx" : 4,
+            "lon" : 13.553791,
+            "lat" : 58.176101,
+            "depTime" : "15:01:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Skövde Centralstation",
+            "id" : "740000008",
+            "extId" : "740000008",
+            "routeIdx" : 5,
+            "lon" : 13.853195,
+            "lat" : 58.390898,
+            "depTime" : "15:18:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:18:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Töreboda station",
+            "id" : "740000183",
+            "extId" : "740000183",
+            "routeIdx" : 6,
+            "lon" : 14.128391,
+            "lat" : 58.706024,
+            "depTime" : "15:35:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:35:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Laxå station",
+            "id" : "740000194",
+            "extId" : "740000194",
+            "routeIdx" : 7,
+            "lon" : 14.616658,
+            "lat" : 58.989391,
+            "depTime" : "15:55:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:55:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Hallsberg station",
+            "id" : "740000077",
+            "extId" : "740000077",
+            "routeIdx" : 8,
+            "lon" : 15.110382,
+            "lat" : 59.067102,
+            "arrTime" : "16:20:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Regional Tåg 180",
+        "transportNumber" : "180",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Hallsberg station",
+          "type" : "ST",
+          "id" : "740000077",
+          "extId" : "740000077",
+          "lon" : 15.110382,
+          "lat" : 59.067102,
+          "routeIdx" : 2,
+          "time" : "16:38:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "routeIdx" : 5,
+          "time" : "18:13:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Bistrovagn",
+            "key" : "AD",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Obligatorisk platsbokning",
+            "key" : "AF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Maträtt",
+            "key" : "SM",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "InterCity 608",
+          "num" : "608",
+          "catCode" : "2",
+          "catOutS" : "JIC",
+          "catOutL" : "InterCity",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hallsberg station",
+            "id" : "740000077",
+            "extId" : "740000077",
+            "routeIdx" : 2,
+            "lon" : 15.110382,
+            "lat" : 59.067102,
+            "depTime" : "16:38:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Katrineholm Centralstation",
+            "id" : "740000166",
+            "extId" : "740000166",
+            "routeIdx" : 3,
+            "lon" : 16.208324,
+            "lat" : 58.996591,
+            "depTime" : "17:09:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:08:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Södertälje Syd station",
+            "id" : "740000055",
+            "extId" : "740000055",
+            "routeIdx" : 4,
+            "lon" : 17.645367,
+            "lat" : 59.162415,
+            "arrTime" : "17:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stockholm Centralstation",
+            "id" : "740000001",
+            "extId" : "740000001",
+            "routeIdx" : 5,
+            "lon" : 18.058151,
+            "lat" : 59.330136,
+            "arrTime" : "18:13:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "InterCity 608",
+        "transportNumber" : "608",
+        "transportCategory" : "JIC",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "time" : "18:13:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "time" : "18:33:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 0
+      }, {
+        "Origin" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "routeIdx" : 12,
+          "time" : "18:33:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 17,
+          "time" : "18:42:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik -Tunnelbana 17",
+          "num" : "17",
+          "catCode" : "5",
+          "catOutS" : "ULT",
+          "catOutL" : "Länstrafik -Tunnelbana",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "T-Centralen T-bana (Stockholm kn)",
+            "id" : "740020749",
+            "extId" : "740020749",
+            "routeIdx" : 12,
+            "lon" : 18.059266,
+            "lat" : 59.330945,
+            "depTime" : "18:33:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Gamla Stan T-bana (Stockholm kn)",
+            "id" : "740021653",
+            "extId" : "740021653",
+            "routeIdx" : 13,
+            "lon" : 18.067617,
+            "lat" : 59.32316,
+            "depTime" : "18:34:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:34:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Slussen T-bana (Stockholm kn)",
+            "id" : "740020101",
+            "extId" : "740020101",
+            "routeIdx" : 14,
+            "lon" : 18.072327,
+            "lat" : 59.319493,
+            "depTime" : "18:36:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:36:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Medborgarplatsen T-bana (Stockholm kn)",
+            "id" : "740021654",
+            "extId" : "740021654",
+            "routeIdx" : 15,
+            "lon" : 18.07355,
+            "lat" : 59.314342,
+            "depTime" : "18:37:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:37:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skanstull T-bana (Stockholm kn)",
+            "id" : "740021655",
+            "extId" : "740021655",
+            "routeIdx" : 16,
+            "lon" : 18.076229,
+            "lat" : 59.307852,
+            "depTime" : "18:39:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:39:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 17,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "arrTime" : "18:42:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "7",
+        "name" : "Länstrafik -Tunnelbana 17",
+        "transportNumber" : "17",
+        "transportCategory" : "ULT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Skarpnäck T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 0,
+          "time" : "18:50:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Vättersvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051383",
+          "extId" : "740051383",
+          "lon" : 18.060821,
+          "lat" : 59.298449,
+          "routeIdx" : 4,
+          "time" : "18:53:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 160",
+          "num" : "160",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 0,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "depTime" : "18:50:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Sköntorpsplan (Stockholm kn)",
+            "id" : "740051368",
+            "extId" : "740051368",
+            "routeIdx" : 1,
+            "lon" : 18.071401,
+            "lat" : 59.298656,
+            "depTime" : "18:51:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:51:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Ymsenvägen (Stockholm kn)",
+            "id" : "740051371",
+            "extId" : "740051371",
+            "routeIdx" : 2,
+            "lon" : 18.068453,
+            "lat" : 59.298476,
+            "depTime" : "18:52:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skagersvägen (Stockholm kn)",
+            "id" : "740051372",
+            "extId" : "740051372",
+            "routeIdx" : 3,
+            "lon" : 18.065397,
+            "lat" : 59.297829,
+            "depTime" : "18:53:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:53:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vättersvägen (Stockholm kn)",
+            "id" : "740051383",
+            "extId" : "740051383",
+            "routeIdx" : 4,
+            "lon" : 18.060821,
+            "lat" : 59.298449,
+            "arrTime" : "18:53:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "8",
+        "name" : "Länstrafik - Buss 160",
+        "transportNumber" : "160",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Liljeholmen T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Vättersvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051383",
+          "extId" : "740051383",
+          "lon" : 18.060821,
+          "lat" : 59.298449,
+          "time" : "18:53:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "18:58:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "9",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT5M",
+        "dist" : 287
+      } ]
+    },
+    "idx" : 1,
+    "tripId" : "C-1",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Kungsporten (Jönköping kn)@L=740039409@a=128@$201909101223$201909101229$$$1$§T$A=1@O=Kungsporten (Jönköping kn)@L=740039409@a=128@$A=1@O=Jönköping Juneporten@L=740020260@a=128@$201909101229$201909101250$BLT    2$$1$§W$A=1@O=Jönköping Juneporten@L=740020260@a=128@$A=1@O=Jönköping Centralstation@L=740000090@a=128@$201909101250$201909101300$$$1$§T$A=1@O=Jönköping Centralstation@L=740000090@a=128@$A=1@O=Falköping Centralstation@L=740000060@a=128@$201909101300$201909101404$BLT BUSS$$1$§T$A=1@O=Falköping Centralstation@L=740000060@a=128@$A=1@O=Hallsberg station@L=740000077@a=128@$201909101501$201909101620$JRE  180$$1$§T$A=1@O=Hallsberg station@L=740000077@a=128@$A=1@O=Stockholm Centralstation@L=740000001@a=128@$201909101638$201909101813$JIC  608$$1$§TF$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201909101813$201909101833$$$1$§T$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$201909101833$201909101842$ULT   17$$1$§T$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$A=1@O=Vättersvägen (Stockholm kn)@L=740051383@a=128@$201909101850$201909101853$BLT  160$$1$§G@F$A=1@O=Vättersvägen (Stockholm kn)@L=740051383@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909101853$201909101858$$$1$",
+    "duration" : "PT6H35M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "27. Aug until 13. Sep 2019 Mo - Fr; 21. Oct until 8. Nov 2019 Mo - Fr; also 30. Sep until 4. Oct 2019, 7. until 11. Oct 2019, 2. until 6. Dec 2019",
+      "sDaysB" : "1F3E7C0003E7C01F3E7C000007C000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "12:34:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "time" : "12:45:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 749
+      }, {
+        "Origin" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "routeIdx" : 1,
+          "time" : "12:45:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Tranås station",
+          "type" : "ST",
+          "id" : "740000041",
+          "extId" : "740000041",
+          "lon" : 14.975022,
+          "lat" : 58.037963,
+          "routeIdx" : 6,
+          "time" : "13:48:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 1,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 1,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 27616",
+          "num" : "27616",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "254",
+          "operator" : "JLT",
+          "operatorUrl" : "http://www.jlt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Huskvarna station (Jönköping kn)",
+            "id" : "740000620",
+            "extId" : "740000620",
+            "routeIdx" : 1,
+            "lon" : 14.265306,
+            "lat" : 57.78249,
+            "depTime" : "12:45:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Tenhult station (Jönköping kn)",
+            "id" : "740000171",
+            "extId" : "740000171",
+            "routeIdx" : 2,
+            "lon" : 14.326396,
+            "lat" : 57.705174,
+            "depTime" : "12:52:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Forserum station (Nässjö kn)",
+            "id" : "740000034",
+            "extId" : "740000034",
+            "routeIdx" : 3,
+            "lon" : 14.473972,
+            "lat" : 57.697839,
+            "depTime" : "13:02:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:00:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 4,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "depTime" : "13:20:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:13:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Aneby station",
+            "id" : "740000379",
+            "extId" : "740000379",
+            "routeIdx" : 5,
+            "lon" : 14.810816,
+            "lat" : 57.836237,
+            "depTime" : "13:32:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:32:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Tranås station",
+            "id" : "740000041",
+            "extId" : "740000041",
+            "routeIdx" : 6,
+            "lon" : 14.975022,
+            "lat" : 58.037963,
+            "arrTime" : "13:48:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Tåg 27616",
+        "transportNumber" : "27616",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Tranås station"
+      }, {
+        "Origin" : {
+          "name" : "Tranås station",
+          "type" : "ST",
+          "id" : "740000041",
+          "extId" : "740000041",
+          "lon" : 14.975022,
+          "lat" : 58.037963,
+          "routeIdx" : 0,
+          "time" : "13:55:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Mjölby station",
+          "type" : "ST",
+          "id" : "740000180",
+          "extId" : "740000180",
+          "lon" : 15.131992,
+          "lat" : 58.322984,
+          "routeIdx" : 2,
+          "time" : "14:15:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Östgötapendeln",
+            "key" : "VF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 2
+          }, {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 2
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 2
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 18840",
+          "num" : "18840",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "253",
+          "operator" : "ÖstgötaTrafiken",
+          "operatorUrl" : "http://www.ostgotatrafiken.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Tranås station",
+            "id" : "740000041",
+            "extId" : "740000041",
+            "routeIdx" : 0,
+            "lon" : 14.975022,
+            "lat" : 58.037963,
+            "depTime" : "13:55:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Boxholm station",
+            "id" : "740000015",
+            "extId" : "740000015",
+            "routeIdx" : 1,
+            "lon" : 15.054145,
+            "lat" : 58.193657,
+            "depTime" : "14:05:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:05:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Mjölby station",
+            "id" : "740000180",
+            "extId" : "740000180",
+            "routeIdx" : 2,
+            "lon" : 15.131992,
+            "lat" : 58.322984,
+            "arrTime" : "14:15:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Länstrafik - Tåg 18840",
+        "transportNumber" : "18840",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Mjölby station"
+      }, {
+        "Origin" : {
+          "name" : "Mjölby station",
+          "type" : "ST",
+          "id" : "740000180",
+          "extId" : "740000180",
+          "lon" : 15.131992,
+          "lat" : 58.322984,
+          "routeIdx" : 2,
+          "time" : "14:25:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "routeIdx" : 8,
+          "time" : "15:12:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Östgötapendeln",
+            "key" : "VF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 8
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 8740",
+          "num" : "8740",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "253",
+          "operator" : "ÖstgötaTrafiken",
+          "operatorUrl" : "http://www.ostgotatrafiken.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Mjölby station",
+            "id" : "740000180",
+            "extId" : "740000180",
+            "routeIdx" : 2,
+            "lon" : 15.131992,
+            "lat" : 58.322984,
+            "depTime" : "14:25:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Mantorp station (Mjölby kn)",
+            "id" : "740000616",
+            "extId" : "740000616",
+            "routeIdx" : 3,
+            "lon" : 15.290732,
+            "lat" : 58.348622,
+            "depTime" : "14:30:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:30:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vikingstad station (Linköping kn)",
+            "id" : "740000868",
+            "extId" : "740000868",
+            "routeIdx" : 4,
+            "lon" : 15.431971,
+            "lat" : 58.383167,
+            "depTime" : "14:36:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:36:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Linköping Centralstation",
+            "id" : "740000009",
+            "extId" : "740000009",
+            "routeIdx" : 5,
+            "lon" : 15.62496,
+            "lat" : 58.416634,
+            "depTime" : "14:45:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:44:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Linghem station (Linköping kn)",
+            "id" : "740000849",
+            "extId" : "740000849",
+            "routeIdx" : 6,
+            "lon" : 15.787188,
+            "lat" : 58.436689,
+            "depTime" : "14:50:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:50:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Kimstad station (Norrköping kn)",
+            "id" : "740068883",
+            "extId" : "740068883",
+            "routeIdx" : 7,
+            "lon" : 15.971764,
+            "lat" : 58.546106,
+            "depTime" : "15:00:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:00:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 8,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "arrTime" : "15:12:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "3",
+        "name" : "Länstrafik - Tåg 8740",
+        "transportNumber" : "8740",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Norrköping Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "routeIdx" : 0,
+          "time" : "15:30:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 5,
+          "time" : "17:10:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 238",
+          "num" : "238",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 0,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "15:30:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Kolmården station (Norrköping kn)",
+            "id" : "740001545",
+            "extId" : "740001545",
+            "routeIdx" : 1,
+            "lon" : 16.362597,
+            "lat" : 58.675424,
+            "depTime" : "15:47:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:47:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Nyköping Centralstation",
+            "id" : "740000050",
+            "extId" : "740000050",
+            "routeIdx" : 2,
+            "lon" : 16.994781,
+            "lat" : 58.755689,
+            "depTime" : "16:17:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:14:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vagnhärad station (Trosa kn)",
+            "id" : "740000605",
+            "extId" : "740000605",
+            "routeIdx" : 3,
+            "lon" : 17.496694,
+            "lat" : 58.945739,
+            "depTime" : "16:40:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:40:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Södertälje Syd station",
+            "id" : "740000055",
+            "extId" : "740000055",
+            "routeIdx" : 4,
+            "lon" : 17.645367,
+            "lat" : 59.162415,
+            "depTime" : "16:58:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:58:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 5,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "arrTime" : "17:10:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Regional Tåg 238",
+        "transportNumber" : "238",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 6,
+          "time" : "17:29:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Årstaberg station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740024920",
+          "extId" : "740024920",
+          "lon" : 18.030231,
+          "lat" : 59.299231,
+          "routeIdx" : 10,
+          "time" : "17:42:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2754",
+          "num" : "2754",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 6,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "depTime" : "17:29:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Huddinge station",
+            "id" : "740000702",
+            "extId" : "740000702",
+            "routeIdx" : 7,
+            "lon" : 17.98026,
+            "lat" : 59.237277,
+            "depTime" : "17:32:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:32:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stuvsta station (Huddinge kn)",
+            "id" : "740000772",
+            "extId" : "740000772",
+            "routeIdx" : 8,
+            "lon" : 17.995739,
+            "lat" : 59.253224,
+            "depTime" : "17:35:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:35:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 9,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "depTime" : "17:39:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:39:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 10,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "arrTime" : "17:42:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Tåg 2754",
+        "transportNumber" : "2754",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Märsta station (Sigtuna kn)"
+      }, {
+        "Origin" : {
+          "name" : "Årstaberg station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740024920",
+          "extId" : "740024920",
+          "lon" : 18.030231,
+          "lat" : 59.299231,
+          "routeIdx" : 0,
+          "time" : "17:52:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "routeIdx" : 5,
+          "time" : "17:58:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 160",
+          "num" : "160",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 0,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "17:52:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Årsta gård (Stockholm kn)",
+            "id" : "740051857",
+            "extId" : "740051857",
+            "routeIdx" : 1,
+            "lon" : 18.037377,
+            "lat" : 59.302116,
+            "depTime" : "17:53:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:53:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Ottsjövägen (Stockholm kn)",
+            "id" : "740051858",
+            "extId" : "740051858",
+            "routeIdx" : 2,
+            "lon" : 18.042348,
+            "lat" : 59.29986,
+            "depTime" : "17:55:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:55:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Åmänningevägen (Stockholm kn)",
+            "id" : "740053026",
+            "extId" : "740053026",
+            "routeIdx" : 3,
+            "lon" : 18.047005,
+            "lat" : 59.298287,
+            "depTime" : "17:56:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:56:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Årsta torg (Stockholm kn)",
+            "id" : "740053057",
+            "extId" : "740053057",
+            "routeIdx" : 4,
+            "lon" : 18.051796,
+            "lat" : 59.296687,
+            "depTime" : "17:57:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:57:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Årstaskolan (Stockholm kn)",
+            "id" : "740051531",
+            "extId" : "740051531",
+            "routeIdx" : 5,
+            "lon" : 18.055625,
+            "lat" : 59.299024,
+            "arrTime" : "17:58:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "6",
+        "name" : "Länstrafik - Buss 160",
+        "transportNumber" : "160",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Gullmarsplan T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "time" : "17:58:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "18:02:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "7",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT4M",
+        "dist" : 211
+      } ]
+    },
+    "idx" : 2,
+    "tripId" : "C-2",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$201909101234$201909101245$$$1$§T$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$A=1@O=Tranås station@L=740000041@a=128@$201909101245$201909101348$JLT27616$$1$§T$A=1@O=Tranås station@L=740000041@a=128@$A=1@O=Mjölby station@L=740000180@a=128@$201909101355$201909101415$JLT18840$$1$§T$A=1@O=Mjölby station@L=740000180@a=128@$A=1@O=Norrköping Centralstation@L=740000007@a=128@$201909101425$201909101512$JLT 8740$$1$§T$A=1@O=Norrköping Centralstation@L=740000007@a=128@$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$201909101530$201909101710$JRE  238$$1$§T$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$A=1@O=Årstaberg station (Stockholm kn)@L=740024920@a=128@$201909101729$201909101742$JLT 2754$$1$§T$A=1@O=Årstaberg station (Stockholm kn)@L=740024920@a=128@$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$201909101752$201909101758$BLT  160$$1$§G@F$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909101758$201909101802$$$1$",
+    "duration" : "PT5H28M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "27. Aug until 13. Sep 2019 Mo - Fr; 21. Oct until 8. Nov 2019 Mo - Fr; also 30. Sep until 4. Oct 2019, 7. until 11. Oct 2019, 2. until 6. Dec 2019",
+      "sDaysB" : "1F3E7C0003E7C01F3E7C000007C000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "12:34:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "time" : "12:45:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 749
+      }, {
+        "Origin" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "routeIdx" : 1,
+          "time" : "12:45:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Tranås station",
+          "type" : "ST",
+          "id" : "740000041",
+          "extId" : "740000041",
+          "lon" : 14.975022,
+          "lat" : 58.037963,
+          "routeIdx" : 6,
+          "time" : "13:48:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 1,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 1,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 27616",
+          "num" : "27616",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "254",
+          "operator" : "JLT",
+          "operatorUrl" : "http://www.jlt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Huskvarna station (Jönköping kn)",
+            "id" : "740000620",
+            "extId" : "740000620",
+            "routeIdx" : 1,
+            "lon" : 14.265306,
+            "lat" : 57.78249,
+            "depTime" : "12:45:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Tenhult station (Jönköping kn)",
+            "id" : "740000171",
+            "extId" : "740000171",
+            "routeIdx" : 2,
+            "lon" : 14.326396,
+            "lat" : 57.705174,
+            "depTime" : "12:52:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Forserum station (Nässjö kn)",
+            "id" : "740000034",
+            "extId" : "740000034",
+            "routeIdx" : 3,
+            "lon" : 14.473972,
+            "lat" : 57.697839,
+            "depTime" : "13:02:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:00:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 4,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "depTime" : "13:20:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:13:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Aneby station",
+            "id" : "740000379",
+            "extId" : "740000379",
+            "routeIdx" : 5,
+            "lon" : 14.810816,
+            "lat" : 57.836237,
+            "depTime" : "13:32:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:32:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Tranås station",
+            "id" : "740000041",
+            "extId" : "740000041",
+            "routeIdx" : 6,
+            "lon" : 14.975022,
+            "lat" : 58.037963,
+            "arrTime" : "13:48:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Tåg 27616",
+        "transportNumber" : "27616",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Tranås station"
+      }, {
+        "Origin" : {
+          "name" : "Tranås station",
+          "type" : "ST",
+          "id" : "740000041",
+          "extId" : "740000041",
+          "lon" : 14.975022,
+          "lat" : 58.037963,
+          "routeIdx" : 0,
+          "time" : "14:49:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "routeIdx" : 8,
+          "time" : "15:57:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Östgötapendeln",
+            "key" : "VF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 8
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 8844",
+          "num" : "8844",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "253",
+          "operator" : "ÖstgötaTrafiken",
+          "operatorUrl" : "http://www.ostgotatrafiken.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Tranås station",
+            "id" : "740000041",
+            "extId" : "740000041",
+            "routeIdx" : 0,
+            "lon" : 14.975022,
+            "lat" : 58.037963,
+            "depTime" : "14:49:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Boxholm station",
+            "id" : "740000015",
+            "extId" : "740000015",
+            "routeIdx" : 1,
+            "lon" : 15.054145,
+            "lat" : 58.193657,
+            "depTime" : "14:59:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:59:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Mjölby station",
+            "id" : "740000180",
+            "extId" : "740000180",
+            "routeIdx" : 2,
+            "lon" : 15.131992,
+            "lat" : 58.322984,
+            "depTime" : "15:10:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:09:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Mantorp station (Mjölby kn)",
+            "id" : "740000616",
+            "extId" : "740000616",
+            "routeIdx" : 3,
+            "lon" : 15.290732,
+            "lat" : 58.348622,
+            "depTime" : "15:15:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:15:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vikingstad station (Linköping kn)",
+            "id" : "740000868",
+            "extId" : "740000868",
+            "routeIdx" : 4,
+            "lon" : 15.431971,
+            "lat" : 58.383167,
+            "depTime" : "15:21:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:21:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Linköping Centralstation",
+            "id" : "740000009",
+            "extId" : "740000009",
+            "routeIdx" : 5,
+            "lon" : 15.62496,
+            "lat" : 58.416634,
+            "depTime" : "15:30:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:29:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Linghem station (Linköping kn)",
+            "id" : "740000849",
+            "extId" : "740000849",
+            "routeIdx" : 6,
+            "lon" : 15.787188,
+            "lat" : 58.436689,
+            "depTime" : "15:35:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:35:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Kimstad station (Norrköping kn)",
+            "id" : "740068883",
+            "extId" : "740068883",
+            "routeIdx" : 7,
+            "lon" : 15.971764,
+            "lat" : 58.546106,
+            "depTime" : "15:45:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:45:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 8,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "arrTime" : "15:57:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Länstrafik - Tåg 8844",
+        "transportNumber" : "8844",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Norrköping Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Norrköping Centralstation",
+          "type" : "ST",
+          "id" : "740000007",
+          "extId" : "740000007",
+          "lon" : 16.183343,
+          "lat" : 58.596625,
+          "routeIdx" : 0,
+          "time" : "16:30:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 5,
+          "time" : "18:15:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 0,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 240",
+          "num" : "240",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 0,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "16:30:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Kolmården station (Norrköping kn)",
+            "id" : "740001545",
+            "extId" : "740001545",
+            "routeIdx" : 1,
+            "lon" : 16.362597,
+            "lat" : 58.675424,
+            "depTime" : "16:47:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:47:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Nyköping Centralstation",
+            "id" : "740000050",
+            "extId" : "740000050",
+            "routeIdx" : 2,
+            "lon" : 16.994781,
+            "lat" : 58.755689,
+            "depTime" : "17:15:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:14:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vagnhärad station (Trosa kn)",
+            "id" : "740000605",
+            "extId" : "740000605",
+            "routeIdx" : 3,
+            "lon" : 17.496694,
+            "lat" : 58.945739,
+            "depTime" : "17:46:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:46:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Södertälje Syd station",
+            "id" : "740000055",
+            "extId" : "740000055",
+            "routeIdx" : 4,
+            "lon" : 17.645367,
+            "lat" : 59.162415,
+            "depTime" : "18:03:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:03:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 5,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "arrTime" : "18:15:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "3",
+        "name" : "Regional Tåg 240",
+        "transportNumber" : "240",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Flemingsberg station (Huddinge kn)",
+          "type" : "ST",
+          "id" : "740000031",
+          "extId" : "740000031",
+          "lon" : 17.945678,
+          "lat" : 59.217959,
+          "routeIdx" : 6,
+          "time" : "18:36:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Årstaberg station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740024920",
+          "extId" : "740024920",
+          "lon" : 18.030231,
+          "lat" : 59.299231,
+          "routeIdx" : 10,
+          "time" : "18:49:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 2958",
+          "num" : "2958",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Flemingsberg station (Huddinge kn)",
+            "id" : "740000031",
+            "extId" : "740000031",
+            "routeIdx" : 6,
+            "lon" : 17.945678,
+            "lat" : 59.217959,
+            "depTime" : "18:36:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Huddinge station",
+            "id" : "740000702",
+            "extId" : "740000702",
+            "routeIdx" : 7,
+            "lon" : 17.98026,
+            "lat" : 59.237277,
+            "depTime" : "18:39:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:39:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stuvsta station (Huddinge kn)",
+            "id" : "740000772",
+            "extId" : "740000772",
+            "routeIdx" : 8,
+            "lon" : 17.995739,
+            "lat" : 59.253224,
+            "depTime" : "18:42:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:42:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Älvsjö station (Stockholm kn)",
+            "id" : "740000789",
+            "extId" : "740000789",
+            "routeIdx" : 9,
+            "lon" : 18.011066,
+            "lat" : 59.278736,
+            "depTime" : "18:46:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:46:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 10,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "arrTime" : "18:49:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik - Tåg 2958",
+        "transportNumber" : "2958",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Upplands Väsby station"
+      }, {
+        "Origin" : {
+          "name" : "Årstaberg station (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740024920",
+          "extId" : "740024920",
+          "lon" : 18.030231,
+          "lat" : 59.299231,
+          "routeIdx" : 4,
+          "time" : "18:57:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "routeIdx" : 9,
+          "time" : "19:03:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 160",
+          "num" : "160",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Årstaberg station (Stockholm kn)",
+            "id" : "740024920",
+            "extId" : "740024920",
+            "routeIdx" : 4,
+            "lon" : 18.030231,
+            "lat" : 59.299231,
+            "depTime" : "18:57:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Årsta gård (Stockholm kn)",
+            "id" : "740051857",
+            "extId" : "740051857",
+            "routeIdx" : 5,
+            "lon" : 18.037377,
+            "lat" : 59.302116,
+            "depTime" : "18:58:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:58:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Ottsjövägen (Stockholm kn)",
+            "id" : "740051858",
+            "extId" : "740051858",
+            "routeIdx" : 6,
+            "lon" : 18.042348,
+            "lat" : 59.29986,
+            "depTime" : "19:00:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "19:00:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Åmänningevägen (Stockholm kn)",
+            "id" : "740053026",
+            "extId" : "740053026",
+            "routeIdx" : 7,
+            "lon" : 18.047005,
+            "lat" : 59.298287,
+            "depTime" : "19:01:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "19:01:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Årsta torg (Stockholm kn)",
+            "id" : "740053057",
+            "extId" : "740053057",
+            "routeIdx" : 8,
+            "lon" : 18.051796,
+            "lat" : 59.296687,
+            "depTime" : "19:02:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "19:02:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Årstaskolan (Stockholm kn)",
+            "id" : "740051531",
+            "extId" : "740051531",
+            "routeIdx" : 9,
+            "lon" : 18.055625,
+            "lat" : 59.299024,
+            "arrTime" : "19:03:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Buss 160",
+        "transportNumber" : "160",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Gullmarsplan T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "time" : "19:03:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "19:07:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT4M",
+        "dist" : 211
+      } ]
+    },
+    "idx" : 3,
+    "tripId" : "C-3",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$201909101234$201909101245$$$1$§T$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$A=1@O=Tranås station@L=740000041@a=128@$201909101245$201909101348$JLT27616$$1$§T$A=1@O=Tranås station@L=740000041@a=128@$A=1@O=Norrköping Centralstation@L=740000007@a=128@$201909101449$201909101557$JLT 8844$$1$§T$A=1@O=Norrköping Centralstation@L=740000007@a=128@$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$201909101630$201909101815$JRE  240$$1$§T$A=1@O=Flemingsberg station (Huddinge kn)@L=740000031@a=128@$A=1@O=Årstaberg station (Stockholm kn)@L=740024920@a=128@$201909101836$201909101849$JLT 2958$$1$§T$A=1@O=Årstaberg station (Stockholm kn)@L=740024920@a=128@$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$201909101857$201909101903$BLT  160$$1$§G@F$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909101903$201909101907$$$1$",
+    "duration" : "PT6H33M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "2. until 11. Sep 2019 Mo - Fr; not 9. Sep",
+      "sDaysB" : "003E30000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "12:36:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "time" : "12:47:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 749
+      }, {
+        "Origin" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "routeIdx" : 3,
+          "time" : "12:47:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Habo station",
+          "type" : "ST",
+          "id" : "740000231",
+          "extId" : "740000231",
+          "lon" : 14.076766,
+          "lat" : 57.906298,
+          "routeIdx" : 6,
+          "time" : "13:14:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Västtågen",
+            "key" : "VV",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 7228",
+          "num" : "7228",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "279",
+          "operator" : "Västtrafik",
+          "operatorUrl" : "http://www.vasttrafik.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Huskvarna station (Jönköping kn)",
+            "id" : "740000620",
+            "extId" : "740000620",
+            "routeIdx" : 3,
+            "lon" : 14.265306,
+            "lat" : 57.78249,
+            "depTime" : "12:47:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Centralstation",
+            "id" : "740000090",
+            "extId" : "740000090",
+            "routeIdx" : 4,
+            "lon" : 14.163323,
+            "lat" : 57.78471,
+            "depTime" : "13:01:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Bankeryd station (Jönköping kn)",
+            "id" : "740000977",
+            "extId" : "740000977",
+            "routeIdx" : 5,
+            "lon" : 14.128984,
+            "lat" : 57.860903,
+            "depTime" : "13:09:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:08:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Habo station",
+            "id" : "740000231",
+            "extId" : "740000231",
+            "routeIdx" : 6,
+            "lon" : 14.076766,
+            "lat" : 57.906298,
+            "arrTime" : "13:14:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Tåg 7228",
+        "transportNumber" : "7228",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Habo station"
+      }, {
+        "Origin" : {
+          "name" : "Habo station",
+          "type" : "ST",
+          "id" : "740000231",
+          "extId" : "740000231",
+          "lon" : 14.076766,
+          "lat" : 57.906298,
+          "routeIdx" : 0,
+          "time" : "13:24:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Falköping Centralstation",
+          "type" : "ST",
+          "id" : "740000060",
+          "extId" : "740000060",
+          "lon" : 13.553791,
+          "lat" : 58.176101,
+          "routeIdx" : 3,
+          "time" : "14:25:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss BUSS",
+          "num" : "BUSS",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "279",
+          "operator" : "Västtrafik",
+          "operatorUrl" : "http://www.vasttrafik.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Habo station",
+            "id" : "740000231",
+            "extId" : "740000231",
+            "routeIdx" : 0,
+            "lon" : 14.076766,
+            "lat" : 57.906298,
+            "depTime" : "13:24:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Mullsjö Station",
+            "id" : "740000215",
+            "extId" : "740000215",
+            "routeIdx" : 1,
+            "lon" : 13.881709,
+            "lat" : 57.914802,
+            "depTime" : "13:39:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:39:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Sandhem station (Mullsjö kn)",
+            "id" : "740024005",
+            "extId" : "740024005",
+            "routeIdx" : 2,
+            "lon" : 13.772121,
+            "lat" : 57.988388,
+            "depTime" : "13:54:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:54:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Falköping Centralstation",
+            "id" : "740000060",
+            "extId" : "740000060",
+            "routeIdx" : 3,
+            "lon" : 13.553791,
+            "lat" : 58.176101,
+            "arrTime" : "14:25:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Länstrafik - Buss BUSS",
+        "transportNumber" : "BUSS",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Falköping Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Falköping Centralstation",
+          "type" : "ST",
+          "id" : "740000060",
+          "extId" : "740000060",
+          "lon" : 13.553791,
+          "lat" : 58.176101,
+          "routeIdx" : 4,
+          "time" : "15:01:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Hallsberg station",
+          "type" : "ST",
+          "id" : "740000077",
+          "extId" : "740000077",
+          "lon" : 15.110382,
+          "lat" : 59.067102,
+          "routeIdx" : 8,
+          "time" : "16:20:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "2 kl har ej reservering",
+            "key" : "AB",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Frivillig platsbokning",
+            "key" : "AG",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "WiFi",
+            "key" : "AW",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Eluttag, bokas",
+            "key" : "EL",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Servering finns ej",
+            "key" : "SI",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          } ]
+        },
+        "Product" : {
+          "name" : "Regional Tåg 180",
+          "num" : "180",
+          "catCode" : "2",
+          "catOutS" : "JRE",
+          "catOutL" : "Regional Tåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Falköping Centralstation",
+            "id" : "740000060",
+            "extId" : "740000060",
+            "routeIdx" : 4,
+            "lon" : 13.553791,
+            "lat" : 58.176101,
+            "depTime" : "15:01:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Skövde Centralstation",
+            "id" : "740000008",
+            "extId" : "740000008",
+            "routeIdx" : 5,
+            "lon" : 13.853195,
+            "lat" : 58.390898,
+            "depTime" : "15:18:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:18:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Töreboda station",
+            "id" : "740000183",
+            "extId" : "740000183",
+            "routeIdx" : 6,
+            "lon" : 14.128391,
+            "lat" : 58.706024,
+            "depTime" : "15:35:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:35:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Laxå station",
+            "id" : "740000194",
+            "extId" : "740000194",
+            "routeIdx" : 7,
+            "lon" : 14.616658,
+            "lat" : 58.989391,
+            "depTime" : "15:55:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:55:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Hallsberg station",
+            "id" : "740000077",
+            "extId" : "740000077",
+            "routeIdx" : 8,
+            "lon" : 15.110382,
+            "lat" : 59.067102,
+            "arrTime" : "16:20:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "3",
+        "name" : "Regional Tåg 180",
+        "transportNumber" : "180",
+        "transportCategory" : "JRE",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Hallsberg station",
+          "type" : "ST",
+          "id" : "740000077",
+          "extId" : "740000077",
+          "lon" : 15.110382,
+          "lat" : 59.067102,
+          "routeIdx" : 2,
+          "time" : "16:38:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "routeIdx" : 5,
+          "time" : "18:13:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Bistrovagn",
+            "key" : "AD",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Obligatorisk platsbokning",
+            "key" : "AF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          }, {
+            "value" : "Maträtt",
+            "key" : "SM",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 2,
+            "routeIdxTo" : 5
+          } ]
+        },
+        "Product" : {
+          "name" : "InterCity 608",
+          "num" : "608",
+          "catCode" : "2",
+          "catOutS" : "JIC",
+          "catOutL" : "InterCity",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Hallsberg station",
+            "id" : "740000077",
+            "extId" : "740000077",
+            "routeIdx" : 2,
+            "lon" : 15.110382,
+            "lat" : 59.067102,
+            "depTime" : "16:38:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Katrineholm Centralstation",
+            "id" : "740000166",
+            "extId" : "740000166",
+            "routeIdx" : 3,
+            "lon" : 16.208324,
+            "lat" : 58.996591,
+            "depTime" : "17:09:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:08:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Södertälje Syd station",
+            "id" : "740000055",
+            "extId" : "740000055",
+            "routeIdx" : 4,
+            "lon" : 17.645367,
+            "lat" : 59.162415,
+            "arrTime" : "17:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stockholm Centralstation",
+            "id" : "740000001",
+            "extId" : "740000001",
+            "routeIdx" : 5,
+            "lon" : 18.058151,
+            "lat" : 59.330136,
+            "arrTime" : "18:13:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "InterCity 608",
+        "transportNumber" : "608",
+        "transportCategory" : "JIC",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "time" : "18:13:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "time" : "18:33:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "5",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 0
+      }, {
+        "Origin" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "routeIdx" : 12,
+          "time" : "18:33:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 17,
+          "time" : "18:42:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik -Tunnelbana 17",
+          "num" : "17",
+          "catCode" : "5",
+          "catOutS" : "ULT",
+          "catOutL" : "Länstrafik -Tunnelbana",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "T-Centralen T-bana (Stockholm kn)",
+            "id" : "740020749",
+            "extId" : "740020749",
+            "routeIdx" : 12,
+            "lon" : 18.059266,
+            "lat" : 59.330945,
+            "depTime" : "18:33:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Gamla Stan T-bana (Stockholm kn)",
+            "id" : "740021653",
+            "extId" : "740021653",
+            "routeIdx" : 13,
+            "lon" : 18.067617,
+            "lat" : 59.32316,
+            "depTime" : "18:34:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:34:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Slussen T-bana (Stockholm kn)",
+            "id" : "740020101",
+            "extId" : "740020101",
+            "routeIdx" : 14,
+            "lon" : 18.072327,
+            "lat" : 59.319493,
+            "depTime" : "18:36:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:36:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Medborgarplatsen T-bana (Stockholm kn)",
+            "id" : "740021654",
+            "extId" : "740021654",
+            "routeIdx" : 15,
+            "lon" : 18.07355,
+            "lat" : 59.314342,
+            "depTime" : "18:37:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:37:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skanstull T-bana (Stockholm kn)",
+            "id" : "740021655",
+            "extId" : "740021655",
+            "routeIdx" : 16,
+            "lon" : 18.076229,
+            "lat" : 59.307852,
+            "depTime" : "18:39:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:39:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 17,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "arrTime" : "18:42:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "6",
+        "name" : "Länstrafik -Tunnelbana 17",
+        "transportNumber" : "17",
+        "transportCategory" : "ULT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Skarpnäck T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 0,
+          "time" : "18:50:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Vättersvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051383",
+          "extId" : "740051383",
+          "lon" : 18.060821,
+          "lat" : 59.298449,
+          "routeIdx" : 4,
+          "time" : "18:53:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 160",
+          "num" : "160",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 0,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "depTime" : "18:50:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Sköntorpsplan (Stockholm kn)",
+            "id" : "740051368",
+            "extId" : "740051368",
+            "routeIdx" : 1,
+            "lon" : 18.071401,
+            "lat" : 59.298656,
+            "depTime" : "18:51:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:51:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Ymsenvägen (Stockholm kn)",
+            "id" : "740051371",
+            "extId" : "740051371",
+            "routeIdx" : 2,
+            "lon" : 18.068453,
+            "lat" : 59.298476,
+            "depTime" : "18:52:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skagersvägen (Stockholm kn)",
+            "id" : "740051372",
+            "extId" : "740051372",
+            "routeIdx" : 3,
+            "lon" : 18.065397,
+            "lat" : 59.297829,
+            "depTime" : "18:53:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:53:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vättersvägen (Stockholm kn)",
+            "id" : "740051383",
+            "extId" : "740051383",
+            "routeIdx" : 4,
+            "lon" : 18.060821,
+            "lat" : 59.298449,
+            "arrTime" : "18:53:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "7",
+        "name" : "Länstrafik - Buss 160",
+        "transportNumber" : "160",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Liljeholmen T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Vättersvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051383",
+          "extId" : "740051383",
+          "lon" : 18.060821,
+          "lat" : 59.298449,
+          "time" : "18:53:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "18:58:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "8",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT5M",
+        "dist" : 287
+      } ]
+    },
+    "idx" : 4,
+    "tripId" : "C-4",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$201909101236$201909101247$$$1$§T$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$A=1@O=Habo station@L=740000231@a=128@$201909101247$201909101314$JLT 7228$$1$§T$A=1@O=Habo station@L=740000231@a=128@$A=1@O=Falköping Centralstation@L=740000060@a=128@$201909101324$201909101425$BLT BUSS$$1$§T$A=1@O=Falköping Centralstation@L=740000060@a=128@$A=1@O=Hallsberg station@L=740000077@a=128@$201909101501$201909101620$JRE  180$$1$§T$A=1@O=Hallsberg station@L=740000077@a=128@$A=1@O=Stockholm Centralstation@L=740000001@a=128@$201909101638$201909101813$JIC  608$$1$§TF$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201909101813$201909101833$$$1$§T$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$201909101833$201909101842$ULT   17$$1$§T$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$A=1@O=Vättersvägen (Stockholm kn)@L=740051383@a=128@$201909101850$201909101853$BLT  160$$1$§G@F$A=1@O=Vättersvägen (Stockholm kn)@L=740051383@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909101853$201909101858$$$1$",
+    "duration" : "PT6H22M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "2. Sep until 5. Nov 2019 Mo - Fr",
+      "sDaysB" : "003E7CF9F3E7CF9F3E600000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "12:43:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Kungsporten (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740039409",
+          "extId" : "740039409",
+          "lon" : 14.261278,
+          "lat" : 57.781789,
+          "time" : "12:49:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT6M",
+        "dist" : 335
+      }, {
+        "Origin" : {
+          "name" : "Kungsporten (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740039409",
+          "extId" : "740039409",
+          "lon" : 14.261278,
+          "lat" : 57.781789,
+          "routeIdx" : 4,
+          "time" : "12:49:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Jönköping Juneporten",
+          "type" : "ST",
+          "id" : "740020260",
+          "extId" : "740020260",
+          "lon" : 14.161489,
+          "lat" : 57.783515,
+          "routeIdx" : 20,
+          "time" : "13:10:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 2",
+          "num" : "2",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "254",
+          "operator" : "JLT",
+          "operatorUrl" : "http://www.jlt.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Kungsporten (Jönköping kn)",
+            "id" : "740039409",
+            "extId" : "740039409",
+            "routeIdx" : 4,
+            "lon" : 14.261278,
+            "lat" : 57.781789,
+            "depTime" : "12:49:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Kittendorffs gata (Jönköping kn)",
+            "id" : "740039715",
+            "extId" : "740039715",
+            "routeIdx" : 5,
+            "lon" : 14.25148,
+            "lat" : 57.781888,
+            "depTime" : "12:50:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:50:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Kungsängen (Jönköping kn)",
+            "id" : "740039714",
+            "extId" : "740039714",
+            "routeIdx" : 6,
+            "lon" : 14.245107,
+            "lat" : 57.782957,
+            "depTime" : "12:51:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:51:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Gullregnsbacken (Jönköping kn)",
+            "id" : "740039713",
+            "extId" : "740039713",
+            "routeIdx" : 7,
+            "lon" : 14.234787,
+            "lat" : 57.78053,
+            "depTime" : "12:52:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Resedastigen (Jönköping kn)",
+            "id" : "740039408",
+            "extId" : "740039408",
+            "routeIdx" : 8,
+            "lon" : 14.229915,
+            "lat" : 57.77982,
+            "depTime" : "12:53:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:53:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Ekhagen centrum",
+            "id" : "740025508",
+            "extId" : "740025508",
+            "routeIdx" : 9,
+            "lon" : 14.223038,
+            "lat" : 57.777879,
+            "depTime" : "12:55:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:55:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Rosenlundsskolan (Jönköping kn)",
+            "id" : "740039587",
+            "extId" : "740039587",
+            "routeIdx" : 10,
+            "lon" : 14.215047,
+            "lat" : 57.778382,
+            "depTime" : "12:56:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:56:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Hermansplan (Jönköping kn)",
+            "id" : "740039586",
+            "extId" : "740039586",
+            "routeIdx" : 11,
+            "lon" : 14.211946,
+            "lat" : 57.77707,
+            "depTime" : "12:57:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:57:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Rosenlunds Vårdcentrum (Jönköping kn)",
+            "id" : "740039702",
+            "extId" : "740039702",
+            "routeIdx" : 12,
+            "lon" : 14.206148,
+            "lat" : 57.777393,
+            "depTime" : "12:58:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:58:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Starrgatan (Jönköping kn)",
+            "id" : "740039585",
+            "extId" : "740039585",
+            "routeIdx" : 13,
+            "lon" : 14.203091,
+            "lat" : 57.779272,
+            "depTime" : "12:58:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "12:58:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Kilallén",
+            "id" : "740025486",
+            "extId" : "740025486",
+            "routeIdx" : 14,
+            "lon" : 14.196556,
+            "lat" : 57.781339,
+            "depTime" : "13:00:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:00:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Cigarren",
+            "id" : "740004234",
+            "extId" : "740004234",
+            "routeIdx" : 15,
+            "lon" : 14.185769,
+            "lat" : 57.781375,
+            "depTime" : "13:02:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:02:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Östra torget (Jönköping kn)",
+            "id" : "740039654",
+            "extId" : "740039654",
+            "routeIdx" : 16,
+            "lon" : 14.18034,
+            "lat" : 57.780593,
+            "depTime" : "13:04:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:04:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stadsbiblioteket (Jönköping kn)",
+            "id" : "740039397",
+            "extId" : "740039397",
+            "routeIdx" : 17,
+            "lon" : 14.175683,
+            "lat" : 57.780467,
+            "depTime" : "13:05:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:05:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Östra centrum",
+            "id" : "740024353",
+            "extId" : "740024353",
+            "routeIdx" : 18,
+            "lon" : 14.172537,
+            "lat" : 57.781025,
+            "depTime" : "13:06:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:06:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Rådhusparken",
+            "id" : "740024006",
+            "extId" : "740024006",
+            "routeIdx" : 19,
+            "lon" : 14.168069,
+            "lat" : 57.782787,
+            "depTime" : "13:08:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:08:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Jönköping Juneporten",
+            "id" : "740020260",
+            "extId" : "740020260",
+            "routeIdx" : 20,
+            "lon" : 14.161489,
+            "lat" : 57.783515,
+            "arrTime" : "13:10:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Buss 2",
+        "transportNumber" : "2",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Hisingsängens vändplan (Jönköping kn)"
+      }, {
+        "Origin" : {
+          "name" : "Jönköping Juneporten",
+          "type" : "ST",
+          "id" : "740020260",
+          "extId" : "740020260",
+          "lon" : 14.161489,
+          "lat" : 57.783515,
+          "time" : "13:10:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Jönköping Centralstation",
+          "type" : "ST",
+          "id" : "740000090",
+          "extId" : "740000090",
+          "lon" : 14.163323,
+          "lat" : 57.78471,
+          "time" : "13:20:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "2",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT10M",
+        "dist" : 200
+      }, {
+        "Origin" : {
+          "name" : "Jönköping Centralstation",
+          "type" : "ST",
+          "id" : "740000090",
+          "extId" : "740000090",
+          "lon" : 14.163323,
+          "lat" : 57.78471,
+          "routeIdx" : 5,
+          "time" : "13:20:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "routeIdx" : 8,
+          "time" : "18:30:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Expressbuss N32",
+          "num" : "N32",
+          "catCode" : "3",
+          "catOutS" : "BXB",
+          "catOutL" : "Expressbuss",
+          "operatorCode" : "838",
+          "operator" : "Flixbus",
+          "operatorUrl" : "https://www.flixbus.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Jönköping Centralstation",
+            "id" : "740000090",
+            "extId" : "740000090",
+            "routeIdx" : 5,
+            "lon" : 14.163323,
+            "lat" : 57.78471,
+            "depTime" : "13:20:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Linköping Fjärrbussterminal",
+            "id" : "740010955",
+            "extId" : "740010955",
+            "routeIdx" : 6,
+            "lon" : 15.618587,
+            "lat" : 58.41943,
+            "depTime" : "15:45:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:40:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Norrköping busstation",
+            "id" : "740011131",
+            "extId" : "740011131",
+            "routeIdx" : 7,
+            "lon" : 16.185932,
+            "lat" : 58.595537,
+            "depTime" : "16:30:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:25:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stockholm Cityterminalen",
+            "id" : "740000622",
+            "extId" : "740000622",
+            "routeIdx" : 8,
+            "lon" : 18.056371,
+            "lat" : 59.330846,
+            "arrTime" : "18:30:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "3",
+        "name" : "Expressbuss N32",
+        "transportNumber" : "N32",
+        "transportCategory" : "BXB",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Cityterminalen"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Cityterminalen",
+          "type" : "ST",
+          "id" : "740000622",
+          "extId" : "740000622",
+          "lon" : 18.056371,
+          "lat" : 59.330846,
+          "time" : "18:30:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "time" : "18:50:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "4",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 0
+      }, {
+        "Origin" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "routeIdx" : 20,
+          "time" : "18:51:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 25,
+          "time" : "19:00:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik -Tunnelbana 19",
+          "num" : "19",
+          "catCode" : "5",
+          "catOutS" : "ULT",
+          "catOutL" : "Länstrafik -Tunnelbana",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "T-Centralen T-bana (Stockholm kn)",
+            "id" : "740020749",
+            "extId" : "740020749",
+            "routeIdx" : 20,
+            "lon" : 18.059266,
+            "lat" : 59.330945,
+            "depTime" : "18:51:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Gamla Stan T-bana (Stockholm kn)",
+            "id" : "740021653",
+            "extId" : "740021653",
+            "routeIdx" : 21,
+            "lon" : 18.067617,
+            "lat" : 59.32316,
+            "depTime" : "18:52:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:52:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Slussen T-bana (Stockholm kn)",
+            "id" : "740020101",
+            "extId" : "740020101",
+            "routeIdx" : 22,
+            "lon" : 18.072327,
+            "lat" : 59.319493,
+            "depTime" : "18:54:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:54:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Medborgarplatsen T-bana (Stockholm kn)",
+            "id" : "740021654",
+            "extId" : "740021654",
+            "routeIdx" : 23,
+            "lon" : 18.07355,
+            "lat" : 59.314342,
+            "depTime" : "18:55:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:55:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skanstull T-bana (Stockholm kn)",
+            "id" : "740021655",
+            "extId" : "740021655",
+            "routeIdx" : 24,
+            "lon" : 18.076229,
+            "lat" : 59.307852,
+            "depTime" : "18:57:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "18:57:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 25,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "arrTime" : "19:00:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik -Tunnelbana 19",
+        "transportNumber" : "19",
+        "transportCategory" : "ULT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Hagsätra T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 4,
+          "time" : "19:08:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Tämnarvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051530",
+          "extId" : "740051530",
+          "lon" : 18.056506,
+          "lat" : 59.300112,
+          "routeIdx" : 9,
+          "time" : "19:11:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 164",
+          "num" : "164",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 4,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "depTime" : "19:08:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Sköntorpsplan (Stockholm kn)",
+            "id" : "740051368",
+            "extId" : "740051368",
+            "routeIdx" : 5,
+            "lon" : 18.071401,
+            "lat" : 59.298656,
+            "depTime" : "19:09:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "19:09:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Ymsenvägen (Stockholm kn)",
+            "id" : "740051371",
+            "extId" : "740051371",
+            "routeIdx" : 6,
+            "lon" : 18.068453,
+            "lat" : 59.298476,
+            "depTime" : "19:09:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "19:09:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skagersvägen (Stockholm kn)",
+            "id" : "740051372",
+            "extId" : "740051372",
+            "routeIdx" : 7,
+            "lon" : 18.065397,
+            "lat" : 59.297829,
+            "depTime" : "19:10:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "19:10:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vättersvägen (Stockholm kn)",
+            "id" : "740051383",
+            "extId" : "740051383",
+            "routeIdx" : 8,
+            "lon" : 18.060821,
+            "lat" : 59.298449,
+            "depTime" : "19:10:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "19:10:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Tämnarvägen (Stockholm kn)",
+            "id" : "740051530",
+            "extId" : "740051530",
+            "routeIdx" : 9,
+            "lon" : 18.056506,
+            "lat" : 59.300112,
+            "arrTime" : "19:11:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "6",
+        "name" : "Länstrafik - Buss 164",
+        "transportNumber" : "164",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Årsta Valla Torg (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Tämnarvägen (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051530",
+          "extId" : "740051530",
+          "lon" : 18.056506,
+          "lat" : 59.300112,
+          "time" : "19:11:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "19:15:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "7",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT4M",
+        "dist" : 194
+      } ]
+    },
+    "idx" : 5,
+    "tripId" : "C-5",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Kungsporten (Jönköping kn)@L=740039409@a=128@$201909101243$201909101249$$$1$§T$A=1@O=Kungsporten (Jönköping kn)@L=740039409@a=128@$A=1@O=Jönköping Juneporten@L=740020260@a=128@$201909101249$201909101310$BLT    2$$1$§W$A=1@O=Jönköping Juneporten@L=740020260@a=128@$A=1@O=Jönköping Centralstation@L=740000090@a=128@$201909101310$201909101320$$$1$§T$A=1@O=Jönköping Centralstation@L=740000090@a=128@$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$201909101320$201909101830$BXB  N32$$1$§TF$A=1@O=Stockholm Cityterminalen@L=740000622@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201909101830$201909101850$$$1$§T$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$201909101851$201909101900$ULT   19$$1$§T$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$A=1@O=Tämnarvägen (Stockholm kn)@L=740051530@a=128@$201909101908$201909101911$BLT  164$$1$§G@F$A=1@O=Tämnarvägen (Stockholm kn)@L=740051530@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909101911$201909101915$$$1$",
+    "duration" : "PT6H32M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "21. Oct until 8. Nov 2019 Mo - Fr; also 2. until 6. Sep 2019, 9., 10. Sep, 7. until 11. Oct 2019, 2. until 6. Dec 2019",
+      "sDaysB" : "003E60000007C01F3E7C000007C000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "12:57:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "time" : "13:08:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 749
+      }, {
+        "Origin" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "routeIdx" : 3,
+          "time" : "13:08:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Nässjö Centralstation",
+          "type" : "ST",
+          "id" : "740000140",
+          "extId" : "740000140",
+          "lon" : 14.693983,
+          "lat" : 57.652443,
+          "routeIdx" : 6,
+          "time" : "13:43:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Västtågen",
+            "key" : "VV",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 7283",
+          "num" : "7283",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "279",
+          "operator" : "Västtrafik",
+          "operatorUrl" : "http://www.vasttrafik.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Huskvarna station (Jönköping kn)",
+            "id" : "740000620",
+            "extId" : "740000620",
+            "routeIdx" : 3,
+            "lon" : 14.265306,
+            "lat" : 57.78249,
+            "depTime" : "13:08:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Tenhult station (Jönköping kn)",
+            "id" : "740000171",
+            "extId" : "740000171",
+            "routeIdx" : 4,
+            "lon" : 14.326396,
+            "lat" : 57.705174,
+            "depTime" : "13:16:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:15:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Forserum station (Nässjö kn)",
+            "id" : "740000034",
+            "extId" : "740000034",
+            "routeIdx" : 5,
+            "lon" : 14.473972,
+            "lat" : 57.697839,
+            "depTime" : "13:25:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "13:23:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 6,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "arrTime" : "13:43:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Tåg 7283",
+        "transportNumber" : "7283",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Nässjö Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Nässjö Centralstation",
+          "type" : "ST",
+          "id" : "740000140",
+          "extId" : "740000140",
+          "lon" : 14.693983,
+          "lat" : 57.652443,
+          "routeIdx" : 4,
+          "time" : "14:05:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "routeIdx" : 8,
+          "time" : "16:37:00",
+          "date" : "2019-09-10"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "X2000",
+            "key" : "VX",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Mat 1 klass",
+            "key" : "A1",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Bistrovagn",
+            "key" : "AD",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Obligatorisk platsbokning",
+            "key" : "AF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "WiFi",
+            "key" : "AW",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Eluttag, bokas",
+            "key" : "EL",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          }, {
+            "value" : "Maträtt",
+            "key" : "SM",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 4,
+            "routeIdxTo" : 8
+          } ]
+        },
+        "Product" : {
+          "name" : "Snabbtåg 536",
+          "num" : "536",
+          "catCode" : "1",
+          "catOutS" : "JST",
+          "catOutL" : "Snabbtåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 4,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "depTime" : "14:05:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Linköping Centralstation",
+            "id" : "740000009",
+            "extId" : "740000009",
+            "routeIdx" : 5,
+            "lon" : 15.62496,
+            "lat" : 58.416634,
+            "depTime" : "14:55:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "14:53:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 6,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "15:19:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "15:18:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Södertälje Syd station",
+            "id" : "740000055",
+            "extId" : "740000055",
+            "routeIdx" : 7,
+            "lon" : 17.645367,
+            "lat" : 59.162415,
+            "arrTime" : "16:18:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Stockholm Centralstation",
+            "id" : "740000001",
+            "extId" : "740000001",
+            "routeIdx" : 8,
+            "lon" : 18.058151,
+            "lat" : 59.330136,
+            "arrTime" : "16:37:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Snabbtåg 536",
+        "transportNumber" : "536",
+        "transportCategory" : "JST",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "time" : "16:37:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "time" : "16:57:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 0
+      }, {
+        "Origin" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "routeIdx" : 17,
+          "time" : "16:58:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 22,
+          "time" : "17:08:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik -Tunnelbana 18",
+          "num" : "18",
+          "catCode" : "5",
+          "catOutS" : "ULT",
+          "catOutL" : "Länstrafik -Tunnelbana",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "T-Centralen T-bana (Stockholm kn)",
+            "id" : "740020749",
+            "extId" : "740020749",
+            "routeIdx" : 17,
+            "lon" : 18.059266,
+            "lat" : 59.330945,
+            "depTime" : "16:58:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Gamla Stan T-bana (Stockholm kn)",
+            "id" : "740021653",
+            "extId" : "740021653",
+            "routeIdx" : 18,
+            "lon" : 18.067617,
+            "lat" : 59.32316,
+            "depTime" : "16:59:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "16:59:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Slussen T-bana (Stockholm kn)",
+            "id" : "740020101",
+            "extId" : "740020101",
+            "routeIdx" : 19,
+            "lon" : 18.072327,
+            "lat" : 59.319493,
+            "depTime" : "17:01:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:01:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Medborgarplatsen T-bana (Stockholm kn)",
+            "id" : "740021654",
+            "extId" : "740021654",
+            "routeIdx" : 20,
+            "lon" : 18.07355,
+            "lat" : 59.314342,
+            "depTime" : "17:02:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:02:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skanstull T-bana (Stockholm kn)",
+            "id" : "740021655",
+            "extId" : "740021655",
+            "routeIdx" : 21,
+            "lon" : 18.076229,
+            "lat" : 59.307852,
+            "depTime" : "17:04:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:04:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 22,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "arrTime" : "17:08:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik -Tunnelbana 18",
+        "transportNumber" : "18",
+        "transportCategory" : "ULT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Farsta Strand T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 0,
+          "time" : "17:15:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "routeIdx" : 5,
+          "time" : "17:20:00",
+          "date" : "2019-09-10"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 160",
+          "num" : "160",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 0,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "depTime" : "17:15:00",
+            "depDate" : "2019-09-10"
+          }, {
+            "name" : "Sköntorpsplan (Stockholm kn)",
+            "id" : "740051368",
+            "extId" : "740051368",
+            "routeIdx" : 1,
+            "lon" : 18.071401,
+            "lat" : 59.298656,
+            "depTime" : "17:16:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:16:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Ymsenvägen (Stockholm kn)",
+            "id" : "740051371",
+            "extId" : "740051371",
+            "routeIdx" : 2,
+            "lon" : 18.068453,
+            "lat" : 59.298476,
+            "depTime" : "17:17:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:17:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Skagersvägen (Stockholm kn)",
+            "id" : "740051372",
+            "extId" : "740051372",
+            "routeIdx" : 3,
+            "lon" : 18.065397,
+            "lat" : 59.297829,
+            "depTime" : "17:18:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:18:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Vättersvägen (Stockholm kn)",
+            "id" : "740051383",
+            "extId" : "740051383",
+            "routeIdx" : 4,
+            "lon" : 18.060821,
+            "lat" : 59.298449,
+            "depTime" : "17:19:00",
+            "depDate" : "2019-09-10",
+            "arrTime" : "17:19:00",
+            "arrDate" : "2019-09-10"
+          }, {
+            "name" : "Årstaskolan (Stockholm kn)",
+            "id" : "740051531",
+            "extId" : "740051531",
+            "routeIdx" : 5,
+            "lon" : 18.055625,
+            "lat" : 59.299024,
+            "arrTime" : "17:20:00",
+            "arrDate" : "2019-09-10"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Buss 160",
+        "transportNumber" : "160",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Årstaberg station (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "time" : "17:20:00",
+          "date" : "2019-09-10"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "17:24:00",
+          "date" : "2019-09-10"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT4M",
+        "dist" : 211
+      } ]
+    },
+    "idx" : 6,
+    "tripId" : "C-6",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$201909101257$201909101308$$$1$§T$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$A=1@O=Nässjö Centralstation@L=740000140@a=128@$201909101308$201909101343$JLT 7283$$1$§T$A=1@O=Nässjö Centralstation@L=740000140@a=128@$A=1@O=Stockholm Centralstation@L=740000001@a=128@$201909101405$201909101637$JST  536$$1$§TF$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201909101637$201909101657$$$1$§T$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$201909101658$201909101708$ULT   18$$1$§T$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$201909101715$201909101720$BLT  160$$1$§G@F$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909101720$201909101724$$$1$",
+    "duration" : "PT4H27M"
+  }, {
+    "ServiceDays" : [ {
+      "planningPeriodBegin" : "2019-08-23",
+      "planningPeriodEnd" : "2019-12-14",
+      "sDaysR" : "not every day",
+      "sDaysI" : "11. until 13. Sep 2019",
+      "sDaysB" : "00001C000000000000000000000000"
+    } ],
+    "LegList" : {
+      "Leg" : [ {
+        "Origin" : {
+          "name" : "57.782491, 14.257998",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 14.257997,
+          "lat" : 57.78249,
+          "time" : "11:59:00",
+          "date" : "2019-09-11"
+        },
+        "Destination" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "time" : "12:10:00",
+          "date" : "2019-09-11"
+        },
+        "idx" : "0",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT11M",
+        "dist" : 749
+      }, {
+        "Origin" : {
+          "name" : "Huskvarna station (Jönköping kn)",
+          "type" : "ST",
+          "id" : "740000620",
+          "extId" : "740000620",
+          "lon" : 14.265306,
+          "lat" : 57.78249,
+          "routeIdx" : 3,
+          "time" : "12:10:00",
+          "date" : "2019-09-11"
+        },
+        "Destination" : {
+          "name" : "Nässjö Centralstation",
+          "type" : "ST",
+          "id" : "740000140",
+          "extId" : "740000140",
+          "lon" : 14.693983,
+          "lat" : 57.652443,
+          "routeIdx" : 6,
+          "time" : "12:42:00",
+          "date" : "2019-09-11"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "Västtågen",
+            "key" : "VV",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Endast 2 klass",
+            "key" : "AA",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          }, {
+            "value" : "Ej reservering",
+            "key" : "AE",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 3,
+            "routeIdxTo" : 6
+          } ]
+        },
+        "Product" : {
+          "name" : "Länstrafik - Tåg 7225",
+          "num" : "7225",
+          "catCode" : "4",
+          "catOutS" : "JLT",
+          "catOutL" : "Länstrafik - Tåg",
+          "operatorCode" : "279",
+          "operator" : "Västtrafik",
+          "operatorUrl" : "http://www.vasttrafik.se/"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Huskvarna station (Jönköping kn)",
+            "id" : "740000620",
+            "extId" : "740000620",
+            "routeIdx" : 3,
+            "lon" : 14.265306,
+            "lat" : 57.78249,
+            "depTime" : "12:10:00",
+            "depDate" : "2019-09-11"
+          }, {
+            "name" : "Tenhult station (Jönköping kn)",
+            "id" : "740000171",
+            "extId" : "740000171",
+            "routeIdx" : 4,
+            "lon" : 14.326396,
+            "lat" : 57.705174,
+            "depTime" : "12:20:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "12:19:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Forserum station (Nässjö kn)",
+            "id" : "740000034",
+            "extId" : "740000034",
+            "routeIdx" : 5,
+            "lon" : 14.473972,
+            "lat" : 57.697839,
+            "depTime" : "12:30:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "12:28:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 6,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "arrTime" : "12:42:00",
+            "arrDate" : "2019-09-11"
+          } ]
+        },
+        "idx" : "1",
+        "name" : "Länstrafik - Tåg 7225",
+        "transportNumber" : "7225",
+        "transportCategory" : "JLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Nässjö Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Nässjö Centralstation",
+          "type" : "ST",
+          "id" : "740000140",
+          "extId" : "740000140",
+          "lon" : 14.693983,
+          "lat" : 57.652443,
+          "routeIdx" : 6,
+          "time" : "13:04:00",
+          "date" : "2019-09-11"
+        },
+        "Destination" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "routeIdx" : 10,
+          "time" : "15:48:00",
+          "date" : "2019-09-11"
+        },
+        "Notes" : {
+          "Note" : [ {
+            "value" : "X2000",
+            "key" : "VX",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Mat 1 klass",
+            "key" : "A1",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Bistrovagn",
+            "key" : "AD",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Obligatorisk platsbokning",
+            "key" : "AF",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Rullstolslyft",
+            "key" : "AN",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "WiFi",
+            "key" : "AW",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Eluttag, bokas",
+            "key" : "EL",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          }, {
+            "value" : "Maträtt",
+            "key" : "SM",
+            "type" : "A",
+            "priority" : 100,
+            "routeIdxFrom" : 6,
+            "routeIdxTo" : 10
+          } ]
+        },
+        "Product" : {
+          "name" : "Snabbtåg 534",
+          "num" : "534",
+          "catCode" : "1",
+          "catOutS" : "JST",
+          "catOutL" : "Snabbtåg",
+          "operatorCode" : "74",
+          "operator" : "SJ",
+          "operatorUrl" : "http://www.sj.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Nässjö Centralstation",
+            "id" : "740000140",
+            "extId" : "740000140",
+            "routeIdx" : 6,
+            "lon" : 14.693983,
+            "lat" : 57.652443,
+            "depTime" : "13:04:00",
+            "depDate" : "2019-09-11"
+          }, {
+            "name" : "Mjölby station",
+            "id" : "740000180",
+            "extId" : "740000180",
+            "routeIdx" : 7,
+            "lon" : 15.131992,
+            "lat" : 58.322984,
+            "depTime" : "13:41:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "13:41:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Linköping Centralstation",
+            "id" : "740000009",
+            "extId" : "740000009",
+            "routeIdx" : 8,
+            "lon" : 15.62496,
+            "lat" : 58.416634,
+            "depTime" : "13:58:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "13:57:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Norrköping Centralstation",
+            "id" : "740000007",
+            "extId" : "740000007",
+            "routeIdx" : 9,
+            "lon" : 16.183343,
+            "lat" : 58.596625,
+            "depTime" : "14:21:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "14:21:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Stockholm Centralstation",
+            "id" : "740000001",
+            "extId" : "740000001",
+            "routeIdx" : 10,
+            "lon" : 18.058151,
+            "lat" : 59.330136,
+            "arrTime" : "15:48:00",
+            "arrDate" : "2019-09-11"
+          } ]
+        },
+        "idx" : "2",
+        "name" : "Snabbtåg 534",
+        "transportNumber" : "534",
+        "transportCategory" : "JST",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Stockholm Centralstation"
+      }, {
+        "Origin" : {
+          "name" : "Stockholm Centralstation",
+          "type" : "ST",
+          "id" : "740000001",
+          "extId" : "740000001",
+          "lon" : 18.058151,
+          "lat" : 59.330136,
+          "time" : "15:48:00",
+          "date" : "2019-09-11"
+        },
+        "Destination" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "time" : "16:08:00",
+          "date" : "2019-09-11"
+        },
+        "idx" : "3",
+        "name" : "",
+        "type" : "TRSF",
+        "duration" : "PT20M",
+        "dist" : 0
+      }, {
+        "Origin" : {
+          "name" : "T-Centralen T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740020749",
+          "extId" : "740020749",
+          "lon" : 18.059266,
+          "lat" : 59.330945,
+          "routeIdx" : 20,
+          "time" : "16:08:00",
+          "date" : "2019-09-11"
+        },
+        "Destination" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 25,
+          "time" : "16:18:00",
+          "date" : "2019-09-11"
+        },
+        "Product" : {
+          "name" : "Länstrafik -Tunnelbana 18",
+          "num" : "18",
+          "catCode" : "5",
+          "catOutS" : "ULT",
+          "catOutL" : "Länstrafik -Tunnelbana",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "T-Centralen T-bana (Stockholm kn)",
+            "id" : "740020749",
+            "extId" : "740020749",
+            "routeIdx" : 20,
+            "lon" : 18.059266,
+            "lat" : 59.330945,
+            "depTime" : "16:08:00",
+            "depDate" : "2019-09-11"
+          }, {
+            "name" : "Gamla Stan T-bana (Stockholm kn)",
+            "id" : "740021653",
+            "extId" : "740021653",
+            "routeIdx" : 21,
+            "lon" : 18.067617,
+            "lat" : 59.32316,
+            "depTime" : "16:10:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:10:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Slussen T-bana (Stockholm kn)",
+            "id" : "740020101",
+            "extId" : "740020101",
+            "routeIdx" : 22,
+            "lon" : 18.072327,
+            "lat" : 59.319493,
+            "depTime" : "16:11:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:11:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Medborgarplatsen T-bana (Stockholm kn)",
+            "id" : "740021654",
+            "extId" : "740021654",
+            "routeIdx" : 23,
+            "lon" : 18.07355,
+            "lat" : 59.314342,
+            "depTime" : "16:13:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:13:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Skanstull T-bana (Stockholm kn)",
+            "id" : "740021655",
+            "extId" : "740021655",
+            "routeIdx" : 24,
+            "lon" : 18.076229,
+            "lat" : 59.307852,
+            "depTime" : "16:14:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:14:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 25,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "arrTime" : "16:18:00",
+            "arrDate" : "2019-09-11"
+          } ]
+        },
+        "idx" : "4",
+        "name" : "Länstrafik -Tunnelbana 18",
+        "transportNumber" : "18",
+        "transportCategory" : "ULT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Farsta Strand T-bana (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Gullmarsplan T-bana (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740021705",
+          "extId" : "740021705",
+          "lon" : 18.080768,
+          "lat" : 59.299114,
+          "routeIdx" : 0,
+          "time" : "16:25:00",
+          "date" : "2019-09-11"
+        },
+        "Destination" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "routeIdx" : 5,
+          "time" : "16:30:00",
+          "date" : "2019-09-11"
+        },
+        "Product" : {
+          "name" : "Länstrafik - Buss 160",
+          "num" : "160",
+          "catCode" : "7",
+          "catOutS" : "BLT",
+          "catOutL" : "Länstrafik - Buss",
+          "operatorCode" : "275",
+          "operator" : "SL",
+          "operatorUrl" : "http://www.sl.se"
+        },
+        "Stops" : {
+          "Stop" : [ {
+            "name" : "Gullmarsplan T-bana (Stockholm kn)",
+            "id" : "740021705",
+            "extId" : "740021705",
+            "routeIdx" : 0,
+            "lon" : 18.080768,
+            "lat" : 59.299114,
+            "depTime" : "16:25:00",
+            "depDate" : "2019-09-11"
+          }, {
+            "name" : "Sköntorpsplan (Stockholm kn)",
+            "id" : "740051368",
+            "extId" : "740051368",
+            "routeIdx" : 1,
+            "lon" : 18.071401,
+            "lat" : 59.298656,
+            "depTime" : "16:26:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:26:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Ymsenvägen (Stockholm kn)",
+            "id" : "740051371",
+            "extId" : "740051371",
+            "routeIdx" : 2,
+            "lon" : 18.068453,
+            "lat" : 59.298476,
+            "depTime" : "16:27:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:27:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Skagersvägen (Stockholm kn)",
+            "id" : "740051372",
+            "extId" : "740051372",
+            "routeIdx" : 3,
+            "lon" : 18.065397,
+            "lat" : 59.297829,
+            "depTime" : "16:28:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:28:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Vättersvägen (Stockholm kn)",
+            "id" : "740051383",
+            "extId" : "740051383",
+            "routeIdx" : 4,
+            "lon" : 18.060821,
+            "lat" : 59.298449,
+            "depTime" : "16:29:00",
+            "depDate" : "2019-09-11",
+            "arrTime" : "16:29:00",
+            "arrDate" : "2019-09-11"
+          }, {
+            "name" : "Årstaskolan (Stockholm kn)",
+            "id" : "740051531",
+            "extId" : "740051531",
+            "routeIdx" : 5,
+            "lon" : 18.055625,
+            "lat" : 59.299024,
+            "arrTime" : "16:30:00",
+            "arrDate" : "2019-09-11"
+          } ]
+        },
+        "idx" : "5",
+        "name" : "Länstrafik - Buss 160",
+        "transportNumber" : "160",
+        "transportCategory" : "BLT",
+        "type" : "JNY",
+        "reachable" : true,
+        "direction" : "Årstaberg station (Stockholm kn)"
+      }, {
+        "Origin" : {
+          "name" : "Årstaskolan (Stockholm kn)",
+          "type" : "ST",
+          "id" : "740051531",
+          "extId" : "740051531",
+          "lon" : 18.055625,
+          "lat" : 59.299024,
+          "time" : "16:30:00",
+          "date" : "2019-09-11"
+        },
+        "Destination" : {
+          "name" : "59.298713, 18.056886",
+          "type" : "ADR",
+          "id" : "",
+          "lon" : 18.056884,
+          "lat" : 59.29871,
+          "time" : "16:34:00",
+          "date" : "2019-09-11"
+        },
+        "idx" : "6",
+        "name" : "",
+        "type" : "WALK",
+        "duration" : "PT4M",
+        "dist" : 211
+      } ]
+    },
+    "idx" : 0,
+    "tripId" : "C-0",
+    "ctxRecon" : "G@F$A=2@O=57.782491, 14.257998@X=14257997@Y=57782490@u=0@a=128@$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$201909111159$201909111210$$$1$§T$A=1@O=Huskvarna station (Jönköping kn)@L=740000620@a=128@$A=1@O=Nässjö Centralstation@L=740000140@a=128@$201909111210$201909111242$JLT 7225$$1$§T$A=1@O=Nässjö Centralstation@L=740000140@a=128@$A=1@O=Stockholm Centralstation@L=740000001@a=128@$201909111304$201909111548$JST  534$$1$§TF$A=1@O=Stockholm Centralstation@L=740000001@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201909111548$201909111608$$$1$§T$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$201909111608$201909111618$ULT   18$$1$§T$A=1@O=Gullmarsplan T-bana (Stockholm kn)@L=740021705@a=128@$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$201909111625$201909111630$BLT  160$$1$§G@F$A=1@O=Årstaskolan (Stockholm kn)@L=740051531@a=128@$A=2@O=59.298713, 18.056886@X=18056884@Y=59298710@u=0@a=128@$201909111630$201909111634$$$1$",
+    "duration" : "PT4H35M"
+  } ],
+  "scrB" : "1|OB|MTµ11µ29519µ29519µ29779µ29779µ0µ0µ925µ29505µ1µ-2147483630µ0µ1µ2|PDHµ4b078179a9dfcb0e9838dd3d0c88de8e|RDµ10092019|RTµ114500",
+  "scrF" : "1|OF|MTµ11µ29577µ29577µ29844µ29844µ0µ0µ925µ29520µ7µ-2147483630µ0µ1µ2|PDHµ4b078179a9dfcb0e9838dd3d0c88de8e|RDµ10092019|RTµ114500"
+}
