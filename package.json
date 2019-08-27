@@ -8,14 +8,19 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2",
     "moment": "^2.24.0",
+    "nock": "^10.0.6",
     "nodemon": "^1.19.1",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7"
+    "request-promise-native": "^1.0.7",
+    "supertest": "^4.0.2"
   }
 }
