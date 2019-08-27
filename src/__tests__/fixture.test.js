@@ -10,7 +10,7 @@ describe('The Take Me Home App', () => {
       .get('/trips')
       .expect(200)
       .then((response) => {
-        expect(response.body).toBeArrayOfSize(46);
+        expect(response.body).toMatchSnapshot();
       });
   });
 });
