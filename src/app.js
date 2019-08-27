@@ -82,6 +82,10 @@ async function getTrips(startTime, req) {
         .isBefore(lastDepartureTime))
       .map((trip) => ({
           start: getDateAndTime(trip['LegList']['Leg'][1]['Origin']),
+          duration: {
+            hours: moment.duration(trip.duration).get('hours'),
+            minutes: moment.duration(trip.duration).get('minutes')
+          },
           legs: trip['LegList']['Leg']
             .filter((leg) => !(leg.type === 'WALK' || leg.type === 'TRSF'))
             .map((leg) => ({

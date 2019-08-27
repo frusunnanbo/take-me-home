@@ -16,7 +16,12 @@
         {{#each trips}}
             <div class="col-6">
                 <div class="card m-3" id="trip-{{@index}}">
-                        <h5 class="card-header">{{start.date}} {{start.time}}</h5>
+                        <h5 class="card-header d-flex justify-content-between">
+                            {{start.date}} {{start.time}}
+                            <span class="font-weight-light">
+                                Restid {{duration.hours}}h {{duration.minutes}} min
+                            </span>
+                        </h5>
                     {{#each legs}}
                         <div class="card-header">
                             <h2 class="mb-0">
