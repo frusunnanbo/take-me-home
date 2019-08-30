@@ -49,58 +49,52 @@ async function getTrips(startTime, req) {
   const lastDepartureTime = startTime.clone().add(1, 'days');
   let output = [];
 
-  while (startTime.isBefore(lastDepartureTime)) {
+  const options = {
+    uri: 'https://api.resrobot.se/v2/trip',
+    qs: {
+      key: key,
+      date: startTime.format(('YYYY-MM-DD')),
+      time: startTime.format('HH:mm'),
+      numF: 6,
+      originCoordLat: req.query.hereLat || DEFAULT_HERE.lat,
+      originCoordLong: req.query.hereLong || DEFAULT_HERE.long,
+      destCoordLat: req.query.homeLat || DEFAULT_HOME.lat,
+      destCoordLong: req.query.homeLong || DEFAULT_HOME.long,
+      originWalk: '1,0,10000',
+      destWalk: '1,0,10000',
+      format: 'json'
+    },
+    json: true
+  };
 
-    const options = {
-      uri: 'https://api.resrobot.se/v2/trip',
-      qs: {
-        key: key,
-        date: startTime.format(('YYYY-MM-DD')),
-        time: startTime.format('HH:mm'),
-        originCoordLat: req.query.hereLat || DEFAULT_HERE.lat,
-        originCoordLong: req.query.hereLong || DEFAULT_HERE.long,
-        destCoordLat: req.query.homeLat || DEFAULT_HOME.lat,
-        destCoordLong: req.query.homeLong || DEFAULT_HOME.long,
-        originWalk: '1,0,10000',
-        destWalk: '1,0,10000',
-        format: 'json'
-      },
-      json: true
-    };
+  console.log(`Looking for trips starting at ${startTime}`);
+  const response = await request(options);
 
-    console.log(`Looking for trips starting at ${startTime}`);
-    const response = await request(options);
+  const trips = response['Trip'];
 
-    const trips = response['Trip'];
-
-    const lastTripFirstLegOrigin = trips[trips.length - 1]['LegList']['Leg'][1]['Origin'];
-    const lastListedTimeString = lastTripFirstLegOrigin.date + 'T' + lastTripFirstLegOrigin.time;
-    startTime = moment(lastListedTimeString);
-
-    output = output.concat(trips
-      .filter((trip) => moment(trip['LegList']['Leg'][1]['Origin'].date + 'T' + trip['LegList']['Leg'][1]['Origin'].time)
-        .isBefore(lastDepartureTime))
-      .map((trip) => ({
-          start: getDateAndTime(trip['LegList']['Leg'][1]['Origin']),
-          duration: {
-            hours: moment.duration(trip.duration).get('hours'),
-            minutes: moment.duration(trip.duration).get('minutes')
-          },
-          legs: trip['LegList']['Leg']
-            .filter((leg) => !(leg.type === 'WALK' || leg.type === 'TRSF'))
-            .map((leg) => ({
-              start: {
-                ...getDateAndTime(leg.Origin),
-                place: leg.Origin.name
-              },
-              end: leg.Destination.date + 'T' + leg.Destination.time,
-              stops: (leg['Stops'] || {'Stop': []})['Stop']
-                .map((stop) => stop.name),
-              type: leg.type
-            }))
-        }
-      )));
-  }
+  output = output.concat(trips
+    .filter((trip) => moment(trip['LegList']['Leg'][1]['Origin'].date + 'T' + trip['LegList']['Leg'][1]['Origin'].time)
+      .isBefore(lastDepartureTime))
+    .map((trip) => ({
+        start: getDateAndTime(trip['LegList']['Leg'][1]['Origin']),
+        duration: {
+          hours: moment.duration(trip.duration).get('hours'),
+          minutes: moment.duration(trip.duration).get('minutes')
+        },
+        legs: trip['LegList']['Leg']
+          .filter((leg) => !(leg.type === 'WALK' || leg.type === 'TRSF'))
+          .map((leg) => ({
+            start: {
+              ...getDateAndTime(leg.Origin),
+              place: leg.Origin.name
+            },
+            end: leg.Destination.date + 'T' + leg.Destination.time,
+            stops: (leg['Stops'] || {'Stop': []})['Stop']
+              .map((stop) => stop.name),
+            type: leg.type
+          }))
+      }
+    )));
 
   const groupedByStartTime = output.reduce((acc, curr) => {
     const currentStart = curr.start.date + 'T' + curr.start.time;
