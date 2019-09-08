@@ -8,8 +8,6 @@ const app = express();
 
 const key = ('' + fs.readFileSync('key.txt')).trim();
 
-console.log(`Using API key ${key}`);
-
 const DEFAULT_HERE = {
   lat: 57.7824913,
   long: 14.2579982
