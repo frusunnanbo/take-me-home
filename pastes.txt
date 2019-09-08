@@ -1,0 +1,38 @@
+module.exports = {
+  collectCoverage: true,
+  setupFilesAfterEnv: ['jest-extended']
+};
+
+const HARD_CODED_RESROBOT_RESPONSE = JSON.parse(fs.readFileSync(path.resolve(__dirname, "__testdata__/resrobot.response.json")));
+
+
+function leg() {
+  return {
+    "start": {
+      "date": "2019-08-28",
+      "time": "12:49",
+      "place": "Kungsporten (Jönköping kn)"
+    },
+    "end": "2019-08-28T13:10:00",
+    "stops": [
+      "Kungsporten (Jönköping kn)",
+      "Kittendorffs gata (Jönköping kn)",
+      "Kungsängen (Jönköping kn)",
+      "Gullregnsbacken (Jönköping kn)",
+      "Resedastigen (Jönköping kn)",
+      "Jönköping Ekhagen centrum",
+      "Rosenlundsskolan (Jönköping kn)",
+      "Hermansplan (Jönköping kn)",
+      "Rosenlunds Vårdcentrum (Jönköping kn)",
+      "Starrgatan (Jönköping kn)",
+      "Jönköping Kilallén",
+      "Jönköping Cigarren",
+      "Östra torget (Jönköping kn)",
+      "Stadsbiblioteket (Jönköping kn)",
+      "Jönköping Östra centrum",
+      "Jönköping Rådhusparken",
+      "Jönköping Juneporten"
+    ],
+    "type": "JNY"
+  };
+}
