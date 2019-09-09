@@ -8,6 +8,8 @@ const app = express();
 
 const key = ('' + fs.readFileSync('key.txt')).trim();
 
+const API_URL = process.env.API_URL || 'https://api.resrobot.se/v2/trip';
+
 const DEFAULT_HERE = {
   lat: 57.7824913,
   long: 14.2579982
@@ -48,7 +50,7 @@ async function getTrips(startTime, req) {
   let output = [];
 
   const options = {
-    uri: 'https://api.resrobot.se/v2/trip',
+    uri: API_URL,
     qs: {
       key: key,
       date: startTime.format(('YYYY-MM-DD')),
