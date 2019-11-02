@@ -30,17 +30,19 @@ describe('The trip-selecting function', () => {
     expect(selectTrips([trip1, trip2])).toEqual([trip1, trip2]);
   });
 
-  it('selects the shortest trip of two with equal starttimes', () => {
+  it('selects the trip with fewest connections of two with equal starttimes', () => {
     const trip1 = trip({
       start: '08:30',
-      duration: moment.duration(2, 'hours')
+      duration: moment.duration(2, 'hours'),
+      legs: [leg()]
     });
     const trip2 = trip({
       start: '08:30',
-      duration: moment.duration(1, 'hour')
+      duration: moment.duration(1, 'hour'),
+      legs: [leg(), leg()]
     });
 
-    expect(selectTrips([trip1, trip2])).toEqual([trip2]);
+    expect(selectTrips([trip1, trip2])).toEqual([trip1]);
   });
 });
 
@@ -57,3 +59,34 @@ function trip(properties) {
     "legs": properties.legs || []
   };
 }
+
+
+function leg() {
+  return {
+    "start": {
+      "date": "2019-11-09",
+      "place": "Åkers Runö station (Österåker kn)",
+      "time": "12:27",
+    },
+    "end": "2019-08-28T13:10:00",
+    "stops": [
+      "Åkers Runö station (Österåker kn)",
+      "Täljö station (Österåker kn)",
+      "Rydbo station (Österåker kn)",
+      "Hägernäs station (Täby kn)",
+      "Viggbyholm station (Täby kn)",
+      "Galoppfältet station (Täby kn)",
+      "Täby centrum station",
+      "Roslags Näsby station (Täby kn)",
+      "Enebyberg station (Danderyd kn)",
+      "Djursholms Ekeby station (Danderyd kn)",
+      "Bråvallavägen station (Danderyd kn)",
+      "Djursholms Ösby station (Danderyd kn)",
+      "Mörby station (Danderyd kn)",
+      "Universitetet station (Stockholm kn)",
+      "Stockholm Östra station",
+    ],
+    "type": "JNY"
+  };
+}
+
