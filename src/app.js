@@ -11,22 +11,23 @@ const key = ('' + fs.readFileSync('key.txt')).trim();
 const API_URL = process.env.API_URL || 'https://api.resrobot.se/v2/trip';
 
 const DEFAULT_HERE = {
-  lat: 57.7824913,
-  long: 14.2579982
+  lat: 59.4652971,
+  long: 18.2857936
 };
 
 const DEFAULT_HOME = {
-  lat: 59.2987134,
-  long: 18.0568867
+  lat: 59.2733699,
+  long: 18.0183165
 };
 
 app.engine('handlebars', expressHbs());
 app.set('view engine', 'handlebars');
 app.get('/', async (req, res) => {
+  let startTime = req.query.startTime ? moment(req.query.startTime) : moment();
   res.render('trips',
     {
       layout: false,
-      trips: await getTrips(moment(), req)
+      trips: await getTrips(startTime, req)
     });
 });
 
@@ -60,8 +61,8 @@ async function getTrips(startTime, req) {
       originCoordLong: req.query.hereLong || DEFAULT_HERE.long,
       destCoordLat: req.query.homeLat || DEFAULT_HOME.lat,
       destCoordLong: req.query.homeLong || DEFAULT_HOME.long,
-      originWalk: '1,0,10000',
-      destWalk: '1,0,10000',
+      originWalk: '1,0,3000',
+      destWalk: '1,0,500',
       format: 'json'
     },
     json: true
