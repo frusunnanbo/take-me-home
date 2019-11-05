@@ -1,0 +1,91 @@
+
+const moment = require('moment');
+
+const { selectTrips } = require('../trips');
+
+describe('The trip-selecting function', () => {
+
+  it('returns an empty list unchanged', () => {
+    expect(selectTrips([])).toBeEmpty();
+  });
+
+  it('returns a single element unchanged', () => {
+    const trip1 = trip({
+      start: '08:30',
+      duration: moment.duration(1, 'hour')
+    });
+
+    expect(selectTrips([trip1])).toEqual([trip1]);
+  });
+
+  it('returns two trips with different starttimes unchanged', () => {
+    const trip1 = trip({
+      start: '08:30',
+      duration: moment.duration(1, 'hour')
+    });
+    const trip2 = trip({
+      start: '09:30',
+      duration: moment.duration(1, 'hour')
+    });
+
+    expect(selectTrips([trip1, trip2])).toEqual([trip1, trip2]);
+  });
+
+  it('selects the shortest trip of two with equal starttimes', () => {
+    const trip1 = trip({
+      start: '08:30',
+      duration: moment.duration(2, 'hours'),
+      legs: [ leg() ]
+    });
+    const trip2 = trip({
+      start: '08:30',
+      duration: moment.duration(1, 'hour'),
+      legs: [ leg(), leg() ]
+    });
+
+    expect(selectTrips([trip1, trip2])).toEqual([trip1]);
+  });
+});
+
+function trip(properties) {
+  return {
+    "start": {
+      "date": "2019-08-28",
+      "time": properties.start || '06:00'
+    },
+    "duration": {
+      "hours": properties.duration ? properties.duration.get('hours') : 1,
+      "minutes": properties.duration ? properties.duration.get('minutes') : 2
+    },
+    "legs": properties.legs || []
+  };
+}
+
+function leg() {
+  return {
+    "start": {
+      "date": "2019-11-09",
+      "place": "Åkers Runö station (Österåker kn)",
+      "time": "12:27",
+    },
+    "end": "2019-08-28T13:10:00",
+    "stops": [
+      "Åkers Runö station (Österåker kn)",
+      "Täljö station (Österåker kn)",
+      "Rydbo station (Österåker kn)",
+      "Hägernäs station (Täby kn)",
+      "Viggbyholm station (Täby kn)",
+      "Galoppfältet station (Täby kn)",
+      "Täby centrum station",
+      "Roslags Näsby station (Täby kn)",
+      "Enebyberg station (Danderyd kn)",
+      "Djursholms Ekeby station (Danderyd kn)",
+      "Bråvallavägen station (Danderyd kn)",
+      "Djursholms Ösby station (Danderyd kn)",
+      "Mörby station (Danderyd kn)",
+      "Universitetet station (Stockholm kn)",
+      "Stockholm Östra station",
+    ],
+    "type": "JNY"
+  };
+}
