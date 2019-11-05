@@ -12,7 +12,7 @@ function selectTrips(trips) {
 
   return Object.values(groupedByStartTime)
     .map((trips) => {
-      trips.sort((trip1, trip2) => moment.duration(trip1.duration).subtract(moment.duration(trip2.duration)))
+      trips.sort((trip1, trip2) => trip1.legs.length - trip2.legs.length)
       return trips[0]
     })
 }
