@@ -1,0 +1,4865 @@
+{
+  "Trip": [
+    {
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2019-11-04",
+          "planningPeriodEnd": "2020-06-14",
+          "sDaysR": "not every day",
+          "sDaysI": "9. Nov until 14. Dec 2019 Sa, Su",
+          "sDaysB": "060C1830608000000000000000000000000000000000000000000000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "59.465297, 18.285793",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.285794,
+              "lat": 59.465298,
+              "time": "12:16:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "time": "12:57:00",
+              "date": "2019-11-09"
+            },
+            "idx": "0",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT41M",
+            "dist": 2764
+          },
+          {
+            "Origin": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "routeIdx": 3,
+              "time": "12:57:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Stockholm Östra station",
+              "type": "ST",
+              "id": "740020750",
+              "extId": "740020750",
+              "lon": 18.071716,
+              "lat": 59.34611,
+              "routeIdx": 17,
+              "time": "13:33:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 28",
+              "num": "28",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Åkers Runö station (Österåker kn)",
+                  "id": "740023174",
+                  "extId": "740023174",
+                  "routeIdx": 3,
+                  "lon": 18.268589,
+                  "lat": 59.480849,
+                  "depTime": "12:57:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Täljö station (Österåker kn)",
+                  "id": "740024805",
+                  "extId": "740024805",
+                  "routeIdx": 4,
+                  "lon": 18.233495,
+                  "lat": 59.472417,
+                  "depTime": "13:00:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:00:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Rydbo station (Österåker kn)",
+                  "id": "740020871",
+                  "extId": "740020871",
+                  "routeIdx": 5,
+                  "lon": 18.183245,
+                  "lat": 59.465343,
+                  "depTime": "13:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hägernäs station (Täby kn)",
+                  "id": "740020192",
+                  "extId": "740020192",
+                  "routeIdx": 6,
+                  "lon": 18.124411,
+                  "lat": 59.451041,
+                  "depTime": "13:08:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:08:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Viggbyholm station (Täby kn)",
+                  "id": "740020110",
+                  "extId": "740020110",
+                  "routeIdx": 7,
+                  "lon": 18.103852,
+                  "lat": 59.44909,
+                  "depTime": "13:11:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:11:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Galoppfältet station (Täby kn)",
+                  "id": "740024798",
+                  "extId": "740024798",
+                  "routeIdx": 8,
+                  "lon": 18.083537,
+                  "lat": 59.446762,
+                  "depTime": "13:12:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:12:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Täby centrum station",
+                  "id": "740000779",
+                  "extId": "740000779",
+                  "routeIdx": 9,
+                  "lon": 18.074008,
+                  "lat": 59.444047,
+                  "depTime": "13:14:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:14:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Roslags Näsby station (Täby kn)",
+                  "id": "740000740",
+                  "extId": "740000740",
+                  "routeIdx": 10,
+                  "lon": 18.057315,
+                  "lat": 59.435256,
+                  "depTime": "13:17:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:17:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Enebyberg station (Danderyd kn)",
+                  "id": "740024372",
+                  "extId": "740024372",
+                  "routeIdx": 11,
+                  "lon": 18.051292,
+                  "lat": 59.425583,
+                  "depTime": "13:18:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:18:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ekeby station (Danderyd kn)",
+                  "id": "740020870",
+                  "extId": "740020870",
+                  "routeIdx": 12,
+                  "lon": 18.057567,
+                  "lat": 59.412882,
+                  "depTime": "13:20:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:20:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Bråvallavägen station (Danderyd kn)",
+                  "id": "740024795",
+                  "extId": "740024795",
+                  "routeIdx": 13,
+                  "lon": 18.060587,
+                  "lat": 59.4056,
+                  "depTime": "13:22:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:22:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ösby station (Danderyd kn)",
+                  "id": "740001038",
+                  "extId": "740001038",
+                  "routeIdx": 14,
+                  "lon": 18.058655,
+                  "lat": 59.397986,
+                  "depTime": "13:24:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:24:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mörby station (Danderyd kn)",
+                  "id": "740020867",
+                  "extId": "740020867",
+                  "routeIdx": 15,
+                  "lon": 18.046933,
+                  "lat": 59.391892,
+                  "depTime": "13:26:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:26:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Universitetet station (Stockholm kn)",
+                  "id": "740024787",
+                  "extId": "740024787",
+                  "routeIdx": 16,
+                  "lon": 18.050816,
+                  "lat": 59.365185,
+                  "depTime": "13:29:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:29:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Stockholm Östra station",
+                  "id": "740020750",
+                  "extId": "740020750",
+                  "routeIdx": 17,
+                  "lon": 18.071716,
+                  "lat": 59.34611,
+                  "arrTime": "13:33:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "1",
+            "name": "Länstrafik - Tåg 28",
+            "transportNumber": "28",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Stockholm Östra station"
+          },
+          {
+            "Origin": {
+              "name": "Stockholm Östra station",
+              "type": "ST",
+              "id": "740020750",
+              "extId": "740020750",
+              "lon": 18.071716,
+              "lat": 59.34611,
+              "time": "13:33:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740011606",
+              "extId": "740011606",
+              "lon": 18.071716,
+              "lat": 59.345822,
+              "time": "13:41:00",
+              "date": "2019-11-09"
+            },
+            "idx": "2",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT8M",
+            "dist": 100
+          },
+          {
+            "Origin": {
+              "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740011606",
+              "extId": "740011606",
+              "lon": 18.071716,
+              "lat": 59.345822,
+              "routeIdx": 4,
+              "time": "13:45:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "T-Centralen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740020749",
+              "extId": "740020749",
+              "lon": 18.059266,
+              "lat": 59.330945,
+              "routeIdx": 7,
+              "time": "13:51:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik -Tunnelbana 14",
+              "num": "14",
+              "catCode": "5",
+              "catOutS": "ULT",
+              "catOutL": "Länstrafik -Tunnelbana",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+                  "id": "740011606",
+                  "extId": "740011606",
+                  "routeIdx": 4,
+                  "lon": 18.071716,
+                  "lat": 59.345822,
+                  "depTime": "13:45:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Stadion T-bana (Stockholm kn)",
+                  "id": "740021647",
+                  "extId": "740021647",
+                  "routeIdx": 5,
+                  "lon": 18.081703,
+                  "lat": 59.342963,
+                  "depTime": "13:47:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:47:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Östermalmstorg T-bana (Stockholm kn)",
+                  "id": "740021651",
+                  "extId": "740021651",
+                  "routeIdx": 6,
+                  "lon": 18.07408,
+                  "lat": 59.334972,
+                  "depTime": "13:48:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:48:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "T-Centralen T-bana (Stockholm kn)",
+                  "id": "740020749",
+                  "extId": "740020749",
+                  "routeIdx": 7,
+                  "lon": 18.059266,
+                  "lat": 59.330945,
+                  "arrTime": "13:51:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "3",
+            "name": "Länstrafik -Tunnelbana 14",
+            "transportNumber": "14",
+            "transportCategory": "ULT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Fruängen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "T-Centralen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740020749",
+              "extId": "740020749",
+              "lon": 18.059266,
+              "lat": 59.330945,
+              "time": "13:51:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Stockholm City station",
+              "type": "ST",
+              "id": "740001617",
+              "extId": "740001617",
+              "lon": 18.059437,
+              "lat": 59.331143,
+              "time": "14:01:00",
+              "date": "2019-11-09"
+            },
+            "idx": "4",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT10M",
+            "dist": 50
+          },
+          {
+            "Origin": {
+              "name": "Stockholm City station",
+              "type": "ST",
+              "id": "740001617",
+              "extId": "740001617",
+              "lon": 18.059437,
+              "lat": 59.331143,
+              "routeIdx": 9,
+              "time": "14:01:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Älvsjö station (Stockholm kn)",
+              "type": "ST",
+              "id": "740000789",
+              "extId": "740000789",
+              "lon": 18.011066,
+              "lat": 59.278736,
+              "routeIdx": 12,
+              "time": "14:10:00",
+              "date": "2019-11-09"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "priority": 100,
+                  "routeIdxFrom": 9,
+                  "routeIdxTo": 12
+                },
+                {
+                  "value": "Ej reservering",
+                  "key": "AE",
+                  "type": "A",
+                  "priority": 100,
+                  "routeIdxFrom": 9,
+                  "routeIdxTo": 12
+                }
+              ]
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 2841",
+              "num": "2841",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm City station",
+                  "id": "740001617",
+                  "extId": "740001617",
+                  "routeIdx": 9,
+                  "lon": 18.059437,
+                  "lat": 59.331143,
+                  "depTime": "14:01:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Stockholm Södra station",
+                  "id": "740000765",
+                  "extId": "740000765",
+                  "routeIdx": 10,
+                  "lon": 18.064498,
+                  "lat": 59.314171,
+                  "depTime": "14:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Årstaberg station (Stockholm kn)",
+                  "id": "740024920",
+                  "extId": "740024920",
+                  "routeIdx": 11,
+                  "lon": 18.030231,
+                  "lat": 59.299231,
+                  "depTime": "14:07:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:07:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 12,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "arrTime": "14:10:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "5",
+            "name": "Länstrafik - Tåg 2841",
+            "transportNumber": "2841",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Tungelsta station (Haninge kn)"
+          },
+          {
+            "Origin": {
+              "name": "Älvsjö station (Stockholm kn)",
+              "type": "ST",
+              "id": "740000789",
+              "extId": "740000789",
+              "lon": 18.011066,
+              "lat": 59.278736,
+              "routeIdx": 17,
+              "time": "14:25:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "routeIdx": 18,
+              "time": "14:29:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 163",
+              "num": "163",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 17,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "depTime": "14:25:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Turingevägen (Stockholm kn)",
+                  "id": "740051240",
+                  "extId": "740051240",
+                  "routeIdx": 18,
+                  "lon": 18.020379,
+                  "lat": 59.273495,
+                  "arrTime": "14:29:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "6",
+            "name": "Länstrafik - Buss 163",
+            "transportNumber": "163",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kärrtorp T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "time": "14:29:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "59.273369, 18.018316",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.01832,
+              "lat": 59.273369,
+              "time": "14:32:00",
+              "date": "2019-11-09"
+            },
+            "idx": "7",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT3M",
+            "dist": 124
+          }
+        ]
+      },
+      "idx": 0,
+      "tripId": "C-0",
+      "ctxRecon": "G@F$A=2@O=59.465297, 18.285793@X=18285794@Y=59465298@u=0@a=128@$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$201911091216$201911091257$$$1$§T$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$A=1@O=Stockholm Östra station@L=740020750@a=128@$201911091257$201911091333$JLT   28$$1$§W$A=1@O=Stockholm Östra station@L=740020750@a=128@$A=1@O=Tekniska Högskolan T-bana (Stockholm kn)@L=740011606@a=128@$201911091333$201911091341$$$1$§T$A=1@O=Tekniska Högskolan T-bana (Stockholm kn)@L=740011606@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201911091345$201911091351$ULT   14$$1$§W$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Stockholm City station@L=740001617@a=128@$201911091351$201911091401$$$1$§T$A=1@O=Stockholm City station@L=740001617@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201911091401$201911091410$JLT 2841$$1$§T$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201911091425$201911091429$BLT  163$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018316@X=18018320@Y=59273369@u=0@a=128@$201911091429$201911091432$$$1$",
+      "duration": "PT2H16M"
+    },
+    {
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2019-11-04",
+          "planningPeriodEnd": "2020-06-14",
+          "sDaysR": "not every day",
+          "sDaysI": "9. Nov until 14. Dec 2019 Sa, Su",
+          "sDaysB": "060C1830608000000000000000000000000000000000000000000000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "59.465297, 18.285793",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.285794,
+              "lat": 59.465298,
+              "time": "12:16:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "time": "12:57:00",
+              "date": "2019-11-09"
+            },
+            "idx": "0",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT41M",
+            "dist": 2764
+          },
+          {
+            "Origin": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "routeIdx": 3,
+              "time": "12:57:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Mörby station (Danderyd kn)",
+              "type": "ST",
+              "id": "740020867",
+              "extId": "740020867",
+              "lon": 18.046933,
+              "lat": 59.391892,
+              "routeIdx": 15,
+              "time": "13:26:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 28",
+              "num": "28",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Åkers Runö station (Österåker kn)",
+                  "id": "740023174",
+                  "extId": "740023174",
+                  "routeIdx": 3,
+                  "lon": 18.268589,
+                  "lat": 59.480849,
+                  "depTime": "12:57:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Täljö station (Österåker kn)",
+                  "id": "740024805",
+                  "extId": "740024805",
+                  "routeIdx": 4,
+                  "lon": 18.233495,
+                  "lat": 59.472417,
+                  "depTime": "13:00:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:00:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Rydbo station (Österåker kn)",
+                  "id": "740020871",
+                  "extId": "740020871",
+                  "routeIdx": 5,
+                  "lon": 18.183245,
+                  "lat": 59.465343,
+                  "depTime": "13:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hägernäs station (Täby kn)",
+                  "id": "740020192",
+                  "extId": "740020192",
+                  "routeIdx": 6,
+                  "lon": 18.124411,
+                  "lat": 59.451041,
+                  "depTime": "13:08:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:08:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Viggbyholm station (Täby kn)",
+                  "id": "740020110",
+                  "extId": "740020110",
+                  "routeIdx": 7,
+                  "lon": 18.103852,
+                  "lat": 59.44909,
+                  "depTime": "13:11:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:11:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Galoppfältet station (Täby kn)",
+                  "id": "740024798",
+                  "extId": "740024798",
+                  "routeIdx": 8,
+                  "lon": 18.083537,
+                  "lat": 59.446762,
+                  "depTime": "13:12:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:12:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Täby centrum station",
+                  "id": "740000779",
+                  "extId": "740000779",
+                  "routeIdx": 9,
+                  "lon": 18.074008,
+                  "lat": 59.444047,
+                  "depTime": "13:14:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:14:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Roslags Näsby station (Täby kn)",
+                  "id": "740000740",
+                  "extId": "740000740",
+                  "routeIdx": 10,
+                  "lon": 18.057315,
+                  "lat": 59.435256,
+                  "depTime": "13:17:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:17:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Enebyberg station (Danderyd kn)",
+                  "id": "740024372",
+                  "extId": "740024372",
+                  "routeIdx": 11,
+                  "lon": 18.051292,
+                  "lat": 59.425583,
+                  "depTime": "13:18:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:18:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ekeby station (Danderyd kn)",
+                  "id": "740020870",
+                  "extId": "740020870",
+                  "routeIdx": 12,
+                  "lon": 18.057567,
+                  "lat": 59.412882,
+                  "depTime": "13:20:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:20:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Bråvallavägen station (Danderyd kn)",
+                  "id": "740024795",
+                  "extId": "740024795",
+                  "routeIdx": 13,
+                  "lon": 18.060587,
+                  "lat": 59.4056,
+                  "depTime": "13:22:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:22:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ösby station (Danderyd kn)",
+                  "id": "740001038",
+                  "extId": "740001038",
+                  "routeIdx": 14,
+                  "lon": 18.058655,
+                  "lat": 59.397986,
+                  "depTime": "13:24:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:24:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mörby station (Danderyd kn)",
+                  "id": "740020867",
+                  "extId": "740020867",
+                  "routeIdx": 15,
+                  "lon": 18.046933,
+                  "lat": 59.391892,
+                  "arrTime": "13:26:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "1",
+            "name": "Länstrafik - Tåg 28",
+            "transportNumber": "28",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Stockholm Östra station"
+          },
+          {
+            "Origin": {
+              "name": "Mörby station (Danderyd kn)",
+              "type": "ST",
+              "id": "740020867",
+              "extId": "740020867",
+              "lon": 18.046933,
+              "lat": 59.391892,
+              "time": "13:26:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Danderyds sjukhus T-bana",
+              "type": "ST",
+              "id": "740010232",
+              "extId": "740010232",
+              "lon": 18.041368,
+              "lat": 59.391901,
+              "time": "13:46:00",
+              "date": "2019-11-09"
+            },
+            "idx": "2",
+            "name": "",
+            "type": "TRSF",
+            "duration": "PT20M",
+            "dist": 0
+          },
+          {
+            "Origin": {
+              "name": "Danderyds sjukhus T-bana",
+              "type": "ST",
+              "id": "740010232",
+              "extId": "740010232",
+              "lon": 18.041368,
+              "lat": 59.391901,
+              "routeIdx": 1,
+              "time": "13:47:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Telefonplan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021716",
+              "extId": "740021716",
+              "lon": 17.997231,
+              "lat": 59.298323,
+              "routeIdx": 15,
+              "time": "14:14:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik -Tunnelbana 14",
+              "num": "14",
+              "catCode": "5",
+              "catOutS": "ULT",
+              "catOutL": "Länstrafik -Tunnelbana",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Danderyds sjukhus T-bana",
+                  "id": "740010232",
+                  "extId": "740010232",
+                  "routeIdx": 1,
+                  "lon": 18.041368,
+                  "lat": 59.391901,
+                  "depTime": "13:47:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Bergshamra T-bana (Solna kn)",
+                  "id": "740021644",
+                  "extId": "740021644",
+                  "routeIdx": 2,
+                  "lon": 18.036514,
+                  "lat": 59.381509,
+                  "depTime": "13:49:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:49:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Universitetet T-bana (Stockholm kn)",
+                  "id": "740021645",
+                  "extId": "740021645",
+                  "routeIdx": 3,
+                  "lon": 18.054888,
+                  "lat": 59.365571,
+                  "depTime": "13:51:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:51:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+                  "id": "740011606",
+                  "extId": "740011606",
+                  "routeIdx": 4,
+                  "lon": 18.071716,
+                  "lat": 59.345822,
+                  "depTime": "13:55:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:55:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Stadion T-bana (Stockholm kn)",
+                  "id": "740021647",
+                  "extId": "740021647",
+                  "routeIdx": 5,
+                  "lon": 18.081703,
+                  "lat": 59.342963,
+                  "depTime": "13:57:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:57:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Östermalmstorg T-bana (Stockholm kn)",
+                  "id": "740021651",
+                  "extId": "740021651",
+                  "routeIdx": 6,
+                  "lon": 18.07408,
+                  "lat": 59.334972,
+                  "depTime": "13:58:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:58:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "T-Centralen T-bana (Stockholm kn)",
+                  "id": "740020749",
+                  "extId": "740020749",
+                  "routeIdx": 7,
+                  "lon": 18.059266,
+                  "lat": 59.330945,
+                  "depTime": "14:01:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:01:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Gamla Stan T-bana (Stockholm kn)",
+                  "id": "740021653",
+                  "extId": "740021653",
+                  "routeIdx": 8,
+                  "lon": 18.067617,
+                  "lat": 59.32316,
+                  "depTime": "14:02:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:02:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Slussen T-bana (Stockholm kn)",
+                  "id": "740020101",
+                  "extId": "740020101",
+                  "routeIdx": 9,
+                  "lon": 18.072327,
+                  "lat": 59.319493,
+                  "depTime": "14:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mariatorget T-bana (Stockholm kn)",
+                  "id": "740021656",
+                  "extId": "740021656",
+                  "routeIdx": 10,
+                  "lon": 18.063311,
+                  "lat": 59.316958,
+                  "depTime": "14:05:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:05:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Zinkensdamm T-bana (Stockholm kn)",
+                  "id": "740021657",
+                  "extId": "740021657",
+                  "routeIdx": 11,
+                  "lon": 18.050151,
+                  "lat": 59.317776,
+                  "depTime": "14:07:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:07:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hornstull T-bana (Stockholm kn)",
+                  "id": "740021658",
+                  "extId": "740021658",
+                  "routeIdx": 12,
+                  "lon": 18.034024,
+                  "lat": 59.315834,
+                  "depTime": "14:08:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:08:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Liljeholmen T-bana (Stockholm kn)",
+                  "id": "740004046",
+                  "extId": "740004046",
+                  "routeIdx": 13,
+                  "lon": 18.023129,
+                  "lat": 59.31071,
+                  "depTime": "14:11:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:11:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Midsommarkransen T-bana (Stockholm kn)",
+                  "id": "740021715",
+                  "extId": "740021715",
+                  "routeIdx": 14,
+                  "lon": 18.012037,
+                  "lat": 59.301856,
+                  "depTime": "14:13:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:13:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Telefonplan T-bana (Stockholm kn)",
+                  "id": "740021716",
+                  "extId": "740021716",
+                  "routeIdx": 15,
+                  "lon": 17.997231,
+                  "lat": 59.298323,
+                  "arrTime": "14:14:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "3",
+            "name": "Länstrafik -Tunnelbana 14",
+            "transportNumber": "14",
+            "transportCategory": "ULT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Fruängen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Telefonplan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021716",
+              "extId": "740021716",
+              "lon": 17.997231,
+              "lat": 59.298323,
+              "routeIdx": 11,
+              "time": "14:26:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "routeIdx": 19,
+              "time": "14:41:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 161",
+              "num": "161",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Telefonplan T-bana (Stockholm kn)",
+                  "id": "740021716",
+                  "extId": "740021716",
+                  "routeIdx": 11,
+                  "lon": 17.997231,
+                  "lat": 59.298323,
+                  "depTime": "14:26:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Tellusborgsvägen (Stockholm kn)",
+                  "id": "740065483",
+                  "extId": "740065483",
+                  "routeIdx": 12,
+                  "lon": 18.000135,
+                  "lat": 59.296516,
+                  "depTime": "14:27:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:27:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Västbergavägen (Stockholm kn)",
+                  "id": "740065484",
+                  "extId": "740065484",
+                  "routeIdx": 13,
+                  "lon": 18.002166,
+                  "lat": 59.294458,
+                  "depTime": "14:28:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:28:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hökmossens gård (Stockholm kn)",
+                  "id": "740051243",
+                  "extId": "740051243",
+                  "routeIdx": 14,
+                  "lon": 17.993123,
+                  "lat": 59.288974,
+                  "depTime": "14:30:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:30:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Nippervägen (Stockholm kn)",
+                  "id": "740051242",
+                  "extId": "740051242",
+                  "routeIdx": 15,
+                  "lon": 17.993222,
+                  "lat": 59.285271,
+                  "depTime": "14:31:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:31:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Kämpetorpsskolan (Stockholm kn)",
+                  "id": "740051241",
+                  "extId": "740051241",
+                  "routeIdx": 16,
+                  "lon": 17.994427,
+                  "lat": 59.283814,
+                  "depTime": "14:32:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:32:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjögården (Stockholm kn)",
+                  "id": "740065506",
+                  "extId": "740065506",
+                  "routeIdx": 17,
+                  "lon": 18.004647,
+                  "lat": 59.280093,
+                  "depTime": "14:34:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:34:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 18,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "depTime": "14:37:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:37:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Turingevägen (Stockholm kn)",
+                  "id": "740051240",
+                  "extId": "740051240",
+                  "routeIdx": 19,
+                  "lon": 18.020379,
+                  "lat": 59.273495,
+                  "arrTime": "14:41:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "4",
+            "name": "Länstrafik - Buss 161",
+            "transportNumber": "161",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Bagarmossen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "time": "14:41:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "59.273369, 18.018316",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.01832,
+              "lat": 59.273369,
+              "time": "14:44:00",
+              "date": "2019-11-09"
+            },
+            "idx": "5",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT3M",
+            "dist": 124
+          }
+        ]
+      },
+      "idx": 1,
+      "tripId": "C-1",
+      "ctxRecon": "G@F$A=2@O=59.465297, 18.285793@X=18285794@Y=59465298@u=0@a=128@$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$201911091216$201911091257$$$1$§T$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$A=1@O=Mörby station (Danderyd kn)@L=740020867@a=128@$201911091257$201911091326$JLT   28$$1$§TF$A=1@O=Mörby station (Danderyd kn)@L=740020867@a=128@$A=1@O=Danderyds sjukhus T-bana@L=740010232@a=128@$201911091326$201911091346$$$1$§T$A=1@O=Danderyds sjukhus T-bana@L=740010232@a=128@$A=1@O=Telefonplan T-bana (Stockholm kn)@L=740021716@a=128@$201911091347$201911091414$ULT   14$$1$§T$A=1@O=Telefonplan T-bana (Stockholm kn)@L=740021716@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201911091426$201911091441$BLT  161$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018316@X=18018320@Y=59273369@u=0@a=128@$201911091441$201911091444$$$1$",
+      "duration": "PT2H28M"
+    },
+    {
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2019-11-04",
+          "planningPeriodEnd": "2020-06-14",
+          "sDaysR": "not every day",
+          "sDaysI": "9. Nov until 14. Dec 2019 Sa, Su",
+          "sDaysB": "060C1830608000000000000000000000000000000000000000000000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "59.465297, 18.285793",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.285794,
+              "lat": 59.465298,
+              "time": "12:46:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "time": "13:27:00",
+              "date": "2019-11-09"
+            },
+            "idx": "0",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT41M",
+            "dist": 2764
+          },
+          {
+            "Origin": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "routeIdx": 3,
+              "time": "13:27:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Stockholm Östra station",
+              "type": "ST",
+              "id": "740020750",
+              "extId": "740020750",
+              "lon": 18.071716,
+              "lat": 59.34611,
+              "routeIdx": 17,
+              "time": "14:03:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 28",
+              "num": "28",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Åkers Runö station (Österåker kn)",
+                  "id": "740023174",
+                  "extId": "740023174",
+                  "routeIdx": 3,
+                  "lon": 18.268589,
+                  "lat": 59.480849,
+                  "depTime": "13:27:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Täljö station (Österåker kn)",
+                  "id": "740024805",
+                  "extId": "740024805",
+                  "routeIdx": 4,
+                  "lon": 18.233495,
+                  "lat": 59.472417,
+                  "depTime": "13:30:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:30:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Rydbo station (Österåker kn)",
+                  "id": "740020871",
+                  "extId": "740020871",
+                  "routeIdx": 5,
+                  "lon": 18.183245,
+                  "lat": 59.465343,
+                  "depTime": "13:34:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:34:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hägernäs station (Täby kn)",
+                  "id": "740020192",
+                  "extId": "740020192",
+                  "routeIdx": 6,
+                  "lon": 18.124411,
+                  "lat": 59.451041,
+                  "depTime": "13:38:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:38:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Viggbyholm station (Täby kn)",
+                  "id": "740020110",
+                  "extId": "740020110",
+                  "routeIdx": 7,
+                  "lon": 18.103852,
+                  "lat": 59.44909,
+                  "depTime": "13:41:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:41:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Galoppfältet station (Täby kn)",
+                  "id": "740024798",
+                  "extId": "740024798",
+                  "routeIdx": 8,
+                  "lon": 18.083537,
+                  "lat": 59.446762,
+                  "depTime": "13:42:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:42:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Täby centrum station",
+                  "id": "740000779",
+                  "extId": "740000779",
+                  "routeIdx": 9,
+                  "lon": 18.074008,
+                  "lat": 59.444047,
+                  "depTime": "13:44:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:44:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Roslags Näsby station (Täby kn)",
+                  "id": "740000740",
+                  "extId": "740000740",
+                  "routeIdx": 10,
+                  "lon": 18.057315,
+                  "lat": 59.435256,
+                  "depTime": "13:47:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:47:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Enebyberg station (Danderyd kn)",
+                  "id": "740024372",
+                  "extId": "740024372",
+                  "routeIdx": 11,
+                  "lon": 18.051292,
+                  "lat": 59.425583,
+                  "depTime": "13:48:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:48:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ekeby station (Danderyd kn)",
+                  "id": "740020870",
+                  "extId": "740020870",
+                  "routeIdx": 12,
+                  "lon": 18.057567,
+                  "lat": 59.412882,
+                  "depTime": "13:50:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:50:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Bråvallavägen station (Danderyd kn)",
+                  "id": "740024795",
+                  "extId": "740024795",
+                  "routeIdx": 13,
+                  "lon": 18.060587,
+                  "lat": 59.4056,
+                  "depTime": "13:52:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:52:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ösby station (Danderyd kn)",
+                  "id": "740001038",
+                  "extId": "740001038",
+                  "routeIdx": 14,
+                  "lon": 18.058655,
+                  "lat": 59.397986,
+                  "depTime": "13:54:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:54:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mörby station (Danderyd kn)",
+                  "id": "740020867",
+                  "extId": "740020867",
+                  "routeIdx": 15,
+                  "lon": 18.046933,
+                  "lat": 59.391892,
+                  "depTime": "13:56:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:56:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Universitetet station (Stockholm kn)",
+                  "id": "740024787",
+                  "extId": "740024787",
+                  "routeIdx": 16,
+                  "lon": 18.050816,
+                  "lat": 59.365185,
+                  "depTime": "13:59:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:59:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Stockholm Östra station",
+                  "id": "740020750",
+                  "extId": "740020750",
+                  "routeIdx": 17,
+                  "lon": 18.071716,
+                  "lat": 59.34611,
+                  "arrTime": "14:03:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "1",
+            "name": "Länstrafik - Tåg 28",
+            "transportNumber": "28",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Stockholm Östra station"
+          },
+          {
+            "Origin": {
+              "name": "Stockholm Östra station",
+              "type": "ST",
+              "id": "740020750",
+              "extId": "740020750",
+              "lon": 18.071716,
+              "lat": 59.34611,
+              "time": "14:03:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740011606",
+              "extId": "740011606",
+              "lon": 18.071716,
+              "lat": 59.345822,
+              "time": "14:11:00",
+              "date": "2019-11-09"
+            },
+            "idx": "2",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT8M",
+            "dist": 100
+          },
+          {
+            "Origin": {
+              "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740011606",
+              "extId": "740011606",
+              "lon": 18.071716,
+              "lat": 59.345822,
+              "routeIdx": 4,
+              "time": "14:15:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Fruängen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021719",
+              "extId": "740021719",
+              "lon": 17.965005,
+              "lat": 59.285927,
+              "routeIdx": 18,
+              "time": "14:39:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik -Tunnelbana 14",
+              "num": "14",
+              "catCode": "5",
+              "catOutS": "ULT",
+              "catOutL": "Länstrafik -Tunnelbana",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+                  "id": "740011606",
+                  "extId": "740011606",
+                  "routeIdx": 4,
+                  "lon": 18.071716,
+                  "lat": 59.345822,
+                  "depTime": "14:15:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Stadion T-bana (Stockholm kn)",
+                  "id": "740021647",
+                  "extId": "740021647",
+                  "routeIdx": 5,
+                  "lon": 18.081703,
+                  "lat": 59.342963,
+                  "depTime": "14:17:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:17:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Östermalmstorg T-bana (Stockholm kn)",
+                  "id": "740021651",
+                  "extId": "740021651",
+                  "routeIdx": 6,
+                  "lon": 18.07408,
+                  "lat": 59.334972,
+                  "depTime": "14:18:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:18:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "T-Centralen T-bana (Stockholm kn)",
+                  "id": "740020749",
+                  "extId": "740020749",
+                  "routeIdx": 7,
+                  "lon": 18.059266,
+                  "lat": 59.330945,
+                  "depTime": "14:21:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:21:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Gamla Stan T-bana (Stockholm kn)",
+                  "id": "740021653",
+                  "extId": "740021653",
+                  "routeIdx": 8,
+                  "lon": 18.067617,
+                  "lat": 59.32316,
+                  "depTime": "14:22:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:22:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Slussen T-bana (Stockholm kn)",
+                  "id": "740020101",
+                  "extId": "740020101",
+                  "routeIdx": 9,
+                  "lon": 18.072327,
+                  "lat": 59.319493,
+                  "depTime": "14:24:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:24:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mariatorget T-bana (Stockholm kn)",
+                  "id": "740021656",
+                  "extId": "740021656",
+                  "routeIdx": 10,
+                  "lon": 18.063311,
+                  "lat": 59.316958,
+                  "depTime": "14:25:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:25:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Zinkensdamm T-bana (Stockholm kn)",
+                  "id": "740021657",
+                  "extId": "740021657",
+                  "routeIdx": 11,
+                  "lon": 18.050151,
+                  "lat": 59.317776,
+                  "depTime": "14:27:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:27:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hornstull T-bana (Stockholm kn)",
+                  "id": "740021658",
+                  "extId": "740021658",
+                  "routeIdx": 12,
+                  "lon": 18.034024,
+                  "lat": 59.315834,
+                  "depTime": "14:28:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:28:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Liljeholmen T-bana (Stockholm kn)",
+                  "id": "740004046",
+                  "extId": "740004046",
+                  "routeIdx": 13,
+                  "lon": 18.023129,
+                  "lat": 59.31071,
+                  "depTime": "14:31:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:31:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Midsommarkransen T-bana (Stockholm kn)",
+                  "id": "740021715",
+                  "extId": "740021715",
+                  "routeIdx": 14,
+                  "lon": 18.012037,
+                  "lat": 59.301856,
+                  "depTime": "14:33:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:33:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Telefonplan T-bana (Stockholm kn)",
+                  "id": "740021716",
+                  "extId": "740021716",
+                  "routeIdx": 15,
+                  "lon": 17.997231,
+                  "lat": 59.298323,
+                  "depTime": "14:34:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:34:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hägerstensåsen T-bana (Stockholm kn)",
+                  "id": "740021717",
+                  "extId": "740021717",
+                  "routeIdx": 16,
+                  "lon": 17.979154,
+                  "lat": 59.295572,
+                  "depTime": "14:36:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:36:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Västertorp T-bana (Stockholm kn)",
+                  "id": "740021718",
+                  "extId": "740021718",
+                  "routeIdx": 17,
+                  "lon": 17.966668,
+                  "lat": 59.291383,
+                  "depTime": "14:38:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:38:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Fruängen T-bana (Stockholm kn)",
+                  "id": "740021719",
+                  "extId": "740021719",
+                  "routeIdx": 18,
+                  "lon": 17.965005,
+                  "lat": 59.285927,
+                  "arrTime": "14:39:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "3",
+            "name": "Länstrafik -Tunnelbana 14",
+            "transportNumber": "14",
+            "transportCategory": "ULT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Fruängen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Fruängen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021719",
+              "extId": "740021719",
+              "lon": 17.965005,
+              "lat": 59.285927,
+              "routeIdx": 6,
+              "time": "14:51:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "routeIdx": 18,
+              "time": "15:08:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 163",
+              "num": "163",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Fruängen T-bana (Stockholm kn)",
+                  "id": "740021719",
+                  "extId": "740021719",
+                  "routeIdx": 6,
+                  "lon": 17.965005,
+                  "lat": 59.285927,
+                  "depTime": "14:51:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Fredrika Bremers gata (Stockholm kn)",
+                  "id": "740065492",
+                  "extId": "740065492",
+                  "routeIdx": 7,
+                  "lon": 17.969598,
+                  "lat": 59.283859,
+                  "depTime": "14:51:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:51:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Isbergavägen (Stockholm kn)",
+                  "id": "740065526",
+                  "extId": "740065526",
+                  "routeIdx": 8,
+                  "lon": 17.966632,
+                  "lat": 59.280848,
+                  "depTime": "14:53:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:53:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Långbrohallen (Stockholm kn)",
+                  "id": "740065527",
+                  "extId": "740065527",
+                  "routeIdx": 9,
+                  "lon": 17.975639,
+                  "lat": 59.277926,
+                  "depTime": "14:55:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:55:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Johan Skytteskolan (Stockholm kn)",
+                  "id": "740064391",
+                  "extId": "740064391",
+                  "routeIdx": 10,
+                  "lon": 17.981114,
+                  "lat": 59.27736,
+                  "depTime": "14:56:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:56:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Fru Marias väg (Stockholm kn)",
+                  "id": "740065153",
+                  "extId": "740065153",
+                  "routeIdx": 11,
+                  "lon": 17.985312,
+                  "lat": 59.280956,
+                  "depTime": "14:57:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:57:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Långbrovägen (Stockholm kn)",
+                  "id": "740065610",
+                  "extId": "740065610",
+                  "routeIdx": 12,
+                  "lon": 17.990588,
+                  "lat": 59.282295,
+                  "depTime": "14:58:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:58:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Vältstigen (Stockholm kn)",
+                  "id": "740065609",
+                  "extId": "740065609",
+                  "routeIdx": 13,
+                  "lon": 17.994382,
+                  "lat": 59.28092,
+                  "depTime": "14:59:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:59:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Långbrodalsvägen (Johan Skyttes väg) (Stockholm kn",
+                  "id": "740065608",
+                  "extId": "740065608",
+                  "routeIdx": 14,
+                  "lon": 17.99893,
+                  "lat": 59.27852,
+                  "depTime": "15:00:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:00:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Skyttes plan (Stockholm kn)",
+                  "id": "740065505",
+                  "extId": "740065505",
+                  "routeIdx": 15,
+                  "lon": 18.001187,
+                  "lat": 59.277333,
+                  "depTime": "15:01:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:01:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjögården (Stockholm kn)",
+                  "id": "740065506",
+                  "extId": "740065506",
+                  "routeIdx": 16,
+                  "lon": 18.004647,
+                  "lat": 59.280093,
+                  "depTime": "15:01:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:01:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 17,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "depTime": "15:05:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:05:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Turingevägen (Stockholm kn)",
+                  "id": "740051240",
+                  "extId": "740051240",
+                  "routeIdx": 18,
+                  "lon": 18.020379,
+                  "lat": 59.273495,
+                  "arrTime": "15:08:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "4",
+            "name": "Länstrafik - Buss 163",
+            "transportNumber": "163",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kärrtorp T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "time": "15:08:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "59.273369, 18.018316",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.01832,
+              "lat": 59.273369,
+              "time": "15:11:00",
+              "date": "2019-11-09"
+            },
+            "idx": "5",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT3M",
+            "dist": 124
+          }
+        ]
+      },
+      "idx": 2,
+      "tripId": "C-2",
+      "ctxRecon": "G@F$A=2@O=59.465297, 18.285793@X=18285794@Y=59465298@u=0@a=128@$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$201911091246$201911091327$$$1$§T$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$A=1@O=Stockholm Östra station@L=740020750@a=128@$201911091327$201911091403$JLT   28$$1$§W$A=1@O=Stockholm Östra station@L=740020750@a=128@$A=1@O=Tekniska Högskolan T-bana (Stockholm kn)@L=740011606@a=128@$201911091403$201911091411$$$1$§T$A=1@O=Tekniska Högskolan T-bana (Stockholm kn)@L=740011606@a=128@$A=1@O=Fruängen T-bana (Stockholm kn)@L=740021719@a=128@$201911091415$201911091439$ULT   14$$1$§T$A=1@O=Fruängen T-bana (Stockholm kn)@L=740021719@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201911091451$201911091508$BLT  163$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018316@X=18018320@Y=59273369@u=0@a=128@$201911091508$201911091511$$$1$",
+      "duration": "PT2H25M"
+    },
+    {
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2019-11-04",
+          "planningPeriodEnd": "2020-06-14",
+          "sDaysR": "not every day",
+          "sDaysI": "9. Nov until 14. Dec 2019 Sa, Su",
+          "sDaysB": "060C1830608000000000000000000000000000000000000000000000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "59.465297, 18.285793",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.285794,
+              "lat": 59.465298,
+              "time": "12:58:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Täljöviken (Österåker kn)",
+              "type": "ST",
+              "id": "740068717",
+              "extId": "740068717",
+              "lon": 18.259078,
+              "lat": 59.46848,
+              "time": "13:34:00",
+              "date": "2019-11-09"
+            },
+            "idx": "0",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT36M",
+            "dist": 2283
+          },
+          {
+            "Origin": {
+              "name": "Täljöviken (Österåker kn)",
+              "type": "ST",
+              "id": "740068717",
+              "extId": "740068717",
+              "lon": 18.259078,
+              "lat": 59.46848,
+              "routeIdx": 5,
+              "time": "13:34:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Kulla vägskäl (Österåker kn)",
+              "type": "ST",
+              "id": "740034949",
+              "extId": "740034949",
+              "lon": 18.216559,
+              "lat": 59.449773,
+              "routeIdx": 19,
+              "time": "13:54:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 683",
+              "num": "683",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Täljöviken (Österåker kn)",
+                  "id": "740068717",
+                  "extId": "740068717",
+                  "routeIdx": 5,
+                  "lon": 18.259078,
+                  "lat": 59.46848,
+                  "depTime": "13:34:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Svinninge Gård (Österåker kn)",
+                  "id": "740024851",
+                  "extId": "740024851",
+                  "routeIdx": 6,
+                  "lon": 18.270333,
+                  "lat": 59.457522,
+                  "depTime": "13:36:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:36:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Svinninge tomtområde (Österåker kn)",
+                  "id": "740045663",
+                  "extId": "740045663",
+                  "routeIdx": 7,
+                  "lon": 18.270962,
+                  "lat": 59.451104,
+                  "depTime": "13:38:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:38:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Skepparvägen (Österåker kn)",
+                  "id": "740068715",
+                  "extId": "740068715",
+                  "routeIdx": 8,
+                  "lon": 18.277569,
+                  "lat": 59.446942,
+                  "depTime": "13:39:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:39:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Svinninge Svinningeuddsvägen (Österåker kn)",
+                  "id": "740045664",
+                  "extId": "740045664",
+                  "routeIdx": 9,
+                  "lon": 18.286756,
+                  "lat": 59.445485,
+                  "depTime": "13:39:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:39:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Nantes vägskäl (Österåker kn)",
+                  "id": "740068716",
+                  "extId": "740068716",
+                  "routeIdx": 10,
+                  "lon": 18.289219,
+                  "lat": 59.441521,
+                  "depTime": "13:40:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:40:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Björnhammarsvägen (Österåker kn)",
+                  "id": "740068712",
+                  "extId": "740068712",
+                  "routeIdx": 11,
+                  "lon": 18.285399,
+                  "lat": 59.440398,
+                  "depTime": "13:42:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:42:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Ardennervägen (Österåker kn)",
+                  "id": "740068711",
+                  "extId": "740068711",
+                  "routeIdx": 12,
+                  "lon": 18.280365,
+                  "lat": 59.438123,
+                  "depTime": "13:43:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:43:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Svartgarnsvägen (Österåker kn)",
+                  "id": "740068710",
+                  "extId": "740068710",
+                  "routeIdx": 13,
+                  "lon": 18.274576,
+                  "lat": 59.439418,
+                  "depTime": "13:43:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:43:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Karsvretavägen (Österåker kn)",
+                  "id": "740067104",
+                  "extId": "740067104",
+                  "routeIdx": 14,
+                  "lon": 18.265685,
+                  "lat": 59.444506,
+                  "depTime": "13:45:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:45:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hästängsuddsvägen (Österåker kn)",
+                  "id": "740068709",
+                  "extId": "740068709",
+                  "routeIdx": 15,
+                  "lon": 18.261721,
+                  "lat": 59.445485,
+                  "depTime": "13:46:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:46:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Rydbo Saltsjöbad (Österåker kn)",
+                  "id": "740045669",
+                  "extId": "740045669",
+                  "routeIdx": 16,
+                  "lon": 18.253163,
+                  "lat": 59.444524,
+                  "depTime": "13:47:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:47:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Prästtorpet (Österåker kn)",
+                  "id": "740068708",
+                  "extId": "740068708",
+                  "routeIdx": 17,
+                  "lon": 18.2411,
+                  "lat": 59.444721,
+                  "depTime": "13:49:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:49:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Ubby gård (Österåker kn)",
+                  "id": "740068707",
+                  "extId": "740068707",
+                  "routeIdx": 18,
+                  "lon": 18.231472,
+                  "lat": 59.450106,
+                  "depTime": "13:51:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:51:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Kulla vägskäl (Österåker kn)",
+                  "id": "740034949",
+                  "extId": "740034949",
+                  "routeIdx": 19,
+                  "lon": 18.216559,
+                  "lat": 59.449773,
+                  "arrTime": "13:54:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "1",
+            "name": "Länstrafik - Buss 683",
+            "transportNumber": "683",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kulla vägskäl (Österåker kn)"
+          },
+          {
+            "Origin": {
+              "name": "Kulla vägskäl (Österåker kn)",
+              "type": "ST",
+              "id": "740034949",
+              "extId": "740034949",
+              "lon": 18.216559,
+              "lat": 59.449773,
+              "routeIdx": 13,
+              "time": "13:56:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Danderyds sjukhus T-bana",
+              "type": "ST",
+              "id": "740010232",
+              "extId": "740010232",
+              "lon": 18.041368,
+              "lat": 59.391901,
+              "routeIdx": 18,
+              "time": "14:12:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 670",
+              "num": "670",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Kulla vägskäl (Österåker kn)",
+                  "id": "740034949",
+                  "extId": "740034949",
+                  "routeIdx": 13,
+                  "lon": 18.216559,
+                  "lat": 59.449773,
+                  "depTime": "13:56:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Östra Ryds kyrka (Österåker kn)",
+                  "id": "740068680",
+                  "extId": "740068680",
+                  "routeIdx": 14,
+                  "lon": 18.192387,
+                  "lat": 59.453603,
+                  "depTime": "13:57:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:57:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Kocktorp (Österåker kn)",
+                  "id": "740068681",
+                  "extId": "740068681",
+                  "routeIdx": 15,
+                  "lon": 18.153221,
+                  "lat": 59.454951,
+                  "depTime": "13:59:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:59:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Roslags Näsby trafikplats E18 (Täby kn)",
+                  "id": "740045615",
+                  "extId": "740045615",
+                  "routeIdx": 16,
+                  "lon": 18.06919,
+                  "lat": 59.434456,
+                  "depTime": "14:05:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:05:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mörby centrum E18 (Danderyd kn)",
+                  "id": "740045596",
+                  "extId": "740045596",
+                  "routeIdx": 17,
+                  "lon": 18.037188,
+                  "lat": 59.39813,
+                  "arrTime": "14:10:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Danderyds sjukhus T-bana",
+                  "id": "740010232",
+                  "extId": "740010232",
+                  "routeIdx": 18,
+                  "lon": 18.041368,
+                  "lat": 59.391901,
+                  "arrTime": "14:12:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "2",
+            "name": "Länstrafik - Buss 670",
+            "transportNumber": "670",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Tekniska Högskolan T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Danderyds sjukhus T-bana",
+              "type": "ST",
+              "id": "740010232",
+              "extId": "740010232",
+              "lon": 18.041368,
+              "lat": 59.391901,
+              "routeIdx": 1,
+              "time": "14:22:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "T-Centralen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740020749",
+              "extId": "740020749",
+              "lon": 18.059266,
+              "lat": 59.330945,
+              "routeIdx": 7,
+              "time": "14:35:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik -Tunnelbana 14",
+              "num": "14",
+              "catCode": "5",
+              "catOutS": "ULT",
+              "catOutL": "Länstrafik -Tunnelbana",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Danderyds sjukhus T-bana",
+                  "id": "740010232",
+                  "extId": "740010232",
+                  "routeIdx": 1,
+                  "lon": 18.041368,
+                  "lat": 59.391901,
+                  "depTime": "14:22:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Bergshamra T-bana (Solna kn)",
+                  "id": "740021644",
+                  "extId": "740021644",
+                  "routeIdx": 2,
+                  "lon": 18.036514,
+                  "lat": 59.381509,
+                  "depTime": "14:23:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:23:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Universitetet T-bana (Stockholm kn)",
+                  "id": "740021645",
+                  "extId": "740021645",
+                  "routeIdx": 3,
+                  "lon": 18.054888,
+                  "lat": 59.365571,
+                  "depTime": "14:26:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:26:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+                  "id": "740011606",
+                  "extId": "740011606",
+                  "routeIdx": 4,
+                  "lon": 18.071716,
+                  "lat": 59.345822,
+                  "depTime": "14:29:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:29:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Stadion T-bana (Stockholm kn)",
+                  "id": "740021647",
+                  "extId": "740021647",
+                  "routeIdx": 5,
+                  "lon": 18.081703,
+                  "lat": 59.342963,
+                  "depTime": "14:31:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:31:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Östermalmstorg T-bana (Stockholm kn)",
+                  "id": "740021651",
+                  "extId": "740021651",
+                  "routeIdx": 6,
+                  "lon": 18.07408,
+                  "lat": 59.334972,
+                  "depTime": "14:32:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:32:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "T-Centralen T-bana (Stockholm kn)",
+                  "id": "740020749",
+                  "extId": "740020749",
+                  "routeIdx": 7,
+                  "lon": 18.059266,
+                  "lat": 59.330945,
+                  "arrTime": "14:35:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "3",
+            "name": "Länstrafik -Tunnelbana 14",
+            "transportNumber": "14",
+            "transportCategory": "ULT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Liljeholmen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "T-Centralen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740020749",
+              "extId": "740020749",
+              "lon": 18.059266,
+              "lat": 59.330945,
+              "time": "14:35:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Stockholm City station",
+              "type": "ST",
+              "id": "740001617",
+              "extId": "740001617",
+              "lon": 18.059437,
+              "lat": 59.331143,
+              "time": "14:45:00",
+              "date": "2019-11-09"
+            },
+            "idx": "4",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT10M",
+            "dist": 50
+          },
+          {
+            "Origin": {
+              "name": "Stockholm City station",
+              "type": "ST",
+              "id": "740001617",
+              "extId": "740001617",
+              "lon": 18.059437,
+              "lat": 59.331143,
+              "routeIdx": 7,
+              "time": "14:46:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Älvsjö station (Stockholm kn)",
+              "type": "ST",
+              "id": "740000789",
+              "extId": "740000789",
+              "lon": 18.011066,
+              "lat": 59.278736,
+              "routeIdx": 10,
+              "time": "14:55:00",
+              "date": "2019-11-09"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "priority": 100,
+                  "routeIdxFrom": 7,
+                  "routeIdxTo": 10
+                },
+                {
+                  "value": "Ej reservering",
+                  "key": "AE",
+                  "type": "A",
+                  "priority": 100,
+                  "routeIdxFrom": 7,
+                  "routeIdxTo": 10
+                }
+              ]
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 2543",
+              "num": "2543",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm City station",
+                  "id": "740001617",
+                  "extId": "740001617",
+                  "routeIdx": 7,
+                  "lon": 18.059437,
+                  "lat": 59.331143,
+                  "depTime": "14:46:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Stockholm Södra station",
+                  "id": "740000765",
+                  "extId": "740000765",
+                  "routeIdx": 8,
+                  "lon": 18.064498,
+                  "lat": 59.314171,
+                  "depTime": "14:49:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:49:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Årstaberg station (Stockholm kn)",
+                  "id": "740024920",
+                  "extId": "740024920",
+                  "routeIdx": 9,
+                  "lon": 18.030231,
+                  "lat": 59.299231,
+                  "depTime": "14:52:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:52:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 10,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "arrTime": "14:55:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "5",
+            "name": "Länstrafik - Tåg 2543",
+            "transportNumber": "2543",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Västerhaninge station (Haninge kn)"
+          },
+          {
+            "Origin": {
+              "name": "Älvsjö station (Stockholm kn)",
+              "type": "ST",
+              "id": "740000789",
+              "extId": "740000789",
+              "lon": 18.011066,
+              "lat": 59.278736,
+              "routeIdx": 17,
+              "time": "15:05:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "routeIdx": 18,
+              "time": "15:08:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 163",
+              "num": "163",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 17,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "depTime": "15:05:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Turingevägen (Stockholm kn)",
+                  "id": "740051240",
+                  "extId": "740051240",
+                  "routeIdx": 18,
+                  "lon": 18.020379,
+                  "lat": 59.273495,
+                  "arrTime": "15:08:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "6",
+            "name": "Länstrafik - Buss 163",
+            "transportNumber": "163",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kärrtorp T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "time": "15:08:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "59.273369, 18.018316",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.01832,
+              "lat": 59.273369,
+              "time": "15:11:00",
+              "date": "2019-11-09"
+            },
+            "idx": "7",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT3M",
+            "dist": 124
+          }
+        ]
+      },
+      "idx": 3,
+      "tripId": "C-3",
+      "ctxRecon": "G@F$A=2@O=59.465297, 18.285793@X=18285794@Y=59465298@u=0@a=128@$A=1@O=Täljöviken (Österåker kn)@L=740068717@a=128@$201911091258$201911091334$$$1$§T$A=1@O=Täljöviken (Österåker kn)@L=740068717@a=128@$A=1@O=Kulla vägskäl (Österåker kn)@L=740034949@a=128@$201911091334$201911091354$BLT  683$$1$§T$A=1@O=Kulla vägskäl (Österåker kn)@L=740034949@a=128@$A=1@O=Danderyds sjukhus T-bana@L=740010232@a=128@$201911091356$201911091412$BLT  670$$1$§T$A=1@O=Danderyds sjukhus T-bana@L=740010232@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201911091422$201911091435$ULT   14$$1$§W$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Stockholm City station@L=740001617@a=128@$201911091435$201911091445$$$1$§T$A=1@O=Stockholm City station@L=740001617@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201911091446$201911091455$JLT 2543$$1$§T$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201911091505$201911091508$BLT  163$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018316@X=18018320@Y=59273369@u=0@a=128@$201911091508$201911091511$$$1$",
+      "duration": "PT2H13M"
+    },
+    {
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2019-11-04",
+          "planningPeriodEnd": "2020-06-14",
+          "sDaysR": "not every day",
+          "sDaysI": "9. Nov until 14. Dec 2019 Sa, Su",
+          "sDaysB": "060C1830608000000000000000000000000000000000000000000000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "59.465297, 18.285793",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.285794,
+              "lat": 59.465298,
+              "time": "12:58:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Täljöviken (Österåker kn)",
+              "type": "ST",
+              "id": "740068717",
+              "extId": "740068717",
+              "lon": 18.259078,
+              "lat": 59.46848,
+              "time": "13:34:00",
+              "date": "2019-11-09"
+            },
+            "idx": "0",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT36M",
+            "dist": 2283
+          },
+          {
+            "Origin": {
+              "name": "Täljöviken (Österåker kn)",
+              "type": "ST",
+              "id": "740068717",
+              "extId": "740068717",
+              "lon": 18.259078,
+              "lat": 59.46848,
+              "routeIdx": 5,
+              "time": "13:34:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Kulla vägskäl (Österåker kn)",
+              "type": "ST",
+              "id": "740034949",
+              "extId": "740034949",
+              "lon": 18.216559,
+              "lat": 59.449773,
+              "routeIdx": 19,
+              "time": "13:54:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 683",
+              "num": "683",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Täljöviken (Österåker kn)",
+                  "id": "740068717",
+                  "extId": "740068717",
+                  "routeIdx": 5,
+                  "lon": 18.259078,
+                  "lat": 59.46848,
+                  "depTime": "13:34:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Svinninge Gård (Österåker kn)",
+                  "id": "740024851",
+                  "extId": "740024851",
+                  "routeIdx": 6,
+                  "lon": 18.270333,
+                  "lat": 59.457522,
+                  "depTime": "13:36:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:36:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Svinninge tomtområde (Österåker kn)",
+                  "id": "740045663",
+                  "extId": "740045663",
+                  "routeIdx": 7,
+                  "lon": 18.270962,
+                  "lat": 59.451104,
+                  "depTime": "13:38:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:38:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Skepparvägen (Österåker kn)",
+                  "id": "740068715",
+                  "extId": "740068715",
+                  "routeIdx": 8,
+                  "lon": 18.277569,
+                  "lat": 59.446942,
+                  "depTime": "13:39:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:39:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Svinninge Svinningeuddsvägen (Österåker kn)",
+                  "id": "740045664",
+                  "extId": "740045664",
+                  "routeIdx": 9,
+                  "lon": 18.286756,
+                  "lat": 59.445485,
+                  "depTime": "13:39:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:39:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Nantes vägskäl (Österåker kn)",
+                  "id": "740068716",
+                  "extId": "740068716",
+                  "routeIdx": 10,
+                  "lon": 18.289219,
+                  "lat": 59.441521,
+                  "depTime": "13:40:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:40:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Björnhammarsvägen (Österåker kn)",
+                  "id": "740068712",
+                  "extId": "740068712",
+                  "routeIdx": 11,
+                  "lon": 18.285399,
+                  "lat": 59.440398,
+                  "depTime": "13:42:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:42:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Ardennervägen (Österåker kn)",
+                  "id": "740068711",
+                  "extId": "740068711",
+                  "routeIdx": 12,
+                  "lon": 18.280365,
+                  "lat": 59.438123,
+                  "depTime": "13:43:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:43:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Svartgarnsvägen (Österåker kn)",
+                  "id": "740068710",
+                  "extId": "740068710",
+                  "routeIdx": 13,
+                  "lon": 18.274576,
+                  "lat": 59.439418,
+                  "depTime": "13:43:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:43:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Karsvretavägen (Österåker kn)",
+                  "id": "740067104",
+                  "extId": "740067104",
+                  "routeIdx": 14,
+                  "lon": 18.265685,
+                  "lat": 59.444506,
+                  "depTime": "13:45:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:45:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hästängsuddsvägen (Österåker kn)",
+                  "id": "740068709",
+                  "extId": "740068709",
+                  "routeIdx": 15,
+                  "lon": 18.261721,
+                  "lat": 59.445485,
+                  "depTime": "13:46:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:46:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Rydbo Saltsjöbad (Österåker kn)",
+                  "id": "740045669",
+                  "extId": "740045669",
+                  "routeIdx": 16,
+                  "lon": 18.253163,
+                  "lat": 59.444524,
+                  "depTime": "13:47:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:47:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Prästtorpet (Österåker kn)",
+                  "id": "740068708",
+                  "extId": "740068708",
+                  "routeIdx": 17,
+                  "lon": 18.2411,
+                  "lat": 59.444721,
+                  "depTime": "13:49:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:49:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Ubby gård (Österåker kn)",
+                  "id": "740068707",
+                  "extId": "740068707",
+                  "routeIdx": 18,
+                  "lon": 18.231472,
+                  "lat": 59.450106,
+                  "depTime": "13:51:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:51:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Kulla vägskäl (Österåker kn)",
+                  "id": "740034949",
+                  "extId": "740034949",
+                  "routeIdx": 19,
+                  "lon": 18.216559,
+                  "lat": 59.449773,
+                  "arrTime": "13:54:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "1",
+            "name": "Länstrafik - Buss 683",
+            "transportNumber": "683",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kulla vägskäl (Österåker kn)"
+          },
+          {
+            "Origin": {
+              "name": "Kulla vägskäl (Österåker kn)",
+              "type": "ST",
+              "id": "740034949",
+              "extId": "740034949",
+              "lon": 18.216559,
+              "lat": 59.449773,
+              "routeIdx": 13,
+              "time": "13:56:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Universitetet T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021645",
+              "extId": "740021645",
+              "lon": 18.054888,
+              "lat": 59.365571,
+              "routeIdx": 19,
+              "time": "14:17:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 670",
+              "num": "670",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Kulla vägskäl (Österåker kn)",
+                  "id": "740034949",
+                  "extId": "740034949",
+                  "routeIdx": 13,
+                  "lon": 18.216559,
+                  "lat": 59.449773,
+                  "depTime": "13:56:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Östra Ryds kyrka (Österåker kn)",
+                  "id": "740068680",
+                  "extId": "740068680",
+                  "routeIdx": 14,
+                  "lon": 18.192387,
+                  "lat": 59.453603,
+                  "depTime": "13:57:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:57:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Kocktorp (Österåker kn)",
+                  "id": "740068681",
+                  "extId": "740068681",
+                  "routeIdx": 15,
+                  "lon": 18.153221,
+                  "lat": 59.454951,
+                  "depTime": "13:59:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "13:59:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Roslags Näsby trafikplats E18 (Täby kn)",
+                  "id": "740045615",
+                  "extId": "740045615",
+                  "routeIdx": 16,
+                  "lon": 18.06919,
+                  "lat": 59.434456,
+                  "depTime": "14:05:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:05:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mörby centrum E18 (Danderyd kn)",
+                  "id": "740045596",
+                  "extId": "740045596",
+                  "routeIdx": 17,
+                  "lon": 18.037188,
+                  "lat": 59.39813,
+                  "arrTime": "14:10:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Danderyds sjukhus T-bana",
+                  "id": "740010232",
+                  "extId": "740010232",
+                  "routeIdx": 18,
+                  "lon": 18.041368,
+                  "lat": 59.391901,
+                  "depTime": "14:12:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:12:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Universitetet T-bana (Stockholm kn)",
+                  "id": "740021645",
+                  "extId": "740021645",
+                  "routeIdx": 19,
+                  "lon": 18.054888,
+                  "lat": 59.365571,
+                  "arrTime": "14:17:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "2",
+            "name": "Länstrafik - Buss 670",
+            "transportNumber": "670",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Tekniska Högskolan T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Universitetet T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021645",
+              "extId": "740021645",
+              "lon": 18.054888,
+              "lat": 59.365571,
+              "routeIdx": 3,
+              "time": "14:31:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Fruängen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021719",
+              "extId": "740021719",
+              "lon": 17.965005,
+              "lat": 59.285927,
+              "routeIdx": 18,
+              "time": "14:59:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik -Tunnelbana 14",
+              "num": "14",
+              "catCode": "5",
+              "catOutS": "ULT",
+              "catOutL": "Länstrafik -Tunnelbana",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Universitetet T-bana (Stockholm kn)",
+                  "id": "740021645",
+                  "extId": "740021645",
+                  "routeIdx": 3,
+                  "lon": 18.054888,
+                  "lat": 59.365571,
+                  "depTime": "14:31:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+                  "id": "740011606",
+                  "extId": "740011606",
+                  "routeIdx": 4,
+                  "lon": 18.071716,
+                  "lat": 59.345822,
+                  "depTime": "14:35:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:35:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Stadion T-bana (Stockholm kn)",
+                  "id": "740021647",
+                  "extId": "740021647",
+                  "routeIdx": 5,
+                  "lon": 18.081703,
+                  "lat": 59.342963,
+                  "depTime": "14:37:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:37:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Östermalmstorg T-bana (Stockholm kn)",
+                  "id": "740021651",
+                  "extId": "740021651",
+                  "routeIdx": 6,
+                  "lon": 18.07408,
+                  "lat": 59.334972,
+                  "depTime": "14:38:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:38:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "T-Centralen T-bana (Stockholm kn)",
+                  "id": "740020749",
+                  "extId": "740020749",
+                  "routeIdx": 7,
+                  "lon": 18.059266,
+                  "lat": 59.330945,
+                  "depTime": "14:41:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:41:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Gamla Stan T-bana (Stockholm kn)",
+                  "id": "740021653",
+                  "extId": "740021653",
+                  "routeIdx": 8,
+                  "lon": 18.067617,
+                  "lat": 59.32316,
+                  "depTime": "14:42:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:42:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Slussen T-bana (Stockholm kn)",
+                  "id": "740020101",
+                  "extId": "740020101",
+                  "routeIdx": 9,
+                  "lon": 18.072327,
+                  "lat": 59.319493,
+                  "depTime": "14:44:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:44:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mariatorget T-bana (Stockholm kn)",
+                  "id": "740021656",
+                  "extId": "740021656",
+                  "routeIdx": 10,
+                  "lon": 18.063311,
+                  "lat": 59.316958,
+                  "depTime": "14:45:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:45:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Zinkensdamm T-bana (Stockholm kn)",
+                  "id": "740021657",
+                  "extId": "740021657",
+                  "routeIdx": 11,
+                  "lon": 18.050151,
+                  "lat": 59.317776,
+                  "depTime": "14:47:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:47:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hornstull T-bana (Stockholm kn)",
+                  "id": "740021658",
+                  "extId": "740021658",
+                  "routeIdx": 12,
+                  "lon": 18.034024,
+                  "lat": 59.315834,
+                  "depTime": "14:48:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:48:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Liljeholmen T-bana (Stockholm kn)",
+                  "id": "740004046",
+                  "extId": "740004046",
+                  "routeIdx": 13,
+                  "lon": 18.023129,
+                  "lat": 59.31071,
+                  "depTime": "14:51:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:51:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Midsommarkransen T-bana (Stockholm kn)",
+                  "id": "740021715",
+                  "extId": "740021715",
+                  "routeIdx": 14,
+                  "lon": 18.012037,
+                  "lat": 59.301856,
+                  "depTime": "14:53:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:53:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Telefonplan T-bana (Stockholm kn)",
+                  "id": "740021716",
+                  "extId": "740021716",
+                  "routeIdx": 15,
+                  "lon": 17.997231,
+                  "lat": 59.298323,
+                  "depTime": "14:54:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:54:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hägerstensåsen T-bana (Stockholm kn)",
+                  "id": "740021717",
+                  "extId": "740021717",
+                  "routeIdx": 16,
+                  "lon": 17.979154,
+                  "lat": 59.295572,
+                  "depTime": "14:56:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:56:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Västertorp T-bana (Stockholm kn)",
+                  "id": "740021718",
+                  "extId": "740021718",
+                  "routeIdx": 17,
+                  "lon": 17.966668,
+                  "lat": 59.291383,
+                  "depTime": "14:58:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:58:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Fruängen T-bana (Stockholm kn)",
+                  "id": "740021719",
+                  "extId": "740021719",
+                  "routeIdx": 18,
+                  "lon": 17.965005,
+                  "lat": 59.285927,
+                  "arrTime": "14:59:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "3",
+            "name": "Länstrafik -Tunnelbana 14",
+            "transportNumber": "14",
+            "transportCategory": "ULT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Fruängen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Fruängen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021719",
+              "extId": "740021719",
+              "lon": 17.965005,
+              "lat": 59.285927,
+              "routeIdx": 6,
+              "time": "15:11:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "routeIdx": 18,
+              "time": "15:28:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 163",
+              "num": "163",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Fruängen T-bana (Stockholm kn)",
+                  "id": "740021719",
+                  "extId": "740021719",
+                  "routeIdx": 6,
+                  "lon": 17.965005,
+                  "lat": 59.285927,
+                  "depTime": "15:11:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Fredrika Bremers gata (Stockholm kn)",
+                  "id": "740065492",
+                  "extId": "740065492",
+                  "routeIdx": 7,
+                  "lon": 17.969598,
+                  "lat": 59.283859,
+                  "depTime": "15:11:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:11:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Isbergavägen (Stockholm kn)",
+                  "id": "740065526",
+                  "extId": "740065526",
+                  "routeIdx": 8,
+                  "lon": 17.966632,
+                  "lat": 59.280848,
+                  "depTime": "15:13:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:13:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Långbrohallen (Stockholm kn)",
+                  "id": "740065527",
+                  "extId": "740065527",
+                  "routeIdx": 9,
+                  "lon": 17.975639,
+                  "lat": 59.277926,
+                  "depTime": "15:15:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:15:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Johan Skytteskolan (Stockholm kn)",
+                  "id": "740064391",
+                  "extId": "740064391",
+                  "routeIdx": 10,
+                  "lon": 17.981114,
+                  "lat": 59.27736,
+                  "depTime": "15:16:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:16:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Fru Marias väg (Stockholm kn)",
+                  "id": "740065153",
+                  "extId": "740065153",
+                  "routeIdx": 11,
+                  "lon": 17.985312,
+                  "lat": 59.280956,
+                  "depTime": "15:17:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:17:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Långbrovägen (Stockholm kn)",
+                  "id": "740065610",
+                  "extId": "740065610",
+                  "routeIdx": 12,
+                  "lon": 17.990588,
+                  "lat": 59.282295,
+                  "depTime": "15:18:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:18:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Vältstigen (Stockholm kn)",
+                  "id": "740065609",
+                  "extId": "740065609",
+                  "routeIdx": 13,
+                  "lon": 17.994382,
+                  "lat": 59.28092,
+                  "depTime": "15:19:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:19:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Långbrodalsvägen (Johan Skyttes väg) (Stockholm kn",
+                  "id": "740065608",
+                  "extId": "740065608",
+                  "routeIdx": 14,
+                  "lon": 17.99893,
+                  "lat": 59.27852,
+                  "depTime": "15:20:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:20:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Skyttes plan (Stockholm kn)",
+                  "id": "740065505",
+                  "extId": "740065505",
+                  "routeIdx": 15,
+                  "lon": 18.001187,
+                  "lat": 59.277333,
+                  "depTime": "15:21:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:21:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjögården (Stockholm kn)",
+                  "id": "740065506",
+                  "extId": "740065506",
+                  "routeIdx": 16,
+                  "lon": 18.004647,
+                  "lat": 59.280093,
+                  "depTime": "15:21:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:21:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 17,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "depTime": "15:25:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:25:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Turingevägen (Stockholm kn)",
+                  "id": "740051240",
+                  "extId": "740051240",
+                  "routeIdx": 18,
+                  "lon": 18.020379,
+                  "lat": 59.273495,
+                  "arrTime": "15:28:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "4",
+            "name": "Länstrafik - Buss 163",
+            "transportNumber": "163",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kärrtorp T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "time": "15:28:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "59.273369, 18.018316",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.01832,
+              "lat": 59.273369,
+              "time": "15:31:00",
+              "date": "2019-11-09"
+            },
+            "idx": "5",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT3M",
+            "dist": 124
+          }
+        ]
+      },
+      "idx": 4,
+      "tripId": "C-4",
+      "ctxRecon": "G@F$A=2@O=59.465297, 18.285793@X=18285794@Y=59465298@u=0@a=128@$A=1@O=Täljöviken (Österåker kn)@L=740068717@a=128@$201911091258$201911091334$$$1$§T$A=1@O=Täljöviken (Österåker kn)@L=740068717@a=128@$A=1@O=Kulla vägskäl (Österåker kn)@L=740034949@a=128@$201911091334$201911091354$BLT  683$$1$§T$A=1@O=Kulla vägskäl (Österåker kn)@L=740034949@a=128@$A=1@O=Universitetet T-bana (Stockholm kn)@L=740021645@a=128@$201911091356$201911091417$BLT  670$$1$§T$A=1@O=Universitetet T-bana (Stockholm kn)@L=740021645@a=128@$A=1@O=Fruängen T-bana (Stockholm kn)@L=740021719@a=128@$201911091431$201911091459$ULT   14$$1$§T$A=1@O=Fruängen T-bana (Stockholm kn)@L=740021719@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201911091511$201911091528$BLT  163$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018316@X=18018320@Y=59273369@u=0@a=128@$201911091528$201911091531$$$1$",
+      "duration": "PT2H33M"
+    },
+    {
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2019-11-04",
+          "planningPeriodEnd": "2020-06-14",
+          "sDaysR": "not every day",
+          "sDaysI": "9. Nov until 14. Dec 2019 Sa, Su",
+          "sDaysB": "060C1830608000000000000000000000000000000000000000000000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "59.465297, 18.285793",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.285794,
+              "lat": 59.465298,
+              "time": "13:16:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "time": "13:57:00",
+              "date": "2019-11-09"
+            },
+            "idx": "0",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT41M",
+            "dist": 2764
+          },
+          {
+            "Origin": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "routeIdx": 3,
+              "time": "13:57:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Stockholm Östra station",
+              "type": "ST",
+              "id": "740020750",
+              "extId": "740020750",
+              "lon": 18.071716,
+              "lat": 59.34611,
+              "routeIdx": 17,
+              "time": "14:33:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 28",
+              "num": "28",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Åkers Runö station (Österåker kn)",
+                  "id": "740023174",
+                  "extId": "740023174",
+                  "routeIdx": 3,
+                  "lon": 18.268589,
+                  "lat": 59.480849,
+                  "depTime": "13:57:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Täljö station (Österåker kn)",
+                  "id": "740024805",
+                  "extId": "740024805",
+                  "routeIdx": 4,
+                  "lon": 18.233495,
+                  "lat": 59.472417,
+                  "depTime": "14:00:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:00:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Rydbo station (Österåker kn)",
+                  "id": "740020871",
+                  "extId": "740020871",
+                  "routeIdx": 5,
+                  "lon": 18.183245,
+                  "lat": 59.465343,
+                  "depTime": "14:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hägernäs station (Täby kn)",
+                  "id": "740020192",
+                  "extId": "740020192",
+                  "routeIdx": 6,
+                  "lon": 18.124411,
+                  "lat": 59.451041,
+                  "depTime": "14:08:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:08:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Viggbyholm station (Täby kn)",
+                  "id": "740020110",
+                  "extId": "740020110",
+                  "routeIdx": 7,
+                  "lon": 18.103852,
+                  "lat": 59.44909,
+                  "depTime": "14:11:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:11:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Galoppfältet station (Täby kn)",
+                  "id": "740024798",
+                  "extId": "740024798",
+                  "routeIdx": 8,
+                  "lon": 18.083537,
+                  "lat": 59.446762,
+                  "depTime": "14:12:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:12:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Täby centrum station",
+                  "id": "740000779",
+                  "extId": "740000779",
+                  "routeIdx": 9,
+                  "lon": 18.074008,
+                  "lat": 59.444047,
+                  "depTime": "14:14:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:14:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Roslags Näsby station (Täby kn)",
+                  "id": "740000740",
+                  "extId": "740000740",
+                  "routeIdx": 10,
+                  "lon": 18.057315,
+                  "lat": 59.435256,
+                  "depTime": "14:17:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:17:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Enebyberg station (Danderyd kn)",
+                  "id": "740024372",
+                  "extId": "740024372",
+                  "routeIdx": 11,
+                  "lon": 18.051292,
+                  "lat": 59.425583,
+                  "depTime": "14:18:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:18:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ekeby station (Danderyd kn)",
+                  "id": "740020870",
+                  "extId": "740020870",
+                  "routeIdx": 12,
+                  "lon": 18.057567,
+                  "lat": 59.412882,
+                  "depTime": "14:20:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:20:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Bråvallavägen station (Danderyd kn)",
+                  "id": "740024795",
+                  "extId": "740024795",
+                  "routeIdx": 13,
+                  "lon": 18.060587,
+                  "lat": 59.4056,
+                  "depTime": "14:22:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:22:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ösby station (Danderyd kn)",
+                  "id": "740001038",
+                  "extId": "740001038",
+                  "routeIdx": 14,
+                  "lon": 18.058655,
+                  "lat": 59.397986,
+                  "depTime": "14:24:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:24:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mörby station (Danderyd kn)",
+                  "id": "740020867",
+                  "extId": "740020867",
+                  "routeIdx": 15,
+                  "lon": 18.046933,
+                  "lat": 59.391892,
+                  "depTime": "14:26:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:26:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Universitetet station (Stockholm kn)",
+                  "id": "740024787",
+                  "extId": "740024787",
+                  "routeIdx": 16,
+                  "lon": 18.050816,
+                  "lat": 59.365185,
+                  "depTime": "14:29:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:29:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Stockholm Östra station",
+                  "id": "740020750",
+                  "extId": "740020750",
+                  "routeIdx": 17,
+                  "lon": 18.071716,
+                  "lat": 59.34611,
+                  "arrTime": "14:33:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "1",
+            "name": "Länstrafik - Tåg 28",
+            "transportNumber": "28",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Stockholm Östra station"
+          },
+          {
+            "Origin": {
+              "name": "Stockholm Östra station",
+              "type": "ST",
+              "id": "740020750",
+              "extId": "740020750",
+              "lon": 18.071716,
+              "lat": 59.34611,
+              "time": "14:33:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740011606",
+              "extId": "740011606",
+              "lon": 18.071716,
+              "lat": 59.345822,
+              "time": "14:41:00",
+              "date": "2019-11-09"
+            },
+            "idx": "2",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT8M",
+            "dist": 100
+          },
+          {
+            "Origin": {
+              "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740011606",
+              "extId": "740011606",
+              "lon": 18.071716,
+              "lat": 59.345822,
+              "routeIdx": 4,
+              "time": "14:45:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "T-Centralen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740020749",
+              "extId": "740020749",
+              "lon": 18.059266,
+              "lat": 59.330945,
+              "routeIdx": 7,
+              "time": "14:51:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik -Tunnelbana 14",
+              "num": "14",
+              "catCode": "5",
+              "catOutS": "ULT",
+              "catOutL": "Länstrafik -Tunnelbana",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+                  "id": "740011606",
+                  "extId": "740011606",
+                  "routeIdx": 4,
+                  "lon": 18.071716,
+                  "lat": 59.345822,
+                  "depTime": "14:45:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Stadion T-bana (Stockholm kn)",
+                  "id": "740021647",
+                  "extId": "740021647",
+                  "routeIdx": 5,
+                  "lon": 18.081703,
+                  "lat": 59.342963,
+                  "depTime": "14:47:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:47:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Östermalmstorg T-bana (Stockholm kn)",
+                  "id": "740021651",
+                  "extId": "740021651",
+                  "routeIdx": 6,
+                  "lon": 18.07408,
+                  "lat": 59.334972,
+                  "depTime": "14:48:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:48:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "T-Centralen T-bana (Stockholm kn)",
+                  "id": "740020749",
+                  "extId": "740020749",
+                  "routeIdx": 7,
+                  "lon": 18.059266,
+                  "lat": 59.330945,
+                  "arrTime": "14:51:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "3",
+            "name": "Länstrafik -Tunnelbana 14",
+            "transportNumber": "14",
+            "transportCategory": "ULT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Fruängen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "T-Centralen T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740020749",
+              "extId": "740020749",
+              "lon": 18.059266,
+              "lat": 59.330945,
+              "time": "14:51:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Stockholm City station",
+              "type": "ST",
+              "id": "740001617",
+              "extId": "740001617",
+              "lon": 18.059437,
+              "lat": 59.331143,
+              "time": "15:01:00",
+              "date": "2019-11-09"
+            },
+            "idx": "4",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT10M",
+            "dist": 50
+          },
+          {
+            "Origin": {
+              "name": "Stockholm City station",
+              "type": "ST",
+              "id": "740001617",
+              "extId": "740001617",
+              "lon": 18.059437,
+              "lat": 59.331143,
+              "routeIdx": 9,
+              "time": "15:01:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Älvsjö station (Stockholm kn)",
+              "type": "ST",
+              "id": "740000789",
+              "extId": "740000789",
+              "lon": 18.011066,
+              "lat": 59.278736,
+              "routeIdx": 12,
+              "time": "15:10:00",
+              "date": "2019-11-09"
+            },
+            "Notes": {
+              "Note": [
+                {
+                  "value": "Endast 2 klass",
+                  "key": "AA",
+                  "type": "A",
+                  "priority": 100,
+                  "routeIdxFrom": 9,
+                  "routeIdxTo": 12
+                },
+                {
+                  "value": "Ej reservering",
+                  "key": "AE",
+                  "type": "A",
+                  "priority": 100,
+                  "routeIdxFrom": 9,
+                  "routeIdxTo": 12
+                }
+              ]
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 2845",
+              "num": "2845",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Stockholm City station",
+                  "id": "740001617",
+                  "extId": "740001617",
+                  "routeIdx": 9,
+                  "lon": 18.059437,
+                  "lat": 59.331143,
+                  "depTime": "15:01:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Stockholm Södra station",
+                  "id": "740000765",
+                  "extId": "740000765",
+                  "routeIdx": 10,
+                  "lon": 18.064498,
+                  "lat": 59.314171,
+                  "depTime": "15:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Årstaberg station (Stockholm kn)",
+                  "id": "740024920",
+                  "extId": "740024920",
+                  "routeIdx": 11,
+                  "lon": 18.030231,
+                  "lat": 59.299231,
+                  "depTime": "15:07:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:07:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 12,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "arrTime": "15:10:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "5",
+            "name": "Länstrafik - Tåg 2845",
+            "transportNumber": "2845",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Tungelsta station (Haninge kn)"
+          },
+          {
+            "Origin": {
+              "name": "Älvsjö station (Stockholm kn)",
+              "type": "ST",
+              "id": "740000789",
+              "extId": "740000789",
+              "lon": 18.011066,
+              "lat": 59.278736,
+              "routeIdx": 17,
+              "time": "15:25:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "routeIdx": 18,
+              "time": "15:28:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 163",
+              "num": "163",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 17,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "depTime": "15:25:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Turingevägen (Stockholm kn)",
+                  "id": "740051240",
+                  "extId": "740051240",
+                  "routeIdx": 18,
+                  "lon": 18.020379,
+                  "lat": 59.273495,
+                  "arrTime": "15:28:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "6",
+            "name": "Länstrafik - Buss 163",
+            "transportNumber": "163",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Kärrtorp T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "time": "15:28:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "59.273369, 18.018316",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.01832,
+              "lat": 59.273369,
+              "time": "15:31:00",
+              "date": "2019-11-09"
+            },
+            "idx": "7",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT3M",
+            "dist": 124
+          }
+        ]
+      },
+      "idx": 5,
+      "tripId": "C-5",
+      "ctxRecon": "G@F$A=2@O=59.465297, 18.285793@X=18285794@Y=59465298@u=0@a=128@$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$201911091316$201911091357$$$1$§T$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$A=1@O=Stockholm Östra station@L=740020750@a=128@$201911091357$201911091433$JLT   28$$1$§W$A=1@O=Stockholm Östra station@L=740020750@a=128@$A=1@O=Tekniska Högskolan T-bana (Stockholm kn)@L=740011606@a=128@$201911091433$201911091441$$$1$§T$A=1@O=Tekniska Högskolan T-bana (Stockholm kn)@L=740011606@a=128@$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$201911091445$201911091451$ULT   14$$1$§W$A=1@O=T-Centralen T-bana (Stockholm kn)@L=740020749@a=128@$A=1@O=Stockholm City station@L=740001617@a=128@$201911091451$201911091501$$$1$§T$A=1@O=Stockholm City station@L=740001617@a=128@$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$201911091501$201911091510$JLT 2845$$1$§T$A=1@O=Älvsjö station (Stockholm kn)@L=740000789@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201911091525$201911091528$BLT  163$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018316@X=18018320@Y=59273369@u=0@a=128@$201911091528$201911091531$$$1$",
+      "duration": "PT2H15M"
+    },
+    {
+      "ServiceDays": [
+        {
+          "planningPeriodBegin": "2019-11-04",
+          "planningPeriodEnd": "2020-06-14",
+          "sDaysR": "not every day",
+          "sDaysI": "9. Nov until 14. Dec 2019 Sa, Su",
+          "sDaysB": "060C1830608000000000000000000000000000000000000000000000"
+        }
+      ],
+      "LegList": {
+        "Leg": [
+          {
+            "Origin": {
+              "name": "59.465297, 18.285793",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.285794,
+              "lat": 59.465298,
+              "time": "13:16:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "time": "13:57:00",
+              "date": "2019-11-09"
+            },
+            "idx": "0",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT41M",
+            "dist": 2764
+          },
+          {
+            "Origin": {
+              "name": "Åkers Runö station (Österåker kn)",
+              "type": "ST",
+              "id": "740023174",
+              "extId": "740023174",
+              "lon": 18.268589,
+              "lat": 59.480849,
+              "routeIdx": 3,
+              "time": "13:57:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Mörby station (Danderyd kn)",
+              "type": "ST",
+              "id": "740020867",
+              "extId": "740020867",
+              "lon": 18.046933,
+              "lat": 59.391892,
+              "routeIdx": 15,
+              "time": "14:26:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Tåg 28",
+              "num": "28",
+              "catCode": "4",
+              "catOutS": "JLT",
+              "catOutL": "Länstrafik - Tåg",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Åkers Runö station (Österåker kn)",
+                  "id": "740023174",
+                  "extId": "740023174",
+                  "routeIdx": 3,
+                  "lon": 18.268589,
+                  "lat": 59.480849,
+                  "depTime": "13:57:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Täljö station (Österåker kn)",
+                  "id": "740024805",
+                  "extId": "740024805",
+                  "routeIdx": 4,
+                  "lon": 18.233495,
+                  "lat": 59.472417,
+                  "depTime": "14:00:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:00:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Rydbo station (Österåker kn)",
+                  "id": "740020871",
+                  "extId": "740020871",
+                  "routeIdx": 5,
+                  "lon": 18.183245,
+                  "lat": 59.465343,
+                  "depTime": "14:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hägernäs station (Täby kn)",
+                  "id": "740020192",
+                  "extId": "740020192",
+                  "routeIdx": 6,
+                  "lon": 18.124411,
+                  "lat": 59.451041,
+                  "depTime": "14:08:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:08:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Viggbyholm station (Täby kn)",
+                  "id": "740020110",
+                  "extId": "740020110",
+                  "routeIdx": 7,
+                  "lon": 18.103852,
+                  "lat": 59.44909,
+                  "depTime": "14:11:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:11:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Galoppfältet station (Täby kn)",
+                  "id": "740024798",
+                  "extId": "740024798",
+                  "routeIdx": 8,
+                  "lon": 18.083537,
+                  "lat": 59.446762,
+                  "depTime": "14:12:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:12:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Täby centrum station",
+                  "id": "740000779",
+                  "extId": "740000779",
+                  "routeIdx": 9,
+                  "lon": 18.074008,
+                  "lat": 59.444047,
+                  "depTime": "14:14:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:14:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Roslags Näsby station (Täby kn)",
+                  "id": "740000740",
+                  "extId": "740000740",
+                  "routeIdx": 10,
+                  "lon": 18.057315,
+                  "lat": 59.435256,
+                  "depTime": "14:17:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:17:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Enebyberg station (Danderyd kn)",
+                  "id": "740024372",
+                  "extId": "740024372",
+                  "routeIdx": 11,
+                  "lon": 18.051292,
+                  "lat": 59.425583,
+                  "depTime": "14:18:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:18:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ekeby station (Danderyd kn)",
+                  "id": "740020870",
+                  "extId": "740020870",
+                  "routeIdx": 12,
+                  "lon": 18.057567,
+                  "lat": 59.412882,
+                  "depTime": "14:20:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:20:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Bråvallavägen station (Danderyd kn)",
+                  "id": "740024795",
+                  "extId": "740024795",
+                  "routeIdx": 13,
+                  "lon": 18.060587,
+                  "lat": 59.4056,
+                  "depTime": "14:22:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:22:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Djursholms Ösby station (Danderyd kn)",
+                  "id": "740001038",
+                  "extId": "740001038",
+                  "routeIdx": 14,
+                  "lon": 18.058655,
+                  "lat": 59.397986,
+                  "depTime": "14:24:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:24:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mörby station (Danderyd kn)",
+                  "id": "740020867",
+                  "extId": "740020867",
+                  "routeIdx": 15,
+                  "lon": 18.046933,
+                  "lat": 59.391892,
+                  "arrTime": "14:26:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "1",
+            "name": "Länstrafik - Tåg 28",
+            "transportNumber": "28",
+            "transportCategory": "JLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Stockholm Östra station"
+          },
+          {
+            "Origin": {
+              "name": "Mörby station (Danderyd kn)",
+              "type": "ST",
+              "id": "740020867",
+              "extId": "740020867",
+              "lon": 18.046933,
+              "lat": 59.391892,
+              "time": "14:26:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Danderyds sjukhus T-bana",
+              "type": "ST",
+              "id": "740010232",
+              "extId": "740010232",
+              "lon": 18.041368,
+              "lat": 59.391901,
+              "time": "14:46:00",
+              "date": "2019-11-09"
+            },
+            "idx": "2",
+            "name": "",
+            "type": "TRSF",
+            "duration": "PT20M",
+            "dist": 0
+          },
+          {
+            "Origin": {
+              "name": "Danderyds sjukhus T-bana",
+              "type": "ST",
+              "id": "740010232",
+              "extId": "740010232",
+              "lon": 18.041368,
+              "lat": 59.391901,
+              "routeIdx": 1,
+              "time": "14:47:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Telefonplan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021716",
+              "extId": "740021716",
+              "lon": 17.997231,
+              "lat": 59.298323,
+              "routeIdx": 15,
+              "time": "15:14:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik -Tunnelbana 14",
+              "num": "14",
+              "catCode": "5",
+              "catOutS": "ULT",
+              "catOutL": "Länstrafik -Tunnelbana",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Danderyds sjukhus T-bana",
+                  "id": "740010232",
+                  "extId": "740010232",
+                  "routeIdx": 1,
+                  "lon": 18.041368,
+                  "lat": 59.391901,
+                  "depTime": "14:47:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Bergshamra T-bana (Solna kn)",
+                  "id": "740021644",
+                  "extId": "740021644",
+                  "routeIdx": 2,
+                  "lon": 18.036514,
+                  "lat": 59.381509,
+                  "depTime": "14:49:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:49:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Universitetet T-bana (Stockholm kn)",
+                  "id": "740021645",
+                  "extId": "740021645",
+                  "routeIdx": 3,
+                  "lon": 18.054888,
+                  "lat": 59.365571,
+                  "depTime": "14:51:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:51:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Tekniska Högskolan T-bana (Stockholm kn)",
+                  "id": "740011606",
+                  "extId": "740011606",
+                  "routeIdx": 4,
+                  "lon": 18.071716,
+                  "lat": 59.345822,
+                  "depTime": "14:55:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:55:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Stadion T-bana (Stockholm kn)",
+                  "id": "740021647",
+                  "extId": "740021647",
+                  "routeIdx": 5,
+                  "lon": 18.081703,
+                  "lat": 59.342963,
+                  "depTime": "14:57:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:57:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Östermalmstorg T-bana (Stockholm kn)",
+                  "id": "740021651",
+                  "extId": "740021651",
+                  "routeIdx": 6,
+                  "lon": 18.07408,
+                  "lat": 59.334972,
+                  "depTime": "14:58:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "14:58:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "T-Centralen T-bana (Stockholm kn)",
+                  "id": "740020749",
+                  "extId": "740020749",
+                  "routeIdx": 7,
+                  "lon": 18.059266,
+                  "lat": 59.330945,
+                  "depTime": "15:01:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:01:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Gamla Stan T-bana (Stockholm kn)",
+                  "id": "740021653",
+                  "extId": "740021653",
+                  "routeIdx": 8,
+                  "lon": 18.067617,
+                  "lat": 59.32316,
+                  "depTime": "15:02:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:02:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Slussen T-bana (Stockholm kn)",
+                  "id": "740020101",
+                  "extId": "740020101",
+                  "routeIdx": 9,
+                  "lon": 18.072327,
+                  "lat": 59.319493,
+                  "depTime": "15:04:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:04:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Mariatorget T-bana (Stockholm kn)",
+                  "id": "740021656",
+                  "extId": "740021656",
+                  "routeIdx": 10,
+                  "lon": 18.063311,
+                  "lat": 59.316958,
+                  "depTime": "15:05:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:05:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Zinkensdamm T-bana (Stockholm kn)",
+                  "id": "740021657",
+                  "extId": "740021657",
+                  "routeIdx": 11,
+                  "lon": 18.050151,
+                  "lat": 59.317776,
+                  "depTime": "15:07:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:07:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hornstull T-bana (Stockholm kn)",
+                  "id": "740021658",
+                  "extId": "740021658",
+                  "routeIdx": 12,
+                  "lon": 18.034024,
+                  "lat": 59.315834,
+                  "depTime": "15:08:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:08:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Liljeholmen T-bana (Stockholm kn)",
+                  "id": "740004046",
+                  "extId": "740004046",
+                  "routeIdx": 13,
+                  "lon": 18.023129,
+                  "lat": 59.31071,
+                  "depTime": "15:11:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:11:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Midsommarkransen T-bana (Stockholm kn)",
+                  "id": "740021715",
+                  "extId": "740021715",
+                  "routeIdx": 14,
+                  "lon": 18.012037,
+                  "lat": 59.301856,
+                  "depTime": "15:13:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:13:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Telefonplan T-bana (Stockholm kn)",
+                  "id": "740021716",
+                  "extId": "740021716",
+                  "routeIdx": 15,
+                  "lon": 17.997231,
+                  "lat": 59.298323,
+                  "arrTime": "15:14:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "3",
+            "name": "Länstrafik -Tunnelbana 14",
+            "transportNumber": "14",
+            "transportCategory": "ULT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Fruängen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Telefonplan T-bana (Stockholm kn)",
+              "type": "ST",
+              "id": "740021716",
+              "extId": "740021716",
+              "lon": 17.997231,
+              "lat": 59.298323,
+              "routeIdx": 11,
+              "time": "15:26:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "routeIdx": 19,
+              "time": "15:41:00",
+              "date": "2019-11-09"
+            },
+            "Product": {
+              "name": "Länstrafik - Buss 161",
+              "num": "161",
+              "catCode": "7",
+              "catOutS": "BLT",
+              "catOutL": "Länstrafik - Buss",
+              "operatorCode": "275",
+              "operator": "SL",
+              "operatorUrl": "http://www.sl.se"
+            },
+            "Stops": {
+              "Stop": [
+                {
+                  "name": "Telefonplan T-bana (Stockholm kn)",
+                  "id": "740021716",
+                  "extId": "740021716",
+                  "routeIdx": 11,
+                  "lon": 17.997231,
+                  "lat": 59.298323,
+                  "depTime": "15:26:00",
+                  "depDate": "2019-11-09"
+                },
+                {
+                  "name": "Tellusborgsvägen (Stockholm kn)",
+                  "id": "740065483",
+                  "extId": "740065483",
+                  "routeIdx": 12,
+                  "lon": 18.000135,
+                  "lat": 59.296516,
+                  "depTime": "15:27:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:27:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Västbergavägen (Stockholm kn)",
+                  "id": "740065484",
+                  "extId": "740065484",
+                  "routeIdx": 13,
+                  "lon": 18.002166,
+                  "lat": 59.294458,
+                  "depTime": "15:28:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:28:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Hökmossens gård (Stockholm kn)",
+                  "id": "740051243",
+                  "extId": "740051243",
+                  "routeIdx": 14,
+                  "lon": 17.993123,
+                  "lat": 59.288974,
+                  "depTime": "15:30:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:30:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Nippervägen (Stockholm kn)",
+                  "id": "740051242",
+                  "extId": "740051242",
+                  "routeIdx": 15,
+                  "lon": 17.993222,
+                  "lat": 59.285271,
+                  "depTime": "15:31:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:31:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Kämpetorpsskolan (Stockholm kn)",
+                  "id": "740051241",
+                  "extId": "740051241",
+                  "routeIdx": 16,
+                  "lon": 17.994427,
+                  "lat": 59.283814,
+                  "depTime": "15:32:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:32:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjögården (Stockholm kn)",
+                  "id": "740065506",
+                  "extId": "740065506",
+                  "routeIdx": 17,
+                  "lon": 18.004647,
+                  "lat": 59.280093,
+                  "depTime": "15:34:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:34:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Älvsjö station (Stockholm kn)",
+                  "id": "740000789",
+                  "extId": "740000789",
+                  "routeIdx": 18,
+                  "lon": 18.011066,
+                  "lat": 59.278736,
+                  "depTime": "15:37:00",
+                  "depDate": "2019-11-09",
+                  "arrTime": "15:37:00",
+                  "arrDate": "2019-11-09"
+                },
+                {
+                  "name": "Turingevägen (Stockholm kn)",
+                  "id": "740051240",
+                  "extId": "740051240",
+                  "routeIdx": 19,
+                  "lon": 18.020379,
+                  "lat": 59.273495,
+                  "arrTime": "15:41:00",
+                  "arrDate": "2019-11-09"
+                }
+              ]
+            },
+            "idx": "4",
+            "name": "Länstrafik - Buss 161",
+            "transportNumber": "161",
+            "transportCategory": "BLT",
+            "type": "JNY",
+            "reachable": true,
+            "direction": "Bagarmossen T-bana (Stockholm kn)"
+          },
+          {
+            "Origin": {
+              "name": "Turingevägen (Stockholm kn)",
+              "type": "ST",
+              "id": "740051240",
+              "extId": "740051240",
+              "lon": 18.020379,
+              "lat": 59.273495,
+              "time": "15:41:00",
+              "date": "2019-11-09"
+            },
+            "Destination": {
+              "name": "59.273369, 18.018316",
+              "type": "ADR",
+              "id": "",
+              "lon": 18.01832,
+              "lat": 59.273369,
+              "time": "15:44:00",
+              "date": "2019-11-09"
+            },
+            "idx": "5",
+            "name": "",
+            "type": "WALK",
+            "duration": "PT3M",
+            "dist": 124
+          }
+        ]
+      },
+      "idx": 6,
+      "tripId": "C-6",
+      "ctxRecon": "G@F$A=2@O=59.465297, 18.285793@X=18285794@Y=59465298@u=0@a=128@$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$201911091316$201911091357$$$1$§T$A=1@O=Åkers Runö station (Österåker kn)@L=740023174@a=128@$A=1@O=Mörby station (Danderyd kn)@L=740020867@a=128@$201911091357$201911091426$JLT   28$$1$§TF$A=1@O=Mörby station (Danderyd kn)@L=740020867@a=128@$A=1@O=Danderyds sjukhus T-bana@L=740010232@a=128@$201911091426$201911091446$$$1$§T$A=1@O=Danderyds sjukhus T-bana@L=740010232@a=128@$A=1@O=Telefonplan T-bana (Stockholm kn)@L=740021716@a=128@$201911091447$201911091514$ULT   14$$1$§T$A=1@O=Telefonplan T-bana (Stockholm kn)@L=740021716@a=128@$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$201911091526$201911091541$BLT  161$$1$§G@F$A=1@O=Turingevägen (Stockholm kn)@L=740051240@a=128@$A=2@O=59.273369, 18.018316@X=18018320@Y=59273369@u=0@a=128@$201911091541$201911091544$$$1$",
+      "duration": "PT2H28M"
+    }
+  ],
+  "scrB": "1|OB|MTµ11µ10816µ10816µ10952µ10952µ0µ0µ66461µ10815µ1µ-2147483406µ0µ1µ2|PDHµ4eb4b50572252df0125ce279e98df00d|RDµ9112019|RTµ121500",
+  "scrF": "1|OF|MTµ11µ10876µ10876µ11011µ11024µ0µ0µ925µ10859µ7µ-2147483406µ0µ1µ2|PDHµ4eb4b50572252df0125ce279e98df00d|RDµ9112019|RTµ121500"
+}
