@@ -9,11 +9,11 @@ Array [
     },
     "legs": Array [
       Object {
-        "end": "2019-11-08T17:47:00",
+        "end": "2019-11-09T13:33:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Åkers Runö station (Österåker kn)",
-          "time": "17:08",
+          "time": "12:57",
         },
         "stops": Array [
           "Åkers Runö station (Österåker kn)",
@@ -35,11 +35,92 @@ Array [
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T18:19:00",
+        "end": "2019-11-09T13:51:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Tekniska Högskolan T-bana (Stockholm kn)",
-          "time": "17:59",
+          "time": "13:45",
+        },
+        "stops": Array [
+          "Tekniska Högskolan T-bana (Stockholm kn)",
+          "Stadion T-bana (Stockholm kn)",
+          "Östermalmstorg T-bana (Stockholm kn)",
+          "T-Centralen T-bana (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-11-09T14:10:00",
+        "start": Object {
+          "date": "2019-11-09",
+          "place": "Stockholm City station",
+          "time": "14:01",
+        },
+        "stops": Array [
+          "Stockholm City station",
+          "Stockholm Södra station",
+          "Årstaberg station (Stockholm kn)",
+          "Älvsjö station (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-11-09T14:29:00",
+        "start": Object {
+          "date": "2019-11-09",
+          "place": "Älvsjö station (Stockholm kn)",
+          "time": "14:25",
+        },
+        "stops": Array [
+          "Älvsjö station (Stockholm kn)",
+          "Turingevägen (Stockholm kn)",
+        ],
+        "type": "JNY",
+      },
+    ],
+    "start": Object {
+      "date": "2019-11-09",
+      "time": "12:57",
+    },
+  },
+  Object {
+    "duration": Object {
+      "hours": 2,
+      "minutes": 25,
+    },
+    "legs": Array [
+      Object {
+        "end": "2019-11-09T14:03:00",
+        "start": Object {
+          "date": "2019-11-09",
+          "place": "Åkers Runö station (Österåker kn)",
+          "time": "13:27",
+        },
+        "stops": Array [
+          "Åkers Runö station (Österåker kn)",
+          "Täljö station (Österåker kn)",
+          "Rydbo station (Österåker kn)",
+          "Hägernäs station (Täby kn)",
+          "Viggbyholm station (Täby kn)",
+          "Galoppfältet station (Täby kn)",
+          "Täby centrum station",
+          "Roslags Näsby station (Täby kn)",
+          "Enebyberg station (Danderyd kn)",
+          "Djursholms Ekeby station (Danderyd kn)",
+          "Bråvallavägen station (Danderyd kn)",
+          "Djursholms Ösby station (Danderyd kn)",
+          "Mörby station (Danderyd kn)",
+          "Universitetet station (Stockholm kn)",
+          "Stockholm Östra station",
+        ],
+        "type": "JNY",
+      },
+      Object {
+        "end": "2019-11-09T14:39:00",
+        "start": Object {
+          "date": "2019-11-09",
+          "place": "Tekniska Högskolan T-bana (Stockholm kn)",
+          "time": "14:15",
         },
         "stops": Array [
           "Tekniska Högskolan T-bana (Stockholm kn)",
@@ -54,23 +135,30 @@ Array [
           "Liljeholmen T-bana (Stockholm kn)",
           "Midsommarkransen T-bana (Stockholm kn)",
           "Telefonplan T-bana (Stockholm kn)",
+          "Hägerstensåsen T-bana (Stockholm kn)",
+          "Västertorp T-bana (Stockholm kn)",
+          "Fruängen T-bana (Stockholm kn)",
         ],
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T18:40:00",
+        "end": "2019-11-09T15:08:00",
         "start": Object {
-          "date": "2019-11-08",
-          "place": "Telefonplan T-bana (Stockholm kn)",
-          "time": "18:25",
+          "date": "2019-11-09",
+          "place": "Fruängen T-bana (Stockholm kn)",
+          "time": "14:51",
         },
         "stops": Array [
-          "Telefonplan T-bana (Stockholm kn)",
-          "Tellusborgsvägen (Stockholm kn)",
-          "Västbergavägen (Stockholm kn)",
-          "Hökmossens gård (Stockholm kn)",
-          "Nippervägen (Stockholm kn)",
-          "Kämpetorpsskolan (Stockholm kn)",
+          "Fruängen T-bana (Stockholm kn)",
+          "Fredrika Bremers gata (Stockholm kn)",
+          "Isbergavägen (Stockholm kn)",
+          "Långbrohallen (Stockholm kn)",
+          "Johan Skytteskolan (Stockholm kn)",
+          "Fru Marias väg (Stockholm kn)",
+          "Långbrovägen (Stockholm kn)",
+          "Vältstigen (Stockholm kn)",
+          "Långbrodalsvägen (Johan Skyttes väg) (Stockholm kn",
+          "Skyttes plan (Stockholm kn)",
           "Älvsjögården (Stockholm kn)",
           "Älvsjö station (Stockholm kn)",
           "Turingevägen (Stockholm kn)",
@@ -79,22 +167,22 @@ Array [
       },
     ],
     "start": Object {
-      "date": "2019-11-08",
-      "time": "17:08",
+      "date": "2019-11-09",
+      "time": "13:27",
     },
   },
   Object {
     "duration": Object {
       "hours": 2,
-      "minutes": 19,
+      "minutes": 13,
     },
     "legs": Array [
       Object {
-        "end": "2019-11-08T17:44:00",
+        "end": "2019-11-09T13:54:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Täljöviken (Österåker kn)",
-          "time": "17:24",
+          "time": "13:34",
         },
         "stops": Array [
           "Täljöviken (Österåker kn)",
@@ -116,11 +204,11 @@ Array [
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T18:08:00",
+        "end": "2019-11-09T14:12:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Kulla vägskäl (Österåker kn)",
-          "time": "17:46",
+          "time": "13:56",
         },
         "stops": Array [
           "Kulla vägskäl (Österåker kn)",
@@ -129,18 +217,19 @@ Array [
           "Roslags Näsby trafikplats E18 (Täby kn)",
           "Mörby centrum E18 (Danderyd kn)",
           "Danderyds sjukhus T-bana",
-          "Universitetet T-bana (Stockholm kn)",
         ],
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T18:30:00",
+        "end": "2019-11-09T14:35:00",
         "start": Object {
-          "date": "2019-11-08",
-          "place": "Universitetet T-bana (Stockholm kn)",
-          "time": "18:20",
+          "date": "2019-11-09",
+          "place": "Danderyds sjukhus T-bana",
+          "time": "14:22",
         },
         "stops": Array [
+          "Danderyds sjukhus T-bana",
+          "Bergshamra T-bana (Solna kn)",
           "Universitetet T-bana (Stockholm kn)",
           "Tekniska Högskolan T-bana (Stockholm kn)",
           "Stadion T-bana (Stockholm kn)",
@@ -150,11 +239,11 @@ Array [
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T18:49:00",
+        "end": "2019-11-09T14:55:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Stockholm City station",
-          "time": "18:40",
+          "time": "14:46",
         },
         "stops": Array [
           "Stockholm City station",
@@ -165,11 +254,11 @@ Array [
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T19:04:00",
+        "end": "2019-11-09T15:08:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Älvsjö station (Stockholm kn)",
-          "time": "19:01",
+          "time": "15:05",
         },
         "stops": Array [
           "Älvsjö station (Stockholm kn)",
@@ -179,8 +268,8 @@ Array [
       },
     ],
     "start": Object {
-      "date": "2019-11-08",
-      "time": "17:24",
+      "date": "2019-11-09",
+      "time": "13:34",
     },
   },
   Object {
@@ -190,11 +279,11 @@ Array [
     },
     "legs": Array [
       Object {
-        "end": "2019-11-08T18:27:00",
+        "end": "2019-11-09T14:33:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Åkers Runö station (Österåker kn)",
-          "time": "17:48",
+          "time": "13:57",
         },
         "stops": Array [
           "Åkers Runö station (Österåker kn)",
@@ -216,11 +305,11 @@ Array [
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T18:45:00",
+        "end": "2019-11-09T14:51:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Tekniska Högskolan T-bana (Stockholm kn)",
-          "time": "18:39",
+          "time": "14:45",
         },
         "stops": Array [
           "Tekniska Högskolan T-bana (Stockholm kn)",
@@ -231,11 +320,11 @@ Array [
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T19:04:00",
+        "end": "2019-11-09T15:10:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Stockholm City station",
-          "time": "18:55",
+          "time": "15:01",
         },
         "stops": Array [
           "Stockholm City station",
@@ -246,11 +335,11 @@ Array [
         "type": "JNY",
       },
       Object {
-        "end": "2019-11-08T19:19:00",
+        "end": "2019-11-09T15:28:00",
         "start": Object {
-          "date": "2019-11-08",
+          "date": "2019-11-09",
           "place": "Älvsjö station (Stockholm kn)",
-          "time": "19:16",
+          "time": "15:25",
         },
         "stops": Array [
           "Älvsjö station (Stockholm kn)",
@@ -260,124 +349,8 @@ Array [
       },
     ],
     "start": Object {
-      "date": "2019-11-08",
-      "time": "17:48",
-    },
-  },
-  Object {
-    "duration": Object {
-      "hours": 2,
-      "minutes": 12,
-    },
-    "legs": Array [
-      Object {
-        "end": "2019-11-08T18:16:00",
-        "start": Object {
-          "date": "2019-11-08",
-          "place": "Täljöviken (Österåker kn)",
-          "time": "17:56",
-        },
-        "stops": Array [
-          "Täljöviken (Österåker kn)",
-          "Svinninge Gård (Österåker kn)",
-          "Svinninge tomtområde (Österåker kn)",
-          "Skepparvägen (Österåker kn)",
-          "Svinninge Svinningeuddsvägen (Österåker kn)",
-          "Nantes vägskäl (Österåker kn)",
-          "Björnhammarsvägen (Österåker kn)",
-          "Ardennervägen (Österåker kn)",
-          "Svartgarnsvägen (Österåker kn)",
-          "Karsvretavägen (Österåker kn)",
-          "Hästängsuddsvägen (Österåker kn)",
-          "Rydbo Saltsjöbad (Österåker kn)",
-          "Prästtorpet (Österåker kn)",
-          "Ubby gård (Österåker kn)",
-          "Kulla vägskäl (Österåker kn)",
-        ],
-        "type": "JNY",
-      },
-      Object {
-        "end": "2019-11-08T18:34:00",
-        "start": Object {
-          "date": "2019-11-08",
-          "place": "Kulla vägskäl (Österåker kn)",
-          "time": "18:18",
-        },
-        "stops": Array [
-          "Kulla vägskäl (Österåker kn)",
-          "Östra Ryds kyrka (Österåker kn)",
-          "Kocktorp (Österåker kn)",
-          "Roslags Näsby trafikplats E18 (Täby kn)",
-          "Mörby centrum E18 (Danderyd kn)",
-          "Danderyds sjukhus T-bana",
-        ],
-        "type": "JNY",
-      },
-      Object {
-        "end": "2019-11-08T18:57:00",
-        "start": Object {
-          "date": "2019-11-08",
-          "place": "Danderyds sjukhus T-bana",
-          "time": "18:42",
-        },
-        "stops": Array [
-          "Danderyds sjukhus T-bana",
-          "Bergshamra T-bana (Solna kn)",
-          "Universitetet T-bana (Stockholm kn)",
-          "Tekniska Högskolan T-bana (Stockholm kn)",
-          "Stadion T-bana (Stockholm kn)",
-          "Östermalmstorg T-bana (Stockholm kn)",
-          "T-Centralen T-bana (Stockholm kn)",
-          "Gamla Stan T-bana (Stockholm kn)",
-        ],
-        "type": "JNY",
-      },
-      Object {
-        "end": "2019-11-08T19:15:00",
-        "start": Object {
-          "date": "2019-11-08",
-          "place": "Gamla Stan T-bana (Stockholm kn)",
-          "time": "19:02",
-        },
-        "stops": Array [
-          "Gamla Stan T-bana (Stockholm kn)",
-          "Slussen T-bana (Stockholm kn)",
-          "Medborgarplatsen T-bana (Stockholm kn)",
-          "Skanstull T-bana (Stockholm kn)",
-          "Gullmarsplan T-bana (Stockholm kn)",
-          "Globen T-bana (Stockholm kn)",
-          "Enskede Gård T-bana (Stockholm kn)",
-          "Sockenplan T-bana (Stockholm kn)",
-          "Svedmyra T-bana (Stockholm kn)",
-        ],
-        "type": "JNY",
-      },
-      Object {
-        "end": "2019-11-08T19:29:00",
-        "start": Object {
-          "date": "2019-11-08",
-          "place": "Svedmyra T-bana (Stockholm kn)",
-          "time": "19:20",
-        },
-        "stops": Array [
-          "Svedmyra T-bana (Stockholm kn)",
-          "Skönviksvägen (Stockholm kn)",
-          "Bandhagsvägen (Stockholm kn)",
-          "Sävenäsgatan (Stockholm kn)",
-          "Sågverksgatan (Stockholm kn)",
-          "Tystbergavägen (Stockholm kn)",
-          "Juliaborg (Stockholm kn)",
-          "Ludgovägen (Stockholm kn)",
-          "Örby skola (Stockholm kn)",
-          "Jädersvägen (Stockholm kn)",
-          "Turingevägen (Stockholm kn)",
-        ],
-        "type": "JNY",
-      },
-    ],
-    "start": Object {
-      "date": "2019-11-08",
-      "time": "17:56",
+      "date": "2019-11-09",
+      "time": "13:57",
     },
   },
 ]
